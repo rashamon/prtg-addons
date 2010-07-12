@@ -1,0 +1,17 @@
+#summary PTF Sidebar. Do NOT DELETE !!!
+http://gf-ptf.googlecode.com/files/PTF.png
+
+ ----
+
+===[Tools Home]===
+
+ * ===[TrayNotifier]===
+ * ===[NotifierGadget]===
+ * ===[NotifierGadgetXP]===
+ * ===[NotifierCE]===
+ * ===[NotifierProxy]===
+ * ===[Distribution Distribution tool]===
+ * ===[Translate Translation tool]===
+ * ===[Mapdesigner Map Designer]===
+ * ===[DistributeSensors Distribute Sensors]===
+ * ===[CSVImport CSVImport]===

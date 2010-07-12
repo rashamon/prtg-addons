@@ -1,0 +1,11 @@
+#summary Sensors for PRTG Network Monitor.
+#sidebar Main_Sidebar
+
+=Introduction=
+
+PRTG can be extended writing Custom Sensors (executables, WMI scripts, powershell scripts, etc.)
+
+
+Currently available sensors from:
+
+ * [PTF_Sensors PRTG Tools Family]

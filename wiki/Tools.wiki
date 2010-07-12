@@ -5,7 +5,7 @@
 
 Tools that use the HTTP based API (e.g. notifier tools for various platforms) for *PRTG version 8 or later*.
 
-_For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/VersionHistory this] site_.
+_For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/VersionHistory this] page_.
 
 
 Currently available tools from:

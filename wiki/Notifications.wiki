@@ -1,0 +1,11 @@
+#summary Notifications for PRTG Network Monitor.
+#sidebar Main_Sidebar
+
+=Introduction=
+
+PRTG can be extended writing Custom Notifications (executables, WMI scripts, powershell scripts, etc.)
+
+
+Currently available notifications from:
+
+ * [PTF_Notifications PRTG Tools Family]

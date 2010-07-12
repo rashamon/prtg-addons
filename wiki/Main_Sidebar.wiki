@@ -1,0 +1,12 @@
+#summary Main Sidebar. Do NOT DELETE !!!
+#labels Deprecated
+[http://code.google.com/p/prtg8addons http://gf-ptf.googlecode.com/files/welcome_city.png]
+
+ ----
+
+=Contents=
+
+ * ==[Translations Translations]==
+ * ==[Tools Tools]==
+ * ==[Sensors Custom Sensors]==
+ * ==[Notifications Custom Notifications]==

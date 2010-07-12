@@ -1,4 +1,4 @@
-#summary Tools for PRTG Network Monitor V8.
+#summary Tools for PRTG Network Monitor.
 #sidebar Main_Sidebar
 
 =Introduction=

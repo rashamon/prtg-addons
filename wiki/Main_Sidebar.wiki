@@ -4,7 +4,7 @@
 
  ----
 
-=Contents=
+=Content=
 
  * ==[Translations Translations]==
  * ==[Tools Tools]==

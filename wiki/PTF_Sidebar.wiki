@@ -1,6 +1,6 @@
 #summary PTF Sidebar. Do NOT DELETE !!!
 #labels Deprecated
-http://gf-ptf.googlecode.com/files/PTF.png
+http://ptf-prtgaddons.googlecode.com/files/PTF.png
 
  ----
 

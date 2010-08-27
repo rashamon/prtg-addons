@@ -7,3 +7,14 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Application* || *Version* || *Date* || *Download* ||
+||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
+
+----
+
+==!NotifierDistribution version history==
+=== Summary ===
+With this tool you can modify your PRTG Server download page to let your users download the TrayNotifier and NotifierGadget from the download page of your own PRTG Server. [PTF_Tools_NotifierDistribution details]
+
+ back to [#Latest_versions: top]
+====8.0.1.1 _26/08/2010_====
+ * Changed the look of the modified download page to match PRTG 8.0

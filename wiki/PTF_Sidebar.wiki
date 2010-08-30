@@ -7,4 +7,5 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 ===[Tools Home]===
 
  * ===[PTF_Tools_NotifierDistribution NotifierDistribution]===
+ * ===[PTF_Tools_NotifierGadget NotifierGadget]===
  * ===[PTF_Tools_NotifierGadgetXP NotifierGadgetXP]===

@@ -1,4 +1,4 @@
-#summary PTF Tools: Modify your PRTG Server download page.
+#summary PTF Tools: Notifier Gadget Style for XP.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/NotifierGadgetXP.png

@@ -8,6 +8,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Application* || *Version* || *Date* || *Download* ||
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
+||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 
 === General ===
@@ -22,6 +23,16 @@ With this tool you can modify your PRTG Server download page to let your users d
  back to [#Latest_versions: top]
 ====8.0.1.1 _26/08/2010_====
  * Changed the look of the modified download page to match PRTG V8
+
+----
+
+==!NotifierGadget version history==
+=== Summary ===
+The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGadget provides you with a constant view of the current number of alarms, warnings and paused sensors [PTF_Tools_NotifierGadget details]
+
+ back to [#Latest_versions: top]
+====8.0.1 _29/08/2010_====
+ * Compiled the !NotifierGadget for PRTG V8
 
 ----
 

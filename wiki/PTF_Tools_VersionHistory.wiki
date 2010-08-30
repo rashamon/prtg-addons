@@ -12,7 +12,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 
 === General ===
-All Custom Sensors listed target the .Net Framework 3.5
+All Tools listed target the .Net Framework 3.5
 
 ----
 

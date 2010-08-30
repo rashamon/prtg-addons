@@ -8,13 +8,27 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Application* || *Version* || *Date* || *Download* ||
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
+||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+
+=== General ===
+All Custom Sensors listed target the .Net Framework 3.5
 
 ----
 
 ==!NotifierDistribution version history==
 === Summary ===
-With this tool you can modify your PRTG Server download page to let your users download the TrayNotifier and NotifierGadget from the download page of your own PRTG Server. [PTF_Tools_NotifierDistribution details]
+With this tool you can modify your PRTG Server download page to let your users download the !TrayNotifier, !NotifierGadget and NotifierGadgetXP from the download page of your own PRTG Server. [PTF_Tools_NotifierDistribution details]
 
  back to [#Latest_versions: top]
 ====8.0.1.1 _26/08/2010_====
- * Changed the look of the modified download page to match PRTG 8.0
+ * Changed the look of the modified download page to match PRTG V8
+
+----
+
+==NotifierGadgetXP version history==
+=== Summary ===
+The NotifierGadgetXP can be installed on a Windows XP system or Vista system not running the sidebar. The NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors [PTF_Tools_NotifierGadgetXP details]
+
+ back to [#Latest_versions: top]
+====8.0.1 _29/08/2010_====
+ * Compiled the NotifierGadgetXP for PRTG V8

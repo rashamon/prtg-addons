@@ -1,0 +1,5 @@
+#summary PTF Tools: TrayNotifier shows a red icon in the task bar and shows a dialog whenever PRTG discovers alarms etc.
+
+http://ptf-prtgaddons.googlecode.com/files/TrayNotifier.png
+
+= Introduction =

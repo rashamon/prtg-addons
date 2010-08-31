@@ -1,7 +1,7 @@
 #summary PTF Custom Sensors: Overview of PTF Custom Sensors.
 #sidebar PTF_Sidebar
 
-http://gf-ptf.googlecode.com/files/PTF_logo.png
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||

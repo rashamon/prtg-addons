@@ -9,6 +9,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
  * ===[PTF_Tools_NotifierDistribution NotifierDistribution]===
  * ===[PTF_Tools_NotifierGadget NotifierGadget]===
  * ===[PTF_Tools_NotifierGadgetXP NotifierGadgetXP]===
+ * ===[PTF_Tools_TrayNotifier TrayNotifier]===
 
 
 === Version History===

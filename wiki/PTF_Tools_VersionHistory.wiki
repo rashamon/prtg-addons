@@ -10,6 +10,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#TrayNotifier_version_history TrayNotifier]||8.0.1.1||31/08/2010||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5
@@ -43,3 +44,13 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
  back to [#Latest_versions: top]
 ====8.0.1 _29/08/2010_====
  * Compiled the NotifierGadgetXP for PRTG V8
+
+----
+
+==!TrayNotifier version history==
+=== Summary ===
+The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [PTF_Tools_TrayNotifier details]
+
+ back to [#Latest_versions: top]
+====8.0.1.1 _31/08/2010_====
+ * Compiled the !TrayNotifier for PRTG V8

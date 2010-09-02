@@ -3,3 +3,15 @@
 http://ptf-prtgaddons.googlecode.com/files/TrayNotifier.png
 
 = Introduction =
+
+The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions.
+
+= Details =
+
+The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. After the first installation the settings window will automatically popup. On Network page, you can enter the name (or ip-address) of the Network Monitor Server and the username and password of the account that is created on the Network Monitor Server. Select the protocol and port number you have set the Network Monitor Server  to use. The Timers page lets you set the refresh time and the latency time (minimum number of seconds a sensor must be down before it shows up). You can also have a sound played and the alarms window popped up when an alarm condition occurs.
+
+
+http://ptf-prtgaddons.googlecode.com/files/Notifier.png
+
+
+For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].

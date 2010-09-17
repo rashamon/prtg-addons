@@ -10,4 +10,4 @@ _For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/Cu
 
 Currently available sensors from:
 
- * [PTF_Sensors PRTG Tools Family]
+ * [PTF_Custom_Sensors PRTG Tools Family]

@@ -5,8 +5,38 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||
-
+||[#MediaStreamer MediaSteamer]||1.0.1.1||17/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 
 
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_.
+
+
+----
+
+== MediaSteamer ==
+=== Summary ===
+This Custom Sensor returns a monitored value of a mediastream.
+
+The download consists in two .exe files. *!MediaStreamer.exe* is an application that constantly monitors your streams and *!MediaStream.exe* is the Custom Sensor that queries 
+the !MediaStreamer and reports the result to your PRTG Server. More [PTF_CS_MediaStreamer details]
+
+=== Prerequisites ===
+*!MediaStreamer*
+ * .NET Framework 3.5
+ * Microsoft Media Player
+ * Adobe Flash Player
+
+*!MediaStream*
+ * .NET Framework 2.0
+
+For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the number of the player, the index number of the property to return the value for and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
+{{{
+-c=computer -pl=playernumber -ix=property index  [-u=username] [-p=password|passhash]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====1.0.1.1 _17/09/2010_====
+ * First public version

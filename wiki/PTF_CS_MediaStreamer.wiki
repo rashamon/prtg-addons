@@ -3,7 +3,7 @@
 
 http://ptf-prtgaddons.googlecode.com/files/mediastreamer.png
 
-With PTF.MediaStreamer you can have your PRTG Server monitor media streams.
+With PTF.!MediaStreamer you can have your PRTG Server monitor media streams.
 
 The download consists in two .exe files:
  * *!MediaStreamer.exe* is an application that constantly monitors your streams and 
@@ -34,5 +34,3 @@ mediastream -c=localhost -pl=1 -ix=3
 The sensor will return: "bitRate 128000"
 
 The Custom Sensor can be downloaded from [PTF_Custom_Sensors this] page.
-
-

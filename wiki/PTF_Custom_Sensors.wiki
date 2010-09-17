@@ -14,7 +14,7 @@ All Custom Sensors listed target the _.Net Framework 2.0_.
 
 ----
 
-== MediaSteamer ==
+== !MediaSteamer ==
 === Summary ===
 This Custom Sensor returns a monitored value of a mediastream.
 

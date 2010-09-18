@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
-||[#Tweet Tweet]||2.0.1.1||18/10/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
+||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
 
 == General ==
@@ -18,5 +18,5 @@ All Custom Notifications listed target the _.Net Framework 2.0_.
 This Custom Notification is the successor of PTF.Twitter and can be used to send notifications from PRTG to Twitter. More [PTF_CN_Tweet details]
 
 === Version history ===
-====2.0.1.1 _18/10/2010_====
+====2.0.1.1 _18/09/2010_====
  * Changed: Logon procedure to Twitter has changed, you first have to register PTF.Tweet with your Twitter account using the -r parameter.

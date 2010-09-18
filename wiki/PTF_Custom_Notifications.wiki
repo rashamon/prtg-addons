@@ -19,4 +19,4 @@ This Custom Notification is the successor of PTF.Twitter and can be used to send
 
 === Version history ===
 ====2.0.1.1 _18/10/2010_====
- * Changed: Logon procedure to Twitter has changed, you first have to register your Twitter account with PTF.Tweet using the -r parameter.
+ * Changed: Logon procedure to Twitter has changed, you first have to register PTF.Tweet with your Twitter account using the -r parameter.

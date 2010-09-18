@@ -1,0 +1,25 @@
+#summary PTF Tweet: Send notifications from PRTG to Twitter
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/tweetlogo.png
+
+PTF.Tweet is the successor of PTF.Twitter. Since Twitter changed it's logon procedure, PTF.Twitter is not working anymore. PTF.Tweet is registered at Twitter and is allowed to send notifications to your Twitter account without user interaction. Because of the registration, the name had to be changed as "Twitter" is not allowed as a (part of the) application name by Twitter.
+
+How does it work?
+
+First you have to run PTF.Twitter manually from the \Notifications\EXE folder of your PRTG Server using the -r parameter. This will popup the registration window where you can register PTF.Tweet with your Twitter account.
+
+http://ptf-prtgaddons.googlecode.com/files/tweet1.png
+
+After successful registration, PTF.Tweet is added  as a connection to your Twitter account.
+
+http://ptf-prtgaddons.googlecode.com/files/tweet2.png
+
+You can now use PTF.Tweet as a Custom Notification with the following parameters:
+{{{
+-a=    The Twitter account name.
+-t=    The message to send.
+-r     Switch to register an account.
+}}}
+
+One of the rules of an registered application is that the username password combination must not be stored in any way. PTF.Tweet stores the username and access tokens received from your account during registration in the PTF.Tweet.ini file in the folder from where you launch PTF.Tweet. These access tokens can only be used in combination with PTF.Tweet and your account. If you change your Twitter password, you will have to register PTF.Tweet again with the -r parameter. It is possible to register more than one account.

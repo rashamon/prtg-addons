@@ -18,7 +18,8 @@ http://ptf-prtgaddons.googlecode.com/files/tweet2.png
 You can now use PTF.Tweet as a Custom Notification with the following parameters:
 {{{
 -a=    The Twitter account name.
--t=    The message to send.
+-t=    The tweet to post.
+-d     Switch to send a direct message instead of posting a tweet.
 -r     Switch to register an account.
 }}}
 

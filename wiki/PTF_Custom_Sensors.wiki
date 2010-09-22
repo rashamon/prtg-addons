@@ -5,12 +5,25 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||
+||[#PassHashTool PassHashTool]||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash&20Tool.zip here]||
 ||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 
 
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_.
 
+
+----
+
+== !PassHashTool ==
+=== Summary ===
+This tool can be used in combination with PTF sensors that require a users password to be entered in the sensors settings section. The !PassHash can be used instead off the given password. [PTF_CS_PassHashTool details]
+
+ back to [#Latest_versions: top]
+
+=== Version history === 
+====1.0.1.2 _21/09/2010_====
+ * First public version
 
 ----
 

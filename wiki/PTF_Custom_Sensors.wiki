@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||
-||[#MediaStreamer MediaSteamer]||1.0.1.1||17/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 
 
 == General ==
@@ -38,5 +38,7 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  back to [#Latest_versions: top]
 
 === Version history ===
+====1.0.2.1 _21/09/2010_====
+ * New: Added an option to not show the Flash video image, reducing cpu load.
 ====1.0.1.1 _17/09/2010_====
  * First public version

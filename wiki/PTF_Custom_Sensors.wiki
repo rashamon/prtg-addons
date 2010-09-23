@@ -6,8 +6,29 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||
 ||[#PassHashTool PassHashTool]||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
+||[#CheckDHCP CheckDHCP]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
+||[#ContactState ContactState]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
+||[#CSVExport CSVExport]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#EmailCount EmailCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
+||[#FTPFileCount FTPFileCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.FTPFileCount.zip here]||
+||[#INIFileValue INIFileValue]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.INIFileValue.zip here]||
+||[#IPonDNSBL IPonDNSBL]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
+||[#LastWinUpdate LastWinUpdate]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
+||[#LogfileReader LogfileReader]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
 ||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MessageCount MessageCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
+||[#NetworkFileCount NetworkFileCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
+||[#PingDelayedUp PingDelayedUp]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
+||[#PingJitter PingJitter]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
+||[#PingWarning PingWarning]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
+||[#SensorCount SensorCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
+||[#SSLCertExpiration SSLCertExpiration]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
+||[#TraceRoute TraceRoute]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
+||[#UserLoggedin UserLoggedin]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
+||[#WinOSVersion WinOSVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
+
+
 
 == Overview ==
 http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png

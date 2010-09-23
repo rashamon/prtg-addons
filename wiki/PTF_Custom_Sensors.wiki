@@ -9,6 +9,8 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#CheckPRTGVersion CheckPRTGVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 
+== Overview ==
+http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png
 
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_.

@@ -6,6 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Sensor* || *Version* || *Date* || *Download* ||
 ||[#PassHashTool PassHashTool]||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash&20Tool.zip here]||
+||[#CheckPRTGVersion CheckPRTGVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 
 
@@ -26,6 +27,24 @@ This tool can be used in combination with PTF sensors that require a users passw
  * First public version
 
 ----
+
+== CheckPRTGVersion ==
+=== Summary ===
+This Custom Sensor compares your local PRTG version number with the last version available for download and go's into a warning state if a new version is available.
+
+Enter the ip-address and optional portnumber of your local PRTG server in the Parameters section of the Sensor Settings:
+{{{
+192.168.1.1:8080 [-ssl]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history === 
+====8.0.1.1 _22/09/2010_====
+ * Compiled the sensor for PRTG version 8
+
+----
+
 
 == !MediaSteamer ==
 === Summary ===

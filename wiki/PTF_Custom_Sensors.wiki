@@ -38,7 +38,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_.
 
-Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters requiem
+Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters required
 
 ----
 

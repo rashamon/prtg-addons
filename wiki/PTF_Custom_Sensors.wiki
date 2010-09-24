@@ -4,29 +4,29 @@
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
-|| *Sensor* || *Version* || *Date* || *Download* ||
-||[#PassHashTool PassHashTool]||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
-||[#CheckDHCP CheckDHCP]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
-||[#CheckPRTGVersion CheckPRTGVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
-||[#ContactState ContactState]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
-||[#CSVExport CSVExport]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
-||[#EmailCount EmailCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
-||[#FTPFileCount FTPFileCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.FTPFileCount.zip here]||
-||[#INIFileValue INIFileValue]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.INIFileValue.zip here]||
-||[#IPonDNSBL IPonDNSBL]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
-||[#LastWinUpdate LastWinUpdate]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
-||[#LogfileReader LogfileReader]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
-||[#MediaStreamer MediaSteamer]||1.0.2.1||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
-||[#MessageCount MessageCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
-||[#NetworkFileCount NetworkFileCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
-||[#PingDelayedUp PingDelayedUp]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
-||[#PingJitter PingJitter]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
-||[#PingWarning PingWarning]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
-||[#SensorCount SensorCount]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
-||[#SSLCertExpiration SSLCertExpiration]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
-||[#TraceRoute TraceRoute]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
-||[#UserLoggedin UserLoggedin]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
-||[#WinOSVersion WinOSVersion]||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
+|| *Sensor* || *Description* || *Version* || *Date* || *min PRTG version* || *Download* ||
+||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
+||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
+||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last version available for download.||8.0.1.1||22/09/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
+||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
+||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
+||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.FTPFileCount.zip here]||
+||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.INIFileValue.zip here]||
+||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
+||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
+||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
+||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.2.1||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
+||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
+||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
+||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
+||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
+||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
+||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days before your SSL certificate expires.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
+||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
+||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
+||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
 
 
 

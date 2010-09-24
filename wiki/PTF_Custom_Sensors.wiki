@@ -6,6 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *min PRTG version* || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
+||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ADSReplFailures.zip here]||
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last version available for download.||8.0.1.1||22/09/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
@@ -36,6 +37,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_.
 
+Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters requiem
 
 ----
 
@@ -51,23 +53,208 @@ This tool can be used in combination with PTF sensors that require a users passw
 
 ----
 
+== ADSReplFailures ==
+=== Summary ===
+This sensor gets the number of replication errors from your domain controllers.
+
+ back to [#Latest_versions: top]
+
+{{{
+-d=domain name (FQDN) [-u=username] [-p=password|passhash] 
+
+-d=domain name     The Full Qualified Domain Name.
+-u=username        Optional the name of the user account that has access to the AD replication.
+-p=password        Optional the password or passhash(*) of the user account that has access to the AD replication.
+}}}
+
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== CheckDHCP ==
+=== Summary ===
+This sensor checks your DHCP server and returns the response time.
+
+ back to [#Latest_versions: top]
+
+{{{
+-s=192.168.1.1
+}}}
+
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
 == CheckPRTGVersion ==
 === Summary ===
-This Custom Sensor compares your local PRTG version number with the last version available for download and go's into a warning state if a new version is available.
+This sensor compares your local PRTG version number with the last version available for download.
 
-Enter the ip-address and optional portnumber of your local PRTG server in the Parameters section of the Sensor Settings:
+ back to [#Latest_versions: top]
+
 {{{
-192.168.1.1:8080 [-ssl]
+192.168.1.1 [-ssl]
+
+-ssl	Optional use a ssl connection to connect to your PRTG server.
+}}}
+
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !ContactState ==
+=== Summary ===
+This sensor monitors the state of a dry contact connected to a serial port.
+More [ContactStateSensor details]
+{{{
+-s=SerialPort -p=PinNumber [-om=OpenMessage] [-cm=ClosedMessage]
 }}}
 
  back to [#Latest_versions: top]
 
-=== Version history === 
+=== Version history ===
 ====8.0.1.1 _22/09/2010_====
- * Compiled the sensor for PRTG version 8
+ * Compiled for PRTG 8.1
 
 ----
 
+== CSVExport ==
+=== Summary ===
+This sensor exports the data of a sensor to a .csv or .xml file.
+More [CSVExportSensor details]
+{{{
+-pu=demo -pp=demodemo -ps=https://prtg.paessler.com -s=2008
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !EmailCount ==
+=== Summary ===
+This Custom Sensor returns the total number of messages in a users inbox.
+
+Enter the credentials (username and password) and emailserver in the Parameters section of the Sensor Settings:
+{{{
+-u=username -p=password|passhash -s=emailserver [-o=serverport -ssl]
+
+example:
+-s=balu.krijco.loc -u=john -p=****
+or
+-s=pop.gmail.com -u=john@gmail.com -p=***** -o=995 -ssl
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== FTPFileCount ==
+=== Summary ===
+This Custom Sensor returns the number of files available on a FTP server.
+
+Enter the credentials (username and password) and the url in the Parameters section of the Sensor Settings:
+{{{
+-u=username -p=password|passhash ftp://10.0.0.10/upload
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== INIFileValue ==
+=== Summary ===
+This sensor returns the value from the field of a .ini file
+
+Enter the credentials (username and password), filename, section name and field name in the Parameters section of the Sensor Settings:
+{{{
+-u=username -p=password|passhash -f=C:\Windows\win.ini -s=Mail -d=MAPI
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+
+----
+
+== IPonDNSBL ==
+=== Summary ===
+This sensor checks a IP-Address against a number of blacklist servers
+and returns the number of DNS Blacklists the IP-Address is on.
+
+You can optionally provide a comma seperated list of blacklist servers.
+if omitted, the following blacklist servers are used:
+sbl-xbl.spamhaus.org, bl.spamcop.net, dnsbl.njabl.org,
+list.dsbl.org and multihop.dsbl.org.
+
+The readme.txt includes a list of optional blacklist servers.
+
+{{{
+-ip=ip-address [-bl=blacklist servers]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !LastWinUpdate ==
+=== Summary ===
+This sensor gets the last time Windows Update has updated the specified computer.
+
+{{{
+-u=username -p=password|passhash -c=192.168.1.1
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !LogFileReader ==
+=== Summary ===
+This Custom Sensor returns whether a specified string occurs in a (log) file. The last occurrence is remembered, so if a new entry is made with the specified string, the sensor will recognize the new entry.
+
+Enter the credentials (username and password), filename and searchstring in the Parameters section of the Sensor Settings:
+{{{
+-u=username -p=password|passhash -f="c:\file location\log.txt" -s="String to search"
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
 
 == !MediaSteamer ==
 === Summary ===
@@ -97,3 +284,217 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  * New: Added an option to not show the Flash video image, reducing cpu load.
 ====1.0.1.1 _17/09/2010_====
  * First public version
+
+----
+
+== !MessageCount ==
+=== Summary ===
+This sensor gets the number of messages in a MSMQ.
+Use the -t parameter to only count messages that are more than xx minutes old.
+
+{{{
+-u=[domain\]username -p=password|passhash -qn=queuename [-qt=queuetype] [-m=machinename] [-t=timedelta]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !NetworkFileCount ==
+=== Summary ===
+This Custom Sensor returns the number of files available on a server\share.
+As your PRTG server runs under the local system account it can't access files on a \\server\share. This sensor uses the given username and password of a valid user account that can access the files and returns the number of files.
+
+Enter the credentials (username and password), folder (and optional search filter and setting to also search the sub folders) in the Parameters section of the Sensor Settings:
+{{{
+-u=username -p=password|passhash -f=\\myserver\myshare [-s=*.exe -sub]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !PingDelayedUp ==
+=== Summary ===
+This ping sensor stays down for the given number of seconds before returning an Ok state.
+
+Use this sensor as the master dependency instead off the normal PING sensor as the normal one usually responds before many services do.
+
+{{{
+ip-address|hostname -id-sensorID -d=delay [-w=timeout] [-l=size] [-i=TTL]
+
+-id=sensorID       The sensorID or other unique identifier.
+-d=delay           The delay in seconds before returning an "Ok" state
+-w=timeout         Optional timeout in miliseconds to wait for a reply, default = 500
+-l=size            Optional send buffer size, default = 32 bytes
+-i=TTL             Optional Time To Live, default = 64   
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !PingJitter ==
+=== Summary ===
+This sensor sends a number of ping requests to the host
+and returns the Statistical Jitter value in milliseconds.
+
+{{{
+192.168.1.1 [-n=5] [-d]
+-n=   number of ping requests to send, default = 5
+-d    debugmode, write all results to the output window
+      note: do NOT use this switch when running the .exe as a sensor   
+}}}
+
+Note:
+The sensor needs to be setup as "Value Type" Float 
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !PingWarning ==
+=== Summary ===
+This sensor pings a device and goes into a warning state if no reply is received.
+
+Enter the ip-address|DNSname and optional parameters in the Parameters section of the Sensor Settings (_you can also use the %host placeholder to refer to the ip-address|DNSname of the parent device_):
+{{{
+192.168.1.1 [-w=500] [-i=64] [-l=32]
+or
+%host [-w=500] [-i=64] [-l=32]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !SensorCount ==
+=== Summary ===
+This sensor counts the number of sensors on your PRTG server.
+
+{{{
+-s=192.168.1.1 -u=username -p=password|passhash [-r=rootID]
+}}}
+Combine any of the following parameters
+{{{
+-u    count up sensors
+-d    count down sensors
+-a    count acknowledged down sensors
+-w    count warning sensors
+-u    count unusual sensors
+-p    count paused sensors
+-k    count unknown sensors
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== SSLCertExpiration ==
+=== Summary ===
+This sensor returns the number of days before your SSL certificate expires
+
+{{{
+-u=https://prtg.paessler.com
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+
+----
+
+== !TraceRoute ==
+=== Summary ===
+This sensor performs a trace route to the target and returns the number of hops.
+With the optional -w and -e switches the sensor can go into a warning or error state if the route has changed,
+since the last run of the sensor, regardless of the number of hops.
+
+The sensorID parameter has to be an unique value as it is used to store the last trace result.
+As of PRTG V7.3.2 the %sensorid placeholder is available, so -id=%sensorid will do the trick.
+
+{{{
+-id=sensorID -t=target [-w] [-e]
+
+-id=sensorID       The sensorID or other unique identifier.
+-t=target          The IP address or hostname of the machine to trace the route to.
+-w                 Optional switch to set the sensor in a warning state if the route has changed.
+-e                 Optional switch to set the sensor in an error state if the route has changed.
+}}}
+
+ back to [#Latest_versions: top]
+
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== !UserLoggedin ==
+=== Summary ===
+This sensor gets the number of users that are loggedin on a computer directly or via a RDP session.
+
+You can optionally provide a comma seperated list of users to check if a specific user is loggedin or *not* loggedin.
+
+
+{{{
+-c=computer -u=username -p=password|passhash [-f=filter][-fx] [-fi]
+
+-c=computer        The ip-address or hostname of the computer to monitor.
+-u=username        The name of the user account that has access to the computer via WMI service.
+-p=password        The password or passhash(*) of the user account that has access to the computer via WMI service.
+-f=filter          Optional filter to not or only count the users specified (comma seperated list).
+-fx                Optional switch, users in the filter are not counted (default).
+-fi                Optional switch, only users in the filter are counted.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----
+
+== WinOSVersion ==
+=== Summary ===
+This sensor gets the Windows OS version of the specified computer.
+{{{
+-u=domain\username -p=password|passhash -c=192.168.1.1
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * Compiled for PRTG 8.1
+
+----

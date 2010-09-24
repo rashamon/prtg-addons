@@ -1,4 +1,5 @@
 #summary PTF Tools: Version history for the "PRTG Tools family".
+#labels Featured
 #sidebar PTF_Sidebar
 
 

@@ -24,6 +24,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
 ||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
+||[#PrintJob PrintJob]||Returns the number of jobs in a printqueue.||8.0.1.1||24/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PrintJob.zip here]||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
 ||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days before your SSL certificate expires.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
@@ -386,6 +387,26 @@ or
 === Version history ===
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
+
+----
+
+== !PrintJob ==
+=== Summary ===
+Returns the number of jobs in a printqueue.
+
+{{{
+-s=printserver -q=printqueue [-t=time] [-u=username] [-p=password|passhash]
+
+-s=    The ip-address or hostname of the printserver.
+-q=    The name of the printqueue.
+-t=    Optional the minimum time the job has to be in the queue in seconds.
+-u=    Optional Domain\Username.
+-p=    Optional Password or PassHash.
+}}}
+
+=== Version history ===
+====8.0.1.1 _24/09/2010_====
+ * First public version.
 
 ----
 

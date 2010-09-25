@@ -1,5 +1,4 @@
 #summary PTF Custom Sensors: Overview of PTF Custom Sensors.
-#labels Featured
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
@@ -394,7 +393,9 @@ or
 === Summary ===
 Returns the number of jobs in a printqueue
 
-*Note:* this sensor targets the .NET Framework 3.0
+*Note:* 
+ * This sensor targets the .NET Framework 3.0
+ * If your printqueue name contains spaces, add a leading and trailing " like -q="my print queue"
 
 {{{
 -s=printserver -q=printqueue [-t=time] [-u=username] [-p=password|passhash]

@@ -18,5 +18,7 @@ All Custom Notifications listed target the _.Net Framework 2.0_.
 This Custom Notification is the successor of PTF.Twitter and can be used to send notifications from PRTG to Twitter. More [PTF_CN_Tweet details]
 
 === Version history ===
+====2.0.2.1 _29/09/2010_====
+ * Bugfix: The Tweet.exe when run by PRTG could not find it's own .ini file as PRTG does not run the .exe from its own directory.
 ====2.0.1.1 _18/09/2010_====
  * Changed: Logon procedure to Twitter has changed, you first have to register PTF.Tweet with your Twitter account using the -r parameter.

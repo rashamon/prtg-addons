@@ -9,7 +9,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ADSReplFailures.zip here]||
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.1.1||22/09/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
-||[#CheckPTFVersion CheckPTFVersion]||Compares your local PRTG sensors with the last available versions.||8.0.1.1||04/10/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
+||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.1.1||04/10/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
@@ -114,7 +114,7 @@ This sensor compares your local PRTG version number with the last version availa
 
 == CheckPTFVersion ==
 === Summary ===
-This sensor compares your local PRTG sensors with the last available versions.
+This sensor compares your local PTF custom sensors with the last available versions.
 
 This sensor requires no parameters!
 

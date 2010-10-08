@@ -246,14 +246,14 @@ The readme.txt includes a list of optional blacklist servers.
 This sensor gets the last time Windows Update has updated the specified computer.
 
 {{{
--c=192.168.1.1 [-s=service name] [-u=username] [-p=password|passhash] 
+-c=192.168.1.1 [-s=Remote Registry service name] [-u=username] [-p=password|passhash] 
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
 ====8.0.2.1 _08/10/2010_====
- * Changed: Added the optional -s= parameter for localization purposes. This parameter allows you to supply the name of the Remote Registry service, like -s=Remote-Registrierungsdienst
+ * Changed: Added the optional -s= parameter for localization purposes. This parameter allows you to supply the name of the Remote Registry service on the local OS, for a German OS this would be -s=Remote-Registrierungsdienst.
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
 

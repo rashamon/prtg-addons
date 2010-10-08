@@ -16,7 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.FTPFileCount.zip here]||
 ||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.INIFileValue.zip here]||
 ||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
-||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
+||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.2.1||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
@@ -246,12 +246,14 @@ The readme.txt includes a list of optional blacklist servers.
 This sensor gets the last time Windows Update has updated the specified computer.
 
 {{{
--u=username -p=password|passhash -c=192.168.1.1
+-c=192.168.1.1 [-s=service name] [-u=username] [-p=password|passhash] 
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _08/10/2010_====
+ * Changed: Added the optional -s= parameter for localization purposes. This parameter allows you to supply the name of the Remote Registry service, like -s=Remote-Registrierungsdienst
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
 

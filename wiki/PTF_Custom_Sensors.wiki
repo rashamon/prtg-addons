@@ -252,6 +252,8 @@ This sensor gets the last time Windows Update has updated the specified computer
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.3.1 _11/10/2010_====
+ * Changed: Replaced the "Object not set to instance" error with a more explaining message.
 ====8.0.2.1 _08/10/2010_====
  * Changed: Added the optional -s= parameter for localization purposes. This parameter allows you to supply the name of the Remote Registry service on the local OS, for a German OS this would be -s=Remote-Registrierungsdienst.
 ====8.0.1.1 _22/09/2010_====

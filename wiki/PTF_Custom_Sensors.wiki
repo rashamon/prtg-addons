@@ -20,7 +20,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.2.1||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
-||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
+||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
 ||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
@@ -333,7 +333,15 @@ As your PRTG server runs under the local system account it can't access files on
 
 Enter the credentials (username and password), folder (and optional search filter and setting to also search the sub folders) in the Parameters section of the Sensor Settings:
 {{{
--u=username -p=password|passhash -f=\\myserver\myshare [-s=*.exe -sub]
+-f=\\myserver\myshare [-u=username] [-p=password|passhash]  [-s=*.exe] [-sub] [-t=10] [-tiw]
+
+-f=folder          The name of the folder that needs to be checked in a \\server\share format. If the foldername contains white spaces, enter the foldername between " ".
+-u=username        Optional the name of the user account that can access the share.
+-p=password        Optional the password or passhash(*) of the user account that can access the share.
+-t=timedelta       Optional the minimum number of minutes a file has to be old before it is counted.	
+-s=searchpattern   Optional the search pattern to be used (i.e. *.txt).
+-sub               Optional switch to include subfolders.
+-tiw               Optional, in combination with the -t= parameter, creates a time window between the current time and xx minutes ago. Only files created in that period are counted.
 }}}
 
  back to [#Latest_versions: top]

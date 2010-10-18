@@ -123,7 +123,7 @@ This sensor requires no parameters!
 
 === Version history ===
 ====8.0.2.1 _17/10/2010_====
- * Bugfix: The sensor did not report an update of the MediaStream sensor as that one is published as MediaStreamer.
+ * Bugfix: The sensor did not report an update of the !MediaStream sensor as that one is published as !MediaStreamer.
 ====8.0.1.1 _04/10/2010_====
  * First public version
 

@@ -18,7 +18,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
 ||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
-||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.2.1||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.3.1||17/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
@@ -302,6 +302,14 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  back to [#Latest_versions: top]
 
 === Version history ===
+====1.0.3.1 _17/10/2010_====
+ * Bugfix: After starting the !MediaStreamer the application could produce an error that the application has stopped responding.
+ * Bugfix: Improved error handling.
+ * New: Sreams are automatically restarted if the frame rate property does not respond anymore (This is checked with a build in 15 sec watchdog).
+ * New: If a player cannot respond to a request it returns an error “Check player”. 
+ * New:	Included the “CPU load %” in the lower right-hand corner of the main form.
+ * New: Every sensor request is now handled in a separate thread on the !MediaStreamer.
+ * New:	Status “ready” now resets the player.
 ====1.0.2.1 _21/09/2010_====
  * New: Added an option to not show the Flash video image, reducing cpu load.
 ====1.0.1.1 _17/09/2010_====

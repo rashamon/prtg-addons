@@ -18,7 +18,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
 ||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
-||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.3.1||17/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.4.1||04/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
@@ -304,6 +304,8 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  back to [#Latest_versions: top]
 
 === Version history ===
+====1.0.4.1 _05/11/2010_====
+ * Changed: The streams are not playing continuously anymore but only by request of the sensor, reducing the CPU load.
 ====1.0.3.1 _17/10/2010_====
  * Bugfix: After starting the !MediaStreamer the application could produce an error that the application has stopped responding.
  * Bugfix: Improved error handling.

@@ -573,7 +573,7 @@ This sensor gets the Windows OS version of the specified computer.
 
 ----
 
-== XMLVersion ==
+== XMLValue ==
 === Summary ===
 Gets a xml file from a server and returns the value or number of occurrences of a xml node.
 {{{

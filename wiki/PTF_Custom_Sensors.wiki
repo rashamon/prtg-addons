@@ -30,7 +30,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
-
+||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value or number of occurrences of a xml node.||8.0.1.1||08/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
 
 
 == Overview ==
@@ -570,5 +570,20 @@ This sensor gets the Windows OS version of the specified computer.
 === Version history ===
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
+
+----
+
+== XMLVersion ==
+=== Summary ===
+Gets a xml file from a server and returns the value or number of occurrences of a xml node.
+{{{
+-u=url -n=nodename [-t=xx] [-c]
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _08/11/2010_====
+ * First public version
 
 ----

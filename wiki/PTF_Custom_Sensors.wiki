@@ -30,7 +30,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
-||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value or number of occurrences of a xml node.||8.0.1.1||08/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
+||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.2.1||10/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
 
 
 == Overview ==
@@ -577,12 +577,23 @@ This sensor gets the Windows OS version of the specified computer.
 === Summary ===
 Gets a xml file from a server and returns the value or number of occurrences of a xml node.
 {{{
--u=url -n=nodename [-t=xx] [-c]
+-u=url -n=nodename [-t=xx] [-c] [-c] [-cc] [-cs] [-rm=,] [-cm="My custom message"]
+
+-u=   The url that returns the xml document.
+-n=   The name of the xml node to check.
+-t=   Optional the number of seconds to wait for a responce from the server (default = 15 sec).
+-c    Optional switch to count the number of occurrences of the xml node.
+-cc   Optional switch to count the number of childnodes of the xml node.
+-cs   Optional switch to count the number of sibbelings of the xml node.
+-rc=  Optional the characters to remove from the xml value (i.e. to remove a thousands seperator from the result use -rc=,)
+-cm=  Optional a custom message to be displayed (i.e. -cm="There are %1 tickets in our ticketing system." where %1 will be replaced with the xml value).
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _08/11/2010_====
+ * Bugfix: The custom message did not work when counting xml nodes using the -c, -cc or -cs switch
 ====8.0.1.1 _08/11/2010_====
  * First public version
 

@@ -298,7 +298,14 @@ the !MediaStreamer and reports the result to your PRTG Server. More [PTF_CS_Medi
 
 For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the number of the player, the index number of the property to return the value for and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
 {{{
--c=computer -pl=playernumber -ix=property index  [-u=username] [-p=password|passhash]
+-c=computer -pl=playernumber -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
+
+-c=    IP-Address or DNS name of the computer running PTF.MediaStreamer.
+-pl=   The number of the player to query.
+-ix=   The index of the players property to return the value for.
+-tw=   Optional, the number of seconds to wait for a responce from the MediaStreamer (default = 30)
+-u=    Optional, Domain\Username of a user that can access the c drive of the computer running PTF.MediaStreamer.
+-p=    Optional, Password or passhash of a user that can access the c drive of the computer running PTF.MediaStreamer.
 }}}
 
  back to [#Latest_versions: top]
@@ -575,7 +582,7 @@ This sensor gets the Windows OS version of the specified computer.
 
 == XMLValue ==
 === Summary ===
-Gets a xml file from a server and returns the value or number of occurrences of a xml node.
+Gets a xml file from a server and returns the value or number of occurrences of a xml node. More [http://www.paessler.com/knowledgebase/en/topic/11603-can-i-consume-restful-xml-http-apis-with-prtg-i-e-use-their-results-as-sensor-values details]
 {{{
 -u=url -n=nodename [-t=xx] [-c] [-c] [-cc] [-cs] [-rm=,] [-cm="My custom message"]
 

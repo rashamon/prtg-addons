@@ -1,0 +1,17 @@
+#summary PTF Translate: Create your own language file.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/TranslationToolLogo.png
+
+= Introduction =
+
+PTF Translate is a tool used to create new language files for PRTG Network Monitor as well as for the !TrayNotifier.
+
+= Details =
+
+For each translation a .lng file must be created. This file contains about 5000 strings for the Network Monitor or about 400 strings for the !TrayNotifier which are used to render the user interface.
+
+http://ptf-prtgaddons.googlecode.com/files/TranslationTool.png
+
+Instruction video
+<wiki:video url="http://www.youtube.com/watch?v=qQUCtgUDd4I" width=728 height=570/>

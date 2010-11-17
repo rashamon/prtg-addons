@@ -133,7 +133,7 @@ This sensor requires no parameters!
 == !ContactState ==
 === Summary ===
 This sensor monitors the state of a dry contact connected to a serial port.
-More [PTF_CS_PassHashTool details]
+More [PTF_CS_ContactState details]
 {{{
 -s=SerialPort -p=PinNumber [-om=OpenMessage] [-cm=ClosedMessage]
 }}}
@@ -149,7 +149,7 @@ More [PTF_CS_PassHashTool details]
 == CSVExport ==
 === Summary ===
 This sensor exports the data of a sensor to a .csv or .xml file.
-More [CSVExportSensor details]
+More [PTF_CS_CSVExport details]
 {{{
 -pu=demo -pp=demodemo -ps=https://prtg.paessler.com -s=2008
 }}}

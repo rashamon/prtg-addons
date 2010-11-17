@@ -16,7 +16,7 @@ All Custom Notifications listed target the _.Net Framework 2.0_.
 
 == Launcher ==
 === Summary ===
-PTF launcher is a Custom Notification that can launch external applications. More [Launcher details]
+PTF launcher is a Custom Notification that can launch external applications. More [PTF_CN_Launcher details]
 
  back to [#Latest_versions: top]
 

@@ -8,10 +8,10 @@ Adding PTF CSVExport to your Windows task scheduler can give you multiple export
 Adding PTF CSVExport as a custom sensor to your PRTG Server can do the same thing.
 
 = Command line Tool =
-http://http://code.google.com/p/prtg-addons/w/edit/PTF_Custom_Sensors.googlecode.com/files/CSVExportcmd.png
+http://ptf-prtgaddons.googlecode.com/files/CSVExportcmd.png
 
 = Sensor =
-http://http://code.google.com/p/prtg-addons/w/edit/PTF_Custom_Sensors.googlecode.com/files/CSVExportsensor.png
+http://ptf-prtgaddons.googlecode.com/files/CSVExportsensor.png
 
 For more details, see the pdf that is included in the [CustomSensors download].
 

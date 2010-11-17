@@ -11,6 +11,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#Translate_version_history Translation Tool]||1.0.5.1||06/06/2010||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||8.0.1.1||31/08/2010||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 ||[#CSVImport_version_history CSVImport]||8.0.1.1||07/11/2010||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 
@@ -46,6 +47,19 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
  back to [#Latest_versions: top]
 ====8.0.1 _29/08/2010_====
  * Compiled the NotifierGadgetXP for PRTG V8
+
+----
+
+==Translate version history==
+=== Summary ===
+PTF Translate is a tool used to create new language files for PRTG Network Monitor as well as for the !TrayNotifier. [PTF_Tools_Translate details]
+
+ back to [#Latest_versions: top]
+
+====1.0.5.1 _06/06/2010_====
+ * Changed: Compiled the executable with Visual Studio 2010.
+ * Changed: Modified the search for updates.
+ * Changed: Build the installer using !InstallShield.
 
 ----
 

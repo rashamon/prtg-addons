@@ -133,7 +133,7 @@ This sensor requires no parameters!
 == !ContactState ==
 === Summary ===
 This sensor monitors the state of a dry contact connected to a serial port.
-More [ContactStateSensor details]
+More [PTF_CS_PassHashTool details]
 {{{
 -s=SerialPort -p=PinNumber [-om=OpenMessage] [-cm=ClosedMessage]
 }}}

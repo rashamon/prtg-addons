@@ -13,5 +13,8 @@ For each translation a .lng file must be created. This file contains about 5000 
 
 http://ptf-prtgaddons.googlecode.com/files/TranslationTool.png
 
-Instruction video
+An instruction video is online available:
+
+
+
 <wiki:video url="http://www.youtube.com/watch?v=qQUCtgUDd4I" width=728 height=570/>

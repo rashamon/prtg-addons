@@ -5,11 +5,25 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
+||[#Launcher Launcher]||1.0.4.1||12/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
 ||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
 
 == General ==
 All Custom Notifications listed target the _.Net Framework 2.0_.
+
+----
+
+== Launcher ==
+=== Summary ===
+PTF launcher is a Custom Notification that can launch external applications. More [Launcher details]
+
+ back to [#Latest_versions: top]
+
+=== Version history === 
+====1.0.4.1 _12/09/2010_====
+ * Bugfix: Error "-io parameter not wellformatted" is now fixed.
+ * Changed: Moved the message folder from "c:\PTF.Launch" to "c:\PRTG Tools Family\PTF.Launch".
 
 ----
 

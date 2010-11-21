@@ -3,7 +3,6 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png
 
-====Custom Sensors====
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *min PRTG version* || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||

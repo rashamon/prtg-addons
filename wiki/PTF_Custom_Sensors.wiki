@@ -320,7 +320,7 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  * Changed: The -pl= parameter can now also hold the player name instead off the player number
  * New: Option to import and export players to/from a csv file. This can be used for safe keeping (backup) or cloning to other probes.
  * New: Option to automatically restart the application once a day. 
- * ====Thanks to Laurie Collins for testing and his constructive feedback.====
+ * ====Thanks to Laurie Collins for testing and her constructive feedback.====
 ====1.0.4.1 _05/11/2010_====
  * Changed: The streams are not playing continuously anymore but only by request of the sensor, reducing the CPU load.
 ====1.0.3.1 _17/10/2010_====

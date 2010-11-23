@@ -11,7 +11,7 @@ The download consists in two .exe files:
 
 Install the !MediaStreamer on a Windows Computer and add a number of Media Players and/or Flash Players
 
-http://ptf-prtgaddons.googlecode.com/files/Streamer1.png
+http://ptf-prtgaddons.googlecode.com/files/Streamer1_new.png
 
 Next you can use the !MediaStream Custom Sensor to query one of the players property's
 

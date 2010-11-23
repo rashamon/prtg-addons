@@ -18,7 +18,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
 ||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
-||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.4.1||04/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
+||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
@@ -300,7 +300,7 @@ the !MediaStreamer and reports the result to your PRTG Server. More [PTF_CS_Medi
 
 For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the number of the player, the index number of the property to return the value for and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
 {{{
--c=computer -pl=playernumber -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
+-c=computer -pl=playernumber/playername -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
 
 -c=    IP-Address or DNS name of the computer running PTF.MediaStreamer.
 -pl=   The number of the player to query.
@@ -313,6 +313,14 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
  back to [#Latest_versions: top]
 
 === Version history ===
+====1.0.5.1 _23/11/2010_====
+ * Changed: Renewed user interface.
+ * Changed: Players are more responsive.
+ * Changed: Improved user interface responsiveness when players are playing.
+ * Changed: The -pl= parameter can now also hold the player name instead off the player number
+ * New: Option to import and export players to/from a csv file. This can be used for safe keeping (backup) or cloning to other probes.
+ * New: Option to automatically restart the application once a day. 
+ * ====Thanks to Laurie Collins for testing and his constructive feedback.====
 ====1.0.4.1 _05/11/2010_====
  * Changed: The streams are not playing continuously anymore but only by request of the sensor, reducing the CPU load.
 ====1.0.3.1 _17/10/2010_====

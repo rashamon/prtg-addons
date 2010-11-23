@@ -6,7 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/mediastreamer.png
 With PTF.!MediaStreamer you can have your PRTG Server monitor media streams.
 
 The download consists in two .exe files:
- * *!MediaStreamer.exe* is an application that constantly monitors your streams and 
+ * *!MediaStreamer.exe* is an application that samples your streams and 
  * *!MediaStream.exe* is the Custom Sensor that queries the !MediaStreamer and reports the result to your PRTG Server.
 
 Install the !MediaStreamer on a Windows Computer and add a number of Media Players and/or Flash Players

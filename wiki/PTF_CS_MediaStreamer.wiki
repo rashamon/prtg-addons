@@ -20,7 +20,7 @@ http://ptf-prtgaddons.googlecode.com/files/Streamer2.png
 !MediaStream parameters:
 {{{
 -c=   IP-Address or DNS name of the computer running PTF.MediaStreamer
--pl=  The number of the player to query.
+-pl=  The number or name of the player to query.
 -ix=  The index of the players property to return the value for.
 -u=   Optional, Domain\Username of a user that can access the c drive of the computer running PTF.MediaStreamer.
 -p=   Optional, Password or PassHash of a user that can access the c drive of the computer running PTF.MediaStreamer.

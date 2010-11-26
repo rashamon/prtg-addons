@@ -26,7 +26,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PrintQueue.zip here]||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
-||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days before your SSL certificate expires.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
+||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
@@ -507,15 +507,17 @@ Combine any of the following parameters
 
 == SSLCertExpiration ==
 === Summary ===
-This sensor returns the number of days before your SSL certificate expires
+This sensor returns the number of days left before your SSL certificate expires
 
 {{{
--u=https://prtg.paessler.com
+-u=https://prtg.paessler.com [-ssl3]
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _26/11/2010_====
+ * New: added optional switch -ssl3 to force a ssl3 connection.
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
 

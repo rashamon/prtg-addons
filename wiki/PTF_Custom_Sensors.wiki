@@ -30,7 +30,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
-||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.2.1||10/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
+||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.3.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
 
 
 == Overview ==
@@ -611,6 +611,8 @@ Gets a xml file from a server and returns the value or number of occurrences of 
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.3.1 _26/11/2010_====
+ * New: added optional switch -ssl3 to force a ssl3 connection.
 ====8.0.2.1 _08/11/2010_====
  * Bugfix: The custom message did not work when counting xml nodes using the -c, -cc or -cs switch
 ====8.0.1.1 _08/11/2010_====

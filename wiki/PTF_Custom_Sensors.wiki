@@ -4,7 +4,7 @@
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png
 
 ====Latest versions:====
-|| *Sensor* || *Description* || *Version* || *Date* || *min PRTG version* || *Download* ||
+|| *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
 ||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ADSReplFailures.zip here]||
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
@@ -31,6 +31,8 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
 ||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.3.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
+
+`*` This is the minimum PRTG version that is required for this sensor
 
 
 == Overview ==

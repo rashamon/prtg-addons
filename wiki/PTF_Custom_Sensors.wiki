@@ -81,6 +81,8 @@ This sensor gets the number of replication errors from your domain controllers.
 == CheckDHCP ==
 === Summary ===
 This sensor checks your DHCP server and returns the response time.
+The sensor is a wrapper around the dhcpcheck program from KS-Soft.
+
 
  back to [#Latest_versions: top]
 

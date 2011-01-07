@@ -10,6 +10,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.2.1||19/11/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.2.1||17/10/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
+||[#CheckTimeSNMP CheckTimeSNMP]||Returns the time difference between the device and your PRTG server/probe in seconds.||8.0.2.1||07/01/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
@@ -135,6 +136,29 @@ This sensor requires no parameters!
 
 ----
 
+== CheckTimeSNMP ==
+=== Summary ===
+This sensor returns the time difference between the device and your PRTG server/probe in seconds.
+
+{{{
+-s=device [-c=community string] [-v=SNMP version] [-p=SNMP port]
+
+-s=  IP address or DNS name of the device to check.")
+-c=  Optional, SNMP community string for SNMP v1/v2c. Default=public.")
+-v=  Optional, SNMP version. Supported version: 1 or 2c. Default=1.")
+-p=  Optional, SNMP port number on remote host. Default=161")
+}}}
+
+ back to [#Latest_versions: top]
+
+
+=== Version history ===
+====8.0.2.1 _17/10/2010_====
+ * Bugfix: The sensor did not report an update of the !MediaStream sensor as that one is published as !MediaStreamer.
+====8.0.1.1 _04/10/2010_====
+ * First public version
+
+----
 
 == !ContactState ==
 === Summary ===

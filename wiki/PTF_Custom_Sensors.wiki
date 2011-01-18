@@ -523,10 +523,13 @@ This sensor monitors resources used by a process.
 {{{
 s=process -c=computer [-u=username] [-p=password|passhash]
 }}}
+
+{{{
 -s=   Name of the process.
 -c=   Name or IP-Address of the computer running the process.
 -u=   Optional Domain\Username of a user account hat has access to the computer via WMI service.
 -p=   Optional Password or PassHash of a user account that has access to the computer via WMI service.
+}}}
 
  back to [#Latest_versions: top]
 

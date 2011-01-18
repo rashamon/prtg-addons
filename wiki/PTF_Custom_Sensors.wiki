@@ -521,7 +521,7 @@ Returns the number of jobs in a printqueue
 This sensor monitors resources used by a process.
 
 {{{
-s=process -c=computer [-u=username] [-p=password|passhash]
+-s=process -c=computer [-u=username] [-p=password|passhash]
 }}}
 
 {{{

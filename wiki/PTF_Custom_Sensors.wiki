@@ -26,8 +26,10 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PrintQueue.zip here]||
+||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
 ||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
+||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png||
 ||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
 ||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
 ||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
@@ -43,6 +45,14 @@ http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png
 All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherwise)
 
 Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters required
+
+http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor.png
+
+The XML (Advanced) sensors can return multiple channels.
+
+This sensor needs to be copied to the *"\Custom Sensors\EXEXML"* folder of your PRTG Network Monitor installation.
+
+Note: XML sensors can only be used as of PRTG version 8.2
 
 ----
 
@@ -504,6 +514,25 @@ Returns the number of jobs in a printqueue
 ====8.0.1.1 _24/09/2010_====
  * First public version.
 
+----
+
+== ProcessResourceXML ==
+=== Summary ===
+This sensor monitors resources used by a process.
+
+{{{
+s=process -c=computer [-u=username] [-p=password|passhash]
+}}}
+-s=   Name of the process.
+-c=   Name or IP-Address of the computer running the process.
+-u=   Optional Domain\Username of a user account hat has access to the computer via WMI service.
+-p=   Optional Password or PassHash of a user account that has access to the computer via WMI service.
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/01/2011_====
+ * First public version
 
 ----
 
@@ -548,6 +577,24 @@ This sensor returns the number of days left before your SSL certificate expires
  * New: added optional switch -ssl3 to force a ssl3 connection.
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
+
+
+----
+
+== StockValueXML ==
+=== Summary ===
+Monitores stock values as reported by http://finance.yahoo.com
+
+{{{
+-s= Comma seperated list of symbols, to be obtained from http://finance.yahoo.com
+}}} 
+I.e. -s="MSFT,AAPL,INTC" to monitor Microsoft, Apple and Intel
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/01/2011_====
+ * First public version.
 
 
 ----

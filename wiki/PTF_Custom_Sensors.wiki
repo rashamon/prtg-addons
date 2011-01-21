@@ -27,6 +27,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PrintQueue.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png||
+||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.1.1||21/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
 ||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
 ||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png||
@@ -535,6 +536,29 @@ This sensor monitors resources used by a process.
 
 === Version history ===
 ====8.0.1.1 _17/01/2011_====
+ * First public version
+
+
+----
+
+
+== SensorAverageXML ==
+=== Summary ===
+This sensor returns the xx hour average of every channel for a given sensor.
+
+{{{
+-u=username -p=password|passhash -s=sensorID [-h=hours]
+ 
+-u=   The username of an account on your PRTG server.
+-p=   The password of an account on your PRTG server.
+-s=   The SensorID of the sensor to return the average values for.
+-h=   Optional, number of hours to calculate the average on (default = 1).
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _21/01/2011_====
  * First public version
 
 ----

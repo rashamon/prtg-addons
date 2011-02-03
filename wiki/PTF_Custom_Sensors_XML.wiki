@@ -1,0 +1,87 @@
+#summary PTF Custom Sensors XML: Overview of PTF Custom XML Sensors.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor.png
+
+On this page you will find an overview of Advanced XML sensors. Standard sensors can be found on this page.
+
+====Latest versions:====
+|| *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
+||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
+||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.1.1||21/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
+||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
+
+
+`*` This is the minimum PRTG version that is required for this sensor
+
+== General ==
+All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherwise)
+
+Copy the .exe file to the "\Custom Sensors\EXEXML" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters required
+
+Note: XML sensors can only be used as of PRTG version 8.2
+
+----
+
+== ProcessResourceXML ==
+=== Summary ===
+This sensor monitors resources used by a process.
+
+{{{
+-s=process -c=computer [-u=username] [-p=password|passhash]
+}}}
+
+{{{
+-s=   Name of the process.
+-c=   Name or IP-Address of the computer running the process.
+-u=   Optional Domain\Username of a user account hat has access to the computer via WMI service.
+-p=   Optional Password or PassHash of a user account that has access to the computer via WMI service.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/01/2011_====
+ * First public version
+
+
+----
+
+
+== SensorAverageXML ==
+=== Summary ===
+This sensor returns the xx hour average of every channel for a given sensor.
+
+{{{
+-u=username -p=password|passhash -s=sensorID [-h=hours]
+ 
+-u=   The username of an account on your PRTG server.
+-p=   The password of an account on your PRTG server.
+-s=   The SensorID of the sensor to return the average values for.
+-h=   Optional, number of hours to calculate the average on (default = 1).
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _21/01/2011_====
+ * First public version
+
+----
+
+== StockValueXML ==
+=== Summary ===
+Monitores stock values as reported by http://finance.yahoo.com
+
+{{{
+-s= Comma seperated list of symbols, to be obtained from http://finance.yahoo.com
+}}} 
+I.e. -s="MSFT,AAPL,INTC" to monitor Microsoft, Apple and Intel
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/01/2011_====
+ * First public version.
+
+----

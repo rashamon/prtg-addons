@@ -15,9 +15,8 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 === Version History===
 
  * ===[PTF_Tools_VersionHistory Tools]===
- * === [PTF_Custom_Sensors Custom Sensors] ===
-  # ====[PTF_Custom_Sensors Standard Sensors]====
-  # ====[PTF_Custom_Sensors_XML Advanced Sensors]====
+ * ===[PTF_Custom_Sensors Custom Sensors Standard]===
+ * ===[PTF_Custom_Sensors_XML Custom Sensors Advanced]===
  * ===[PTF_Custom_Notifications Custom Notifications]===
 
 

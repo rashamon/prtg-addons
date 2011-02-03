@@ -3,6 +3,8 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png
 
+On this page you will find an overview of *Standard* sensors. *Advanced XML* sensors can be found on [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors_XML this] page.
+
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||

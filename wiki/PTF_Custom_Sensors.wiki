@@ -46,14 +46,6 @@ All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherw
 
 Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters required
 
-http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor.png
-
-The XML (Advanced) sensors can return multiple channels.
-
-This sensor needs to be copied to the *"\Custom Sensors\EXEXML"* folder of your PRTG Network Monitor installation.
-
-Note: XML sensors can only be used as of PRTG version 8.2
-
 ----
 
 == !PassHashTool ==

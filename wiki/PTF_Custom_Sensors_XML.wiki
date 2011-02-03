@@ -3,7 +3,7 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor.png
 
-On this page you will find an overview of *Advanced XML* sensors. *Standard* sensors can be found on [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors_XML this] page.
+On this page you will find an overview of *Advanced XML* sensors. *Standard* sensors can be found on [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors this] page.
 
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||

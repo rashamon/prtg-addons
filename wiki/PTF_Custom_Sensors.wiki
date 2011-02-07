@@ -22,7 +22,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
 ||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
-||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
+||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.2.1||06/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
 ||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
@@ -380,6 +380,8 @@ Use the -t parameter to only count messages that are more than xx minutes old.
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _06/02/2011_====
+ * New: Added parameter -l to list all public and private queues on the specified machine for debug purposes.
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
 

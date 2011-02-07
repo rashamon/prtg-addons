@@ -8,6 +8,7 @@ Tools that use the HTTP based API (e.g. notifier tools for various platforms) fo
 _For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/VersionHistory this] page_.
 
 
-Currently available tools from:
+Currently available tools:
 
+ * [BillingTool Billing Tool]
  * [PTF_Tools PRTG Tools Family]

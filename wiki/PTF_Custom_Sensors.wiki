@@ -11,7 +11,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ADSReplFailures.zip here]||
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.2.1||19/11/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
-||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.2.1||17/10/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
+||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CheckTimeSNMP CheckTimeSNMP]||Returns the time difference between the device and your PRTG server/probe in seconds.||8.0.2.1||07/01/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
@@ -131,6 +131,8 @@ This sensor requires no parameters!
 
 
 === Version history ===
+====8.0.3.1 _12/02/2011_====
+ * New: added support for EXEXML sensors.
 ====8.0.2.1 _17/10/2010_====
  * Bugfix: The sensor did not report an update of the !MediaStream sensor as that one is published as !MediaStreamer.
 ====8.0.1.1 _04/10/2010_====

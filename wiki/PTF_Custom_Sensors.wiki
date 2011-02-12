@@ -1,4 +1,5 @@
 #summary PTF Custom Sensors: Overview of PTF Custom Sensors.
+#labels Featured
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png

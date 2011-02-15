@@ -94,6 +94,7 @@ PTF Distribute Sensors is a tool used to distribute (updates of) custom sensors 
  * New: Added support for EXEXML sensors.
  * New: Select multiple sensors to send to your Probes.
  * Changed: Various changes in the userinterface.
+ * Changed: moved the installers to InstallShield
 ====1.0.2.1 _28/12/2009_====
  * Changed: Although data is send encrypted between GUI and web service, the encryption was always the same. In theory, encrypted credentials could be reused. With this version, the encryption changes in each session, preventing encrypted credentials to be reused.
 

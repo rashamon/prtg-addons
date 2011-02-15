@@ -14,7 +14,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#Translate_version_history Translation Tool]||1.0.5.1||06/06/2010||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||8.0.1.1||31/08/2010||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 ||[#CSVImport_version_history CSVImport]||8.0.1.1||07/11/2010||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
-||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||12/02/2011||[http://prtg-addons.googlecode.com/files/PTF.Distrubute%20Sensors.zip here]||
+||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||12/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5

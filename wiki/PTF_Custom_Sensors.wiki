@@ -22,8 +22,9 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 
 `*` This is the minimum PRTG version that is required for this sensor
 
-== Deprecated sensors ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png These sensors are deprecated as the functionality is now included in PRTG 8.3
+== Deprecated sensors == 
+http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
+==== These sensors are deprecated as the functionality is now included in PRTG 8.3 ====
 
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` ||  ||
 ||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||

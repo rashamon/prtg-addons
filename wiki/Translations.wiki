@@ -7,7 +7,7 @@ PRTG already comes with a set of translations created by Paessler (e.g. English,
 
 Currently available:
 
- * http://gf-ptf.googlecode.com/files/nl.png [http://code.google.com/p/prtg-addons/downloads/list?can=2&q=translation:%20dutch Dutch]
+ * http://gf-ptf.googlecode.com/files/nl.png [http://code.google.com/p/prtg-addons/downloads/list?can=2&q=translation:%20dutch Dutch]  (This language now comes standard with PRTG 8.3)
 
 
 =Installation of Language Files=

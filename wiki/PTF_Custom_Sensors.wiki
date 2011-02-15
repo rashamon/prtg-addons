@@ -9,38 +9,41 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
-||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ADSReplFailures.zip here]||
-||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CheckDHCP.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.2.1||19/11/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CheckTimeSNMP CheckTimeSNMP]||Returns the time difference between the device and your PRTG server/probe in seconds.||8.0.2.1||07/01/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
-||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailCount.zip here]||
-||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.FTPFileCount.zip here]||
-||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.INIFileValue.zip here]||
-||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.IPonDNSBL.zip here]||
-||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LastWinUpdate.zip here]||
-||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.LogfileReader.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
-||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.2.1||06/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.MessageCount.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
-||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingDelayedUp.zip here]||
-||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingJitter.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
-||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PrintQueue.zip here]||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
-||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SSLCertExpiration.zip here]||
-||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.TraceRoute.zip here]||
-||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.UserLoggedin.zip here]||
-||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.WinOSVersion.zip here]||
-||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.3.1||26/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.XMLValue.zip here]||
+
 
 `*` This is the minimum PRTG version that is required for this sensor
 
+== Deprecated sensors ==
+http://ptf-prtgaddons.googlecode.com/files/Deprecated.png These sensors are deprecated as the functionality is now included in PRTG 8.3
 
-== Overview ==
-http://ptf-prtgaddons.googlecode.com/files/PTFSensors.png
+|| *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` ||  ||
+||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||7.1||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
+||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||7.1||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
+||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.2.1||06/02/2011||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||7.1||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
+||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.3.1||26/11/2010||7.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+
 
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherwise)

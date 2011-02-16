@@ -11,6 +11,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
 ||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.2.1||19/11/2010||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
+||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
@@ -22,7 +23,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 `*` This is the minimum PRTG version that is required for this sensor
 
 == Overview ==
-http://ptf-prtgaddons.googlecode.com/files/Sensors.png
+http://ptf-prtgaddons.googlecode.com/files/Sensors1.png
 
 == Deprecated sensors == 
 http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
@@ -170,6 +171,24 @@ This sensor returns the time difference between the device and your PRTG server/
  * First public version
 
 ----
+
+== !CompareTime ==
+=== Summary ===
+This sensor compares the UTC time of the specified computer with the local UTC time.
+{{{
+-c=computer        The ip-address or hostname of the computer to get the UTC time from.
+-u=username        Optional the name of the user account that has access to the computer via WMI service.
+-p=password        Optional the password or passhash(*) of the user account that has access to the computer via WMI service.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _15/02/2011_====
+ * First public version
+
+----
+
 
 == !ContactState ==
 === Summary ===

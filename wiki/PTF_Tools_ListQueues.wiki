@@ -1,0 +1,19 @@
+#summary PTF Tools: ListQueues shows MSMQ's and printqueues on a given machine.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/ListQueuesLogo.png
+
+= Introduction =
+
+!ListQueues is a tool to show MSMQ's and !PrintQueues on a given Windows computer.
+
+= Details =
+
+PRTG's sensors x and y need the queue name to be entered in the sensors settings.
+
+As these queue names are not always that obvious, this tool helps you to determine the correct queue name.
+
+
+http://ptf-prtgaddons.googlecode.com/files/ListQueues.png
+
+The !ListQueues tool can be downloaded from [PTF_Tools_VersionHistory this] page.

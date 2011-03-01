@@ -9,7 +9,7 @@ http://ptf-prtgaddons.googlecode.com/files/ListQueuesLogo.png
 
 = Details =
 
-PRTG's sensors x and y need the queue name to be entered in the sensors settings.
+PRTG's sensors *Windows MSMQ Queue Length* and *Windows Print Queue* need the queue name to be entered in the sensors settings.
 
 As these queue names are not always that obvious, this tool helps you to determine the correct queue name.
 

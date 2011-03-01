@@ -8,6 +8,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Application* || *Version* || *Date* || *Download* ||
+||[#ListQueues_version_history ListQueues]||1.0.1.2||01/03/2011||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
@@ -18,6 +19,18 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 === General ===
 All Tools listed target the .Net Framework 3.5
+
+----
+
+==!ListQueues_version_history==
+=== Summary ===
+With this tool you can show MSMQ's and !PrintQueues on a given Windows computer. [PTF_Tools_ListQueues details]
+
+ back to [#Latest_versions: top]
+====1.0.1.1 _16/02/2011_====
+ * First public version
+====1.0.1.2 _01/03/2011_====
+ * Changed: small changes in the user interface
 
 ----
 

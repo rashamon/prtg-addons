@@ -566,6 +566,8 @@ This sensor returns a warning state if a sensor state has changed into one of th
 -r=		Optional, the rootID of the probe or group you want to monitor (default = 0).
 }}}
 
+ back to [#Latest_versions: top]
+
 === Version history ===
 ====8.0.1.1 _06/03/2011_====
  * First public version

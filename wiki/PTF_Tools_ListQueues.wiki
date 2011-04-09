@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/ListQueuesLogo.png
 
 = Introduction =
 
-!ListQueues is a tool to show MSMQ's and !PrintQueues on a given Windows computer.
+!ListQueues is a tool to show MSMQ's, !PrintQueues and Scheduled Tasks on a given Windows computer.
 
 = Details =
 

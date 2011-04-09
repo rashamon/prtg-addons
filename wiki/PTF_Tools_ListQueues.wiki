@@ -14,6 +14,6 @@ PRTG's sensors *Windows MSMQ Queue Length* and *Windows Print Queue* need the qu
 As these queue names are not always that obvious, this tool helps you to determine the correct queue name.
 
 
-http://ptf-prtgaddons.googlecode.com/files/ListQueues.png
+http://ptf-prtgaddons.googlecode.com/files/ListQueues2.png
 
 The !ListQueues tool can be downloaded from [PTF_Tools_VersionHistory this] page.

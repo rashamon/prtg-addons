@@ -6,7 +6,6 @@
 
 ===Content===
 
- * ===[Translations Translations]===
  * ===[Tools Tools]===
  * ===[Sensors Custom Sensors]===
  * ===[Notifications Custom Notifications]===

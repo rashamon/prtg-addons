@@ -1,0 +1,18 @@
+#summary PTF Tools: GoogleMap shows the PRTG Googlemap on your NOC.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/GoogleMapLogo.png
+
+= Introduction =
+
+!GoogleMap is a tool to show PRTG's Google Map and Legend on your NOC.
+
+= Details =
+
+The tool comes with an *.ini* file, for you to provide the url to your PRTG server, credentials and other settings.
+
+There are also two *.htm* files included in the download, that need to be copied to the *website* folder of your PRTG installation
+
+http://ptf-prtgaddons.googlecode.com/files/Googlemap.png
+
+The !GoogleMap tool can be downloaded from [PTF_Tools_VersionHistory this] page.

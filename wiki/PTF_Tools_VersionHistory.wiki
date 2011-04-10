@@ -124,7 +124,7 @@ PTF Distribute Sensors is a tool used to distribute (updates of) custom sensors 
 
 ==!GoogleMap version history==
 === Summary ===
-PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [PTF_Distribute_Sensors details]
+PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [PTF_Tools_GoogleMap details]
 
  back to [#Latest_versions: top]
 

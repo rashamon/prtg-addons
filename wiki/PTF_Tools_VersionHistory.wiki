@@ -16,6 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#TrayNotifier_version_history TrayNotifier]||8.0.2.1||22/03/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 ||[#CSVImport_version_history CSVImport]||8.0.1.1||07/11/2010||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
+||[#GoogleMap_version_history GoogleMap]||8.0.1.1||10/09/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5
@@ -112,9 +113,20 @@ PTF Distribute Sensors is a tool used to distribute (updates of) custom sensors 
  * New: Added support for EXEXML sensors.
  * New: Select multiple sensors to send to your Probes.
  * Changed: Various changes in the userinterface.
- * Changed: moved the installers to InstallShield
+ * Changed: moved the installers to !InstallShield
 ====1.0.2.1 _28/12/2009_====
  * Changed: Although data is send encrypted between GUI and web service, the encryption was always the same. In theory, encrypted credentials could be reused. With this version, the encryption changes in each session, preventing encrypted credentials to be reused.
 
 ====1.0.1.1 _07/12/2009_====
+ * First public version.
+
+----
+
+==!GoogleMap version history==
+=== Summary ===
+PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [PTF_Distribute_Sensors details]
+
+ back to [#Latest_versions: top]
+
+====8.0.1.1 _10/04/2011_====
  * First public version.

@@ -9,7 +9,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
-||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.3.1||06/04/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
+||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.4.1||12/04/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
@@ -118,13 +118,15 @@ This sensor compares your local PRTG version number with the last version availa
  back to [#Latest_versions: top]
 
 {{{
-192.168.1.1 [-ssl]
-
--ssl	Optional use a ssl connection to connect to your PRTG server.
+As of version 8.0.4 the sensor does not need any parameters anymore.
 }}}
 
 
 === Version history ===
+====8.0.4.1 _12/04/2011_====
+ * Fix: due to changes on PRTG's website the sensor could return an error "Too many automatic redirections were attempted"
+ * Changed: the sensor does not need any parameters anymore. Proxy settings are taken from your Internet Explorer settings.
+ * Changed: the sensor now requires the "Set placeholders as environment variables" option to be set.
 ====8.0.3.1 _06/04/2011_====
  * Changed: added compatibility for Paesslers new website
 ====8.0.2.1 _19/11/2010_====

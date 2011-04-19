@@ -13,7 +13,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
-||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.2.1||04/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.3.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
@@ -201,6 +201,8 @@ More [PTF_CS_CSVExport details]
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.3.1 _19/04/2011_====
+ * New: added parameter -av= Average interval in seconds; use 0 to download raw data (= results of all single monitoring requests)
 ====8.0.2.1 _04/04/2011_====
  * New: added parameter -ssl3 to force a ssl3 connection to your PRTG server.
 ====8.0.1.1 _22/09/2010_====

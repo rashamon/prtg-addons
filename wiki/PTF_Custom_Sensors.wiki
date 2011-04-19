@@ -248,13 +248,13 @@ Enter the credentials (username and password), emailserver and other settings in
 -t=   Optional timeout in seconds. If omitted a timeout of 10 seconds is used as default.
 }}}
 
-How does this sensor differ from PRTG's own email roundtrip sensor?
+How does this sensor differ from [http://www.paessler.com/blog/2010/04/15/prtg-7/prtgs-email-round-trip-sensor-and-google-mail PRTG's own] email roundtrip sensor?
 
- * This sensor does not have to wait for the email to return.
+ * This sensor does not have to wait for the email to return, but processes the received email from the previous run of the sensor.
  * Fast response times, freeing up resources more quickly.
  * Roundtrip time is calculated by examining the email headers.
  * “Missed” email responses that come in to late are automatically deleted, keeping the users mailbox cleaned up.
- * The unique identifier is not in the email subject but in the email header, reducing the chance of the email getting classified as spam.
+ * The unique identifier is not in the email subject but in the email header, reducing the chance of the email getting caught by a spam filter.
 
 
  back to [#Latest_versions: top]

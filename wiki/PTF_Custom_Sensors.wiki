@@ -14,6 +14,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.2.1||04/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
@@ -227,6 +228,40 @@ or
 === Version history ===
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
+
+----
+
+== !EmailRoundTrip ==
+=== Summary ===
+This Custom Sensor sends an email using your local email server to a roundtrip address and reports the time it takes for the email to return.
+
+Enter the credentials (username and password), emailserver and other settings in the Parameters section of the Sensor Settings:
+{{{
+-to=  Address to send the mail to.
+-fr=  From address of the mail to send.
+-u=   Username of the mailbox to check for incomming mail.
+-p=   Password or PassHash * of the mailbox to check for incomming mail.
+-s=   Mailserver for sending and receiving emails.
+-pp=  Optional mailserver POP port. If omitted port 110 is used as default.
+-sp=  Optional mailserver SMTP port. If omitted port 25 is used as default.
+-ssl  Optional use a ssl connection to connect to your mailserver.
+-t=   Optional timeout in seconds. If omitted a timeout of 10 seconds is used as default.
+}}}
+
+How does this sensor differ from PRTG's own email roundtrip sensor?
+
+ * This sensor does not have to wait for the email to return.
+ * Fast response times, freeing up resources more quickly.
+ * Roundtrip time is calculated by examining the email headers.
+ * “Missed” email responses that come in to late are automatically deleted, keeping the users mailbox cleaned up.
+ * The unique identifier is not in the email subject but in the email header, reducing the chance of the email getting classified as spam.
+
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.2.1 _19/04/2011_====
+ * First public version
 
 ----
 

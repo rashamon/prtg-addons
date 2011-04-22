@@ -134,7 +134,12 @@ PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [PT
  back to [#Latest_versions: top]
 
 ====8.0.2.1 _22/04/2011_====
- * New: added a section to the .ini file to change the texts in the legends.
+ * New: added a section to the .ini file to have texts in the legends translated.
+{{{
+[translations]
+Manchester;MAN
+TW20 8RZ;Main office
+}}}
 ====8.0.1.1 _10/04/2011_====
  * First public version.
 

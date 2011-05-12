@@ -16,7 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#TrayNotifier_version_history TrayNotifier]||8.0.2.1||22/03/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 ||[#CSVImport_version_history CSVImport]||8.0.2.1||13/04/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
-||[#GoogleMap_version_history GoogleMap]||8.0.2.1||22/04/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
+||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5
@@ -133,6 +133,8 @@ PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [PT
 
  back to [#Latest_versions: top]
 
+====8.0.3.1 _11/05/2011_====
+ * Bugfix: the legend did not automatically refresh.
 ====8.0.2.1 _22/04/2011_====
  * New: added a section to the .ini file to have texts in the legends translated.
 {{{

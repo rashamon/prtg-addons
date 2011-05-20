@@ -11,7 +11,7 @@ On this page you will find an overview of *Advanced XML* sensors. *Standard* sen
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.1.1||21/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.1.1||02/02/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
-||[#StatisticalPingXML StatisticalPingXML]||Pings a comma seperated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
+||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
 ||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
 
 
@@ -143,15 +143,15 @@ END
 
 == StatisticalPingXML ==
 === Summary ===
-This sensor pings a comma seperated list of hosts for statistical reasons.
+This sensor pings a comma separated list of hosts for statistical reasons.
 
 {{{
 -h=ip-address|hostname [-w=timeout] [-l=size] [-i=TTL]
 }}}
 
 {{{
--h=   A comma seperated list of hosts to check.
--w=   Optional, timeout in miliseconds to wait for a reply, default = 500.
+-h=   A comma separated list of hosts to check.
+-w=   Optional, timeout in milliseconds to wait for a reply, default = 500.
 -l=   Optional, send buffer size, default = 32.
 -i=   Optional, Time To Live, default = 64.
 }}}

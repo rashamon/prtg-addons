@@ -7,10 +7,14 @@ On this page you will find an overview of *Advanced XML* sensors. *Standard* sen
 
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
+||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.1.1||21/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
-||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.1.1||02/02/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
+||[#StatisticalPingXML StatisticalPingXML]||Pings a comma seperated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
+||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
+
+
 
 `*` This is the minimum PRTG version that is required for this sensor
 
@@ -20,6 +24,27 @@ All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherw
 Copy the .exe file to the "\Custom Sensors\EXEXML" folder of your PRTG Network Monitor installation. You can manually launch the .exe for an explanation of the parameters required
 
 Note: XML sensors can only be used as of PRTG version 8.2
+
+
+----
+
+== IISStatisticsXML ==
+=== Summary ===
+This sensor monitors various IIS statistics.
+
+{{{
+[-c=computer]
+}}}
+
+{{{
+-c=  Optional, the name or IP of the computer running IIS. If ommitted the sensors host is used.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _19/05/2011_====
+ * First public version
 
 ----
 
@@ -67,22 +92,6 @@ This sensor returns the xx hour average of every channel for a given sensor.
 ====8.0.1.1 _21/01/2011_====
  * First public version
 
-----
-
-== StockValueXML ==
-=== Summary ===
-Monitores stock values as reported by http://finance.yahoo.com
-
-{{{
--s= Comma seperated list of symbols, to be obtained from http://finance.yahoo.com
-}}} 
-I.e. -s="MSFT,AAPL,INTC" to monitor Microsoft, Apple and Intel
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _17/01/2011_====
- * First public version.
 
 ----
 
@@ -128,6 +137,47 @@ END
 
 === Version history ===
 ====8.0.1.1 _02/02/2011_====
+ * First public version.
+
+----
+
+== StatisticalPingXML ==
+=== Summary ===
+This sensor pings a comma seperated list of hosts for statistical reasons.
+
+{{{
+-h=ip-address|hostname [-w=timeout] [-l=size] [-i=TTL]
+}}}
+
+{{{
+-h=   A comma seperated list of hosts to check.
+-w=   Optional, timeout in miliseconds to wait for a reply, default = 500.
+-l=   Optional, send buffer size, default = 32.
+-i=   Optional, Time To Live, default = 64.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _19/05/2011_====
+ * First public version
+
+
+----
+
+== StockValueXML ==
+=== Summary ===
+Monitores stock values as reported by http://finance.yahoo.com
+
+{{{
+-s= Comma seperated list of symbols, to be obtained from http://finance.yahoo.com
+}}} 
+I.e. -s="MSFT,AAPL,INTC" to monitor Microsoft, Apple and Intel
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/01/2011_====
  * First public version.
 
 ----

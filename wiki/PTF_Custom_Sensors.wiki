@@ -15,6 +15,7 @@ On this page you will find an overview of *Standard* sensors. *Advanced XML* sen
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.4.1||03/05/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
+||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
@@ -266,6 +267,21 @@ How does this sensor differ from [http://www.paessler.com/blog/2010/04/15/prtg-7
 
 === Version history ===
 ====8.0.2.1 _19/04/2011_====
+ * First public version
+
+----
+
+== ExternalIP ==
+
+=== Summary ===
+This Custom Sensor gets the ISP-assigned IP address of the Probe.
+
+This sensor requires no parameters.
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _19/06/2011_====
  * First public version
 
 ----

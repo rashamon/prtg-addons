@@ -23,7 +23,7 @@ All Tools listed target the .Net Framework 3.5
 
 ----
 
-==!ListQueues_version_history==
+==!ListQueues version history==
 === Summary ===
 With this tool you can list MSMQ's, !PrintQueues and Scheduled Tasks on a given Windows computer. [PTF_Tools_ListQueues details]
 

@@ -10,11 +10,11 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
-||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
-||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.1.1||21/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
+||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
+||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.1.1||02/02/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
 ||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
-||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.1.1||17/01/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
+||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
 
 
 
@@ -68,6 +68,8 @@ This sensor monitors resources used by a process.
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _18/07/2011_====
+ * Recompiled with new error handling routines
 ====8.0.1.1 _17/01/2011_====
  * First public version
 
@@ -91,6 +93,8 @@ This sensor returns the xx hour average of every channel for a given sensor.
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _18/07/2011_====
+ * Recompiled with new error handling routines
 ====8.0.1.1 _21/01/2011_====
  * First public version
 
@@ -179,6 +183,8 @@ I.e. -s="MSFT,AAPL,INTC" to monitor Microsoft, Apple and Intel
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _18/07/2011_====
+ * Recompiled with new error handling routines
 ====8.0.1.1 _17/01/2011_====
  * First public version.
 

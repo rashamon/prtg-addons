@@ -9,7 +9,7 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
-||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
+||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.2.1||19/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.1.1||02/02/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
@@ -35,16 +35,20 @@ Note: XML sensors can only be used as of PRTG version 8.2
 This sensor monitors various IIS statistics.
 
 {{{
-[-c=computer]
+[-c=computer] [-u=username] [-p=password|passhash]
 }}}
 
 {{{
 -c=  Optional, the name or IP of the computer running IIS. If ommitted the sensors host is used.
+-u=  Optional, Domain\Username of a user account hat has access to the computer running IIS.
+-p=  Optional, Password or PassHash of a user account that has access to the computer running IIS.
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _19/07/2011_====
+ * New: added parameters -u= and -p= to provide credentials for accessing the computer running IIS
 ====8.0.1.1 _19/05/2011_====
  * First public version
 
@@ -61,8 +65,8 @@ This sensor monitors resources used by a process.
 {{{
 -s=   Name of the process.
 -c=   Name or IP-Address of the computer running the process.
--u=   Optional Domain\Username of a user account hat has access to the computer via WMI service.
--p=   Optional Password or PassHash of a user account that has access to the computer via WMI service.
+-u=   Optional, Domain\Username of a user account hat has access to the computer via WMI service.
+-p=   Optional, Password or PassHash of a user account that has access to the computer via WMI service.
 }}}
 
  back to [#Latest_versions: top]

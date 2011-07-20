@@ -12,7 +12,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
  * [PTF_Tools_TrayNotifier TrayNotifier]
 
 
-== Version History==
+==[Version History]==
 
  * [PTF_Tools_VersionHistory Tools]
  * [PTF_Custom_Sensors Custom Sensors exe]

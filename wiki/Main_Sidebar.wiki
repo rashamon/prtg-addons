@@ -6,6 +6,6 @@
 
 ==Content==
 
- * ==[Tools Tools]==
- * ==[Sensors Custom Sensors]==
- * ==[Notifications Custom Notifications]==
+ * [Tools Tools]
+ * [Sensors Custom Sensors]
+ * [Notifications Custom Notifications]

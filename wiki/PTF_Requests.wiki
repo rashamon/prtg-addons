@@ -1,0 +1,9 @@
+#summary Suggestions for new sensors or aprovements to existing sensors
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
+== Suggestions for new sensors or aprovements to existing sensors. ==
+
+There's no guarantee anything on here will be added, but it'll give me an idea of what people want the most.
+
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="1000" width="900" up_url="http://http://www.google.com/moderator/#15/e=a75c9&t=a75c9.40" up_sort="HOT" up_hl="en" />

@@ -6,10 +6,10 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 
 ==[Tools Home]==
 
- * ==[PTF_Tools_NotifierDistribution NotifierDistribution]==
- * ==[PTF_Tools_NotifierGadget NotifierGadget]==
- * ==[PTF_Tools_NotifierGadgetXP NotifierGadgetXP]==
- * ==[PTF_Tools_TrayNotifier TrayNotifier]==
+ * =[PTF_Tools_NotifierDistribution NotifierDistribution]=
+ * =[PTF_Tools_NotifierGadget NotifierGadget]=
+ * =[PTF_Tools_NotifierGadgetXP NotifierGadgetXP]=
+ * =[PTF_Tools_TrayNotifier TrayNotifier]=
 
 
 == Version History==
@@ -24,4 +24,4 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 
  * ==[http://code.google.com/p/prtg-addons/issues/list Report an issue]==
  * ==[mailto:prtgtoolsfamily%40gmail%2Ecom?SUBJECT=PRTG%20Tools%20Family Send an email]==
- * ==[PTF_Requests Ideas]==
+ * ==[PTF_Requests Ideas (new)]==

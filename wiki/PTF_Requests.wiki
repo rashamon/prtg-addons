@@ -1,8 +1,8 @@
-#summary Suggestions for new sensors or aprovements to existing sensors
+#summary Suggestions for new custom sensors or aprovements to existing sensors
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
-== Suggestions for new sensors or aprovements to existing sensors. ==
+== Suggestions for new custom sensors or aprovements to existing sensors. ==
 
 There's no guarantee anything on here will be added, but it'll give me an idea of what people want the most.
 

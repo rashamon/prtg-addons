@@ -14,14 +14,14 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 
 == Version History==
 
- * ==[PTF_Tools_VersionHistory Tools]==
- * ==[PTF_Custom_Sensors Custom Sensors exe]==
- * ==[PTF_Custom_Sensors_XML Custom Sensors exe/xml]==
- * ==[PTF_Custom_Notifications Custom Notifications]==
+ * [PTF_Tools_VersionHistory Tools]
+ * [PTF_Custom_Sensors Custom Sensors exe]
+ * [PTF_Custom_Sensors_XML Custom Sensors exe/xml]
+ * [PTF_Custom_Notifications Custom Notifications]
 
 
 == Feedback ==
 
- * ==[http://code.google.com/p/prtg-addons/issues/list Report an issue]==
- * ==[mailto:prtgtoolsfamily%40gmail%2Ecom?SUBJECT=PRTG%20Tools%20Family Send an email]==
- * ==[PTF_Requests Ideas (new)]==
+ * [http://code.google.com/p/prtg-addons/issues/list Report an issue]
+ * [mailto:prtgtoolsfamily%40gmail%2Ecom?SUBJECT=PRTG%20Tools%20Family Send an email]
+ * [PTF_Requests Ideas (new)]

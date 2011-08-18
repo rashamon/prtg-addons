@@ -18,6 +18,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.4.1||03/05/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
+||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
@@ -305,6 +306,31 @@ Enter the credentials (username and password) and the url in the Parameters sect
  * Compiled for PRTG 8.1
 
 ----
+
+== HTTPContent ==
+=== Summary ===
+This Custom Sensor Checks for HTTP content changes.
+If the content has changed from the previous run of the sensor, the sensor returns the value 1 else the sensor returns the value 0
+
+Enter the url and optional proxy settings in the Parameters section of the Sensor Settings:
+
+{{{
+-u=    The url to check.
+-ps=   Optional proxyserver to use connecting to the internet.
+-pd=   Optional proxydomain domain name to connect to your proxyserver.
+-pu=   Optional proxyuser to connect to your proxyserver.
+-pp=   Optional proxypassword or passhash * to connect to your proxyserver.    
+}}}
+
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/08/2011_====
+ * First public version
+----
+
+
 
 == INIFileValue ==
 http://ptf-prtgaddons.googlecode.com/files/Deprecated.png

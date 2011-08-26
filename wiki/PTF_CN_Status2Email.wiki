@@ -1,0 +1,21 @@
+#summary PTF Tweet: Send notifications from PRTG to Twitter
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/status2emaillogo.png
+
+PTF.!Status2Email sends the current alarms and warnings by email. The application can be used as a Custom Notification or as a scheduled task, sending an email every morning.
+
+http://ptf-prtgaddons.googlecode.com/files/status2emil.png
+
+PTF.!Status2Email requires the following parameters:
+{{{
+-pu=   PRTG username.
+-pp=   PRTG password or passhash *
+-ps=   PRTG server ip or domainname and optional portnumber.
+-ms=   IP od domainname of your mailserver.
+-fr=   The FROM address of the email to send.
+-to=   The TO address to send the email to.
+-ssl3  Optional parameter to force a SSL3 connection to your PRTG server.
+}}}
+
+The Custom Notification can be downloaded from [PTF_Custom_Notifications this] page.

@@ -28,9 +28,9 @@ PTF launcher is a Custom Notification that can launch external applications. Mor
 
 ----
 
-== Status2Email ==
+== !Status2Email ==
 === Summary ===
-PTF Status2Email is a Custom Notification that sends down and warning sensors by email. More [PTF_CN_Status2Email details]
+PTF !Status2Email is a Custom Notification that sends down and warning sensors by email. More [PTF_CN_Status2Email details]
 
  back to [#Latest_versions: top]
 

@@ -6,7 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
 ||[#Launcher Launcher]||1.0.4.1||12/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
-||[#Status2Email Status2Email]||8.0.1.1||25/08/2011||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
+||[#Status2Email Status2Email]||8.0.2.1||29/08/2011||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
 ||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
 
@@ -35,6 +35,9 @@ PTF !Status2Email is a Custom Notification that sends down and warning sensors b
  back to [#Latest_versions: top]
 
 === Version history === 
+====8.0.2.1 _29/08/2011_====
+ * New: Optional parameter -ss= for sensor statusses that need to be reported. Supported values are d(own), w(arning), p(aused) and u(nusual) e.g. -ss=dwpu (default = dw)
+
 ====8.0.1.1 _25/08/2011_====
  * First public version
 

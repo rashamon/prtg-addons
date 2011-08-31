@@ -3,7 +3,13 @@
 
 http://ptf-prtgaddons.googlecode.com/files/status2emaillogo.png
 
-PTF.!Status2Email by default sends the current alarms and warnings by email. The application can be used as a Custom Notification or as a scheduled task, sending an email every morning. You can use the -ss parameter to also report on Paused and Unusual sensors
+= Introduction =
+
+PTF.!Status2Email by default sends the current alarms and warnings by email.
+
+= Details =
+
+The application can be used as a Custom Notification or as a scheduled task, sending an email every morning. You can use the -ss parameter to also report on Paused and Unusual sensors
 
 
 PTF.!Status2Email requires the following parameters:

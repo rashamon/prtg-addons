@@ -11,7 +11,6 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
-||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.4.1||12/04/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPRTGVersion.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
@@ -38,6 +37,7 @@ http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
 || *Sensor* || *Description* || *Version* || *Date* || *Included in* ||  ||
 ||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
 ||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
+||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.4.1||12/04/2011||9.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
 ||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
 ||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||8.3||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
 ||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||8.3||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
@@ -118,6 +118,7 @@ The sensor is a wrapper around the dhcpcheck program from KS-Soft.
 ----
 
 == CheckPRTGVersion ==
+http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
 === Summary ===
 This sensor compares your local PRTG version number with the last version available for download.
 
@@ -639,6 +640,7 @@ Reads a file into memory and returns the number of bytes/sec.
 ----
 
 == !ScheduledTask ==
+http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
 === Summary ===
 This sensor returns the number of minutes since the last run of the specified task.
 

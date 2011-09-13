@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
-||[#Launcher Launcher]||1.0.4.1||12/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
+||[#Launcher Launcher]||1.0.5.1||12/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
 ||[#Status2Email Status2Email]||8.0.3.1||01/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
 ||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
@@ -22,6 +22,8 @@ PTF launcher is a Custom Notification that can launch external applications. Mor
  back to [#Latest_versions: top]
 
 === Version history === 
+====1.0.5.1 _12/09/2011_====
+ * Changed: Compiled for both x64 and x86 (see also [http://kb.paessler.com/knowledgebase/en/topic/24733-ptf-launcher-and-dnscmd KB 24733])
 ====1.0.4.1 _12/09/2010_====
  * Bugfix: Error "-io parameter not wellformatted" is now fixed.
  * Changed: Moved the message folder from "c:\PTF.Launch" to "c:\PRTG Tools Family\PTF.Launch".

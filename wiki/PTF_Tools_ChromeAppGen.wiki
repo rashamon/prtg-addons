@@ -11,6 +11,6 @@ http://ptf-prtgaddons.googlecode.com/files/ChromeAppGenLogo.png
 
 With this tool you can generate an app to be used with the Google Chrome web browser. Simply drag the generated app file into your Chrome browser and you are only one click away from directly logging in to your PRTG server.
 
-http://ptf-prtgaddons.googlecode.com/files/ChromeAppGen.png
+http://ptf-prtgaddons.googlecode.com/files/ChromeAppGenScreen.png
 
 The !ChromeAppGen tool can be downloaded from [PTF_Tools_VersionHistory this] page.

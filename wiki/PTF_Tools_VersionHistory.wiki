@@ -8,6 +8,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 ====Latest versions:====
 || *Application* || *Version* || *Date* || *Download* ||
+||[#ChromeAppGen_version_history ChromeAppGen]||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
 ||[#CSVImport_version_history CSVImport]||8.0.4.1||26/06/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 ||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
@@ -20,6 +21,20 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 === General ===
 All Tools listed target the .Net Framework 3.5
+
+====1.0.1.1 _07/12/2009_====
+ * First public version.
+
+
+----
+
+==!ChromeAppGen version history==
+=== Summary ===
+!ChromeAppGen generates a Chrome App to login to your PRTG Server. [PTF_Tools_ChromeAppGen details]
+ 
+ back to [#Latest_versions: top]
+====9.0.1.2 _19/09/2011_====
+ * First public version.
 
 ----
 

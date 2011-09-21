@@ -1,4 +1,4 @@
-#summary PTF Tools: GoogleMap shows the PRTG Googlemap on your NOC.
+#summary PTF Tools: ChromeAppGen generates a Chrome App to login to your PRTG Server.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/ChromeAppGenLogo.png

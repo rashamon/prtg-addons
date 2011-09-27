@@ -1,4 +1,4 @@
-#summary PTF Custom Notifications: Overview of PTF Custom Sensors.
+#summary PTF Custom Notifications: Overview of PTF Custom Notifications.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png

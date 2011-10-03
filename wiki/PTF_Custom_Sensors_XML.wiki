@@ -12,7 +12,7 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 ||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.3.1||21/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
-||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.1.1||02/02/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
+||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.2.1||02/10/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
 ||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
 ||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
 
@@ -148,6 +148,9 @@ END
  back to [#Latest_versions: top]
 
 === Version history ===
+====8.0.2.1 _02/10/2011_====
+ * Changed: dropped the "environment placeholders" support, all parameters need to be supplied through the command line now.
+ * New: option to use SQL authentication. (by default Windows Authentication is used now)
 ====8.0.1.1 _02/02/2011_====
  * First public version.
 

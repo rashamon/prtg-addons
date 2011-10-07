@@ -17,7 +17,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#Translate_version_history Translation Tool]||1.0.5.1||06/06/2010||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
-||[#TrayNotifier_version_history TrayNotifier]||9.0.1.1||26/09/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
+||[#TrayNotifier_version_history TrayNotifier]||9.0.1.2||06/10/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5
@@ -169,8 +169,9 @@ PTF Translate is a tool used to create new language files for PRTG Network Monit
 The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [PTF_Tools_TrayNotifier details]
 
  back to [#Latest_versions: top]
-====9.0.1.1 _26/09/2010_====
+====9.0.1.2 _06/10/2010_====
  * Changed: Implemented PRTG9 icons and features.
+ * Bugfix: Auto update did not work anymore.
 ====8.0.2.1 _22/03/2010_====
  * Bugfix: Checking for updates did not work anymore and stole the focus from other applications.
  * New: Option to force a SSL3 connection to your PRTG Server

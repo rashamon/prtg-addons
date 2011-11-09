@@ -7,9 +7,10 @@ http://ptf-prtgaddons.googlecode.com/files/Ticker_logo.png
 
 The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
 
+http://ptf-prtgaddons.googlecode.com/files/Ticker_scrolling.png
+
 = Details =
 
-http://ptf-prtgaddons.googlecode.com/files/Ticker_scrolling.png
 
 After starting the ticker, you will need to provide the name or IP of your PRTG server and credentials.
 

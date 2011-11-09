@@ -16,6 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||1.0.5.1||06/06/2010||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||9.0.1.3||10/10/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
@@ -148,6 +149,17 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
  back to [#Latest_versions: top]
 ====8.0.1 _29/08/2010_====
  * Compiled the NotifierGadgetXP for PRTG V8
+
+----
+==Ticker version history==
+=== Summary ===
+The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
+[PTF_Tools_Ticker details]
+
+ back to [#Latest_versions: top]
+
+====1.0.3.1 _08/11/2011_====
+ * First public version
 
 ----
 

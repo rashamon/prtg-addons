@@ -1,0 +1,23 @@
+#summary PTF Tools: TrayNotifier shows a red icon in the task bar and shows a dialog whenever PRTG discovers alarms etc.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/Ticker_logo.png
+
+= Introduction =
+
+The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
+
+= Details =
+
+http://ptf-prtgaddons.googlecode.com/files/Ticker_scrolling.png
+
+After starting the ticker, you will need to provide the name or IP of your PRTG server and credentials.
+
+http://ptf-prtgaddons.googlecode.com/files/Ticker_settings.png
+
+There are also setting that effect the behavior and appearance of the ticker like showing down and/or warning sensors and the compilation of the message.
+
+The ticker supports up to 5 monitors on your system. If the primary monitor is selected, the ticker behaves as an application bar reserving desktop space that cannot be used by full screen application or desktop icons. 
+In this case running full screen applications are automatically resized and desktop icons are moved. When closing the ticker this is of cause restored to the previous state.
+
+For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].

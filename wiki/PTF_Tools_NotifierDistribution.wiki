@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/NotifierDistribution.png
 
 = Introduction =
 
-With this tool you can modify your PRTG Server download page to let your users download the TrayNotifier and NotifierGadget from the download page of your own PRTG Server.
+With this tool you can modify your PRTG Server download page to let your users download the !TrayNotifier and !NotifierGadget from the download page of your own PRTG Server.
 
 
 = Details =
@@ -15,4 +15,4 @@ After running the tool, your PRTG Server download page can look like this:
 
 http://ptf-prtgaddons.googlecode.com/files/distribution_webpage.png
 
-For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].
+For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory download].

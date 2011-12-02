@@ -9,5 +9,5 @@ PRTG can be extended writing Custom Sensors (executables, WMI scripts, powershel
 Currently available sensors from:
 
  * PRTG Tools Family
-     # [PTF_Custom_Sensors Standard Sensors]
-     # [PTF_Custom_Sensors_XML Advanced Sensors]  http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png
+     # [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors Standard Sensors]
+     # [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors_XML Advanced Sensors]  http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor_Small.png

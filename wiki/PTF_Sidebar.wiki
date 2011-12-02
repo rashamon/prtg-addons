@@ -7,7 +7,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 ==[Tools Home]==
 
  * [NotifierDistribution]
- * [PTF_Tools_NotifierGadget NotifierGadget]
+ * PTF_Tools_NotifierGadget
  * [PTF_Tools_NotifierGadgetXP NotifierGadgetXP]
  * [PTF_Tools_TrayNotifier TrayNotifier]
 

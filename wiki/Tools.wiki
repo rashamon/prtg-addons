@@ -11,4 +11,4 @@ _For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/Ve
 Currently available tools:
 
  * [BillingTool Billing Tool]
- * [PTF_Tools PRTG Tools Family]
+ * [http://code.google.com/p/prtg-addons/wiki\PTF_Tools PRTG Tools Family]

@@ -16,4 +16,4 @@ As these queue names are not always that obvious, this tool helps you to determi
 
 http://ptf-prtgaddons.googlecode.com/files/ListQueues2.png
 
-The !ListQueues tool can be downloaded from [PTF_Tools_VersionHistory this] page.
+The !ListQueues tool can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

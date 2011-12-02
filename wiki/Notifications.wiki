@@ -10,4 +10,4 @@ _For PRTG version 7 take a look at [http://code.google.com/p/prtg7addons/wiki/No
 
 Currently available notifications from:
 
- * [PTF_Custom_Notifications PRTG Tools Family]
+ * [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Notifications PRTG Tools Family]

@@ -15,4 +15,4 @@ There are also two *.htm* files included in the download, that need to be copied
 
 http://ptf-prtgaddons.googlecode.com/files/Googlemap.png
 
-The !GoogleMap tool can be downloaded from [PTF_Tools_VersionHistory this] page.
+The !GoogleMap tool can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

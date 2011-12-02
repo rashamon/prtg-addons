@@ -30,31 +30,6 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 == Overview ==
 http://ptf-prtgaddons.googlecode.com/files/Sensors1.png
 
-== Deprecated sensors == 
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-==== These sensors are deprecated as their functionality is now included in PRTG 8.3 and/or higher ====
-
-|| *Sensor* || *Description* || *Version* || *Date* || *Included in* ||  ||
-||[#ADSReplFailures ADSReplFailures]||Checks your domain controllers for replication errors.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#CheckDHCP CheckDHCP]||Returns the response time of a DHCP server.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#CheckPRTGVersion CheckPRTGVersion]||Compares your local PRTG version number with the last available version.||8.0.4.1||12/04/2011||9.1||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#EmailCount EmailCount]||Returns the total number of emails in the inbox of an email account||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#FTPFileCount FTPFileCount]||Returns the number of files on a FTP server.||8.0.1.1||22/09/2010||8.3||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
-||[#INIFileValue INIFileValue]||Returns the value from the field of an ini-file.||8.0.1.1||22/09/2010||8.3||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
-||[#IPonDNSBL IPonDNSBL]||Checks the given IP-Address agains a number of blacklist servers||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#LastWinUpdate LastWinUpdate]||Gets the last time Windows Update has updated the specified computer.||8.0.2.1||07/10/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#LogfileReader LogfileReader]||Returns the last occurrence of a specified string in a (log) file||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#MessageCount MessageCount]||Returns the number of messages in a MSMQ.||8.0.2.1||06/02/2011||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#PingDelayedUp PingDelayedUp]||Stays down for the given number of seconds before returning an Ok state.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#PingJitter PingJitter]||Returns the Statistical Jitter value of a host.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#PrintQueue PrintQueue]||Returns the number of jobs in a printqueue.||8.0.2.1||02/10/2010||8.3||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
-||[#ScheduledTask ScheduledTask]||Returns the number of minutes since the last run of the specified task.||8.0.2.1||29/05/2011||9.1||http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png||
-||[#SSLCertExpiration SSLCertExpiration]||Returns the number of days left before your SSL certificate expires.||8.0.2.1||26/11/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#TraceRoute TraceRoute]||Gets the number of hops to a target and alerts if the route has changed.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#UserLoggedin UserLoggedin]||Returns the number of users loggedin on a computer.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#WinOSVersion WinOSVersion]||Gets the Windows OS version of the specified computer.||8.0.1.1||22/09/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-||[#XMLValue XMLValue]||Gets a xml file from a server and returns the value of a xml node.||8.0.3.1||26/11/2010||8.3||[http://ptf-prtgaddons.googlecode.com/files/Deprecated_50.png]||
-
 
 == General ==
 All Custom Sensors listed target the _.Net Framework 2.0_. (unless stated otherwise)
@@ -72,74 +47,6 @@ This tool can be used in combination with PTF sensors that require a users passw
 === Version history === 
 ====1.0.1.2 _21/09/2010_====
  * First public version
-
-----
-
-== ADSReplFailures == 
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor gets the number of replication errors from your domain controllers.
-
- back to [#Latest_versions: top]
-
-{{{
--d=domain name (FQDN) [-u=username] [-p=password|passhash] 
-
--d=domain name     The Full Qualified Domain Name.
--u=username        Optional the name of the user account that has access to the AD replication.
--p=password        Optional the password or passhash(*) of the user account that has access to the AD replication.
-}}}
-
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== CheckDHCP ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor checks your DHCP server and returns the response time.
-The sensor is a wrapper around the dhcpcheck program from KS-Soft.
-
-
- back to [#Latest_versions: top]
-
-{{{
--s=192.168.1.1
-}}}
-
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== CheckPRTGVersion ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor compares your local PRTG version number with the last version available for download.
-
- back to [#Latest_versions: top]
-
-{{{
-As of version 8.0.4 the sensor does not need any parameters anymore.
-}}}
-
-
-=== Version history ===
-====8.0.4.1 _12/04/2011_====
- * Fix: due to changes on PRTG's website the sensor could return an error "Too many automatic redirections were attempted"
- * Changed: the sensor does not need any parameters anymore. Proxy settings are taken from your Internet Explorer settings.
- * Changed: the sensor now requires the "Set placeholders as environment variables" option to be set.
-====8.0.3.1 _06/04/2011_====
- * Changed: added compatibility for Paesslers new website
-====8.0.2.1 _19/11/2010_====
- * New: added parameter -ssl3 to force a ssl3 connection to your PRTG server.
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
 
 ----
 
@@ -183,7 +90,7 @@ This sensor compares the UTC time of the specified computer with the local UTC t
 == !ContactState ==
 === Summary ===
 This sensor monitors the state of a dry contact connected to a serial port.
-More [PTF_CS_ContactState details]
+More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_ContactState details]
 {{{
 -s=SerialPort -p=PinNumber [-om=OpenMessage] [-cm=ClosedMessage]
 }}}
@@ -199,7 +106,7 @@ More [PTF_CS_ContactState details]
 == CSVExport ==
 === Summary ===
 This sensor exports the data of a sensor to a .csv or .xml file.
-More [PTF_CS_CSVExport details]
+More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport details]
 {{{
 -pu=demo -pp=demodemo -ps=https://prtg.paessler.com -s=2008
 }}}
@@ -214,29 +121,6 @@ More [PTF_CS_CSVExport details]
  * New: added parameter -av= Average interval in seconds; use 0 to download raw data (= results of all single monitoring requests)
 ====8.0.2.1 _04/04/2011_====
  * New: added parameter -ssl3 to force a ssl3 connection to your PRTG server.
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !EmailCount ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This Custom Sensor returns the total number of messages in a users inbox.
-
-Enter the credentials (username and password) and emailserver in the Parameters section of the Sensor Settings:
-{{{
--u=username -p=password|passhash -s=emailserver [-o=serverport -ssl]
-
-example:
--s=balu.krijco.loc -u=john -p=****
-or
--s=pop.gmail.com -u=john@gmail.com -p=***** -o=995 -ssl
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
 
@@ -291,24 +175,6 @@ This sensor requires no parameters.
 
 ----
 
-== FTPFileCount ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This Custom Sensor returns the number of files available on a FTP server.
-
-Enter the credentials (username and password) and the url in the Parameters section of the Sensor Settings:
-{{{
--u=username -p=password|passhash ftp://10.0.0.10/upload
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
 == HTTPContent ==
 === Summary ===
 This Custom Sensor Checks for HTTP content changes.
@@ -330,72 +196,6 @@ Enter the url and optional proxy settings in the Parameters section of the Senso
 === Version history ===
 ====8.0.1.1 _17/08/2011_====
  * First public version
-----
-
-
-
-== INIFileValue ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor returns the value from the field of a .ini file
-
-Enter the credentials (username and password), filename, section name and field name in the Parameters section of the Sensor Settings:
-{{{
--u=username -p=password|passhash -f=C:\Windows\win.ini -s=Mail -d=MAPI
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-
-----
-
-== IPonDNSBL ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor checks a IP-Address against a number of blacklist servers
-and returns the number of DNS Blacklists the IP-Address is on.
-
-You can optionally provide a comma seperated list of blacklist servers.
-if omitted, the following blacklist servers are used:
-sbl-xbl.spamhaus.org, bl.spamcop.net, dnsbl.njabl.org,
-list.dsbl.org and multihop.dsbl.org.
-
-The readme.txt includes a list of optional blacklist servers.
-
-{{{
--ip=ip-address [-bl=blacklist servers]
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !LastWinUpdate ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor gets the last time Windows Update has updated the specified computer.
-
-{{{
--c=192.168.1.1 [-s=Remote Registry service name] [-u=username] [-p=password|passhash] 
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.3.1 _11/10/2010_====
- * Changed: Replaced the "Object not set to instance" error with a more explaining message.
-====8.0.2.1 _08/10/2010_====
- * Changed: Added the optional -s= parameter for localization purposes. This parameter allows you to supply the name of the Remote Registry service on the local OS, for a German OS this would be -s=Remote-Registrierungsdienst.
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
 
 ----
 
@@ -421,7 +221,7 @@ Enter the credentials (username and password), filename and searchstring in the 
 This Custom Sensor returns a monitored value of a mediastream.
 
 The download consists in two .exe files. *!MediaStreamer.exe* is an application that constantly monitors your streams and *!MediaStream.exe* is the Custom Sensor that queries 
-the !MediaStreamer and reports the result to your PRTG Server. More [PTF_CS_MediaStreamer details]
+the !MediaStreamer and reports the result to your PRTG Server. More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer details]
 
 === Prerequisites ===
 *!MediaStreamer*
@@ -472,26 +272,6 @@ For the Custom Sensor enter the ip or dns name of the computer running PTF.!Medi
 
 ----
 
-== !MessageCount ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor gets the number of messages in a MSMQ.
-Use the -t parameter to only count messages that are more than xx minutes old.
-
-{{{
--u=[domain\]username -p=password|passhash -qn=queuename [-qt=queuetype] [-m=machinename] [-t=timedelta]
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.2.1 _06/02/2011_====
- * New: Added parameter -l to list all public and private queues on the specified machine for debug purposes.
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
 == !NetworkFileCount ==
 === Summary ===
 This Custom Sensor returns the number of files available on a server\share.
@@ -518,107 +298,6 @@ Enter the credentials (username and password), folder (and optional search filte
 
 ----
 
-== !PingDelayedUp ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This ping sensor stays down for the given number of seconds before returning an Ok state.
-
-Use this sensor as the master dependency instead off the normal PING sensor as the normal one usually responds before many services do.
-
-{{{
-ip-address|hostname -id-sensorID -d=delay [-w=timeout] [-l=size] [-i=TTL]
-
--id=sensorID       The sensorID or other unique identifier.
--d=delay           The delay in seconds before returning an "Ok" state
--w=timeout         Optional timeout in miliseconds to wait for a reply, default = 500
--l=size            Optional send buffer size, default = 32 bytes
--i=TTL             Optional Time To Live, default = 64   
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !PingJitter ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor sends a number of ping requests to the host
-and returns the Statistical Jitter value in milliseconds.
-
-{{{
-192.168.1.1 [-n=5] [-d]
--n=   number of ping requests to send, default = 5
--d    debugmode, write all results to the output window
-      note: do NOT use this switch when running the .exe as a sensor   
-}}}
-
-Note:
-The sensor needs to be setup as "Value Type" Float 
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !PingWarning ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor pings a device and goes into a warning state if no reply is received.
-
-Enter the ip-address|DNSname and optional parameters in the Parameters section of the Sensor Settings (_you can also use the %host placeholder to refer to the ip-address|DNSname of the parent device_):
-{{{
-192.168.1.1 [-w=500] [-i=64] [-l=32]
-or
-%host [-w=500] [-i=64] [-l=32]
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !PrintQueue ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-Returns the number of jobs in a printqueue
-
-*Note:* 
- * This sensor targets the .NET Framework 3.0
- * If your printqueue name contains spaces, add a leading and trailing " like -q="my print queue"
-
-{{{
--s=printserver -q=printqueue [-t=time] [-u=username] [-p=password|passhash]
-
--s=    The ip-address or hostname of the printserver.
--q=    The name of the printqueue.
--t=    Optional the minimum time the job has to be in the queue in seconds.
--r     Optional switch to set the sensor in a warning state when the queue or printer reports a problem.
-       (Door open, Manual feed required, Offline, Out of memory, Out of paper, Paper jammed, Toner low and more)
--u=    Optional Domain\Username.
--p=    Optional Password or PassHash.
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.2.1 _02/10/2010_====
- * Changed: changed the name from PrintJob to PrintQueue
- * New: optional switch -r sets the sensor in a warning state when the queue or printer reports a problem.
-====8.0.1.1 _24/09/2010_====
- * First public version.
-
-----
-
 == !ReadFile ==
 === Summary ===
 Reads a file into memory and returns the number of bytes/sec.
@@ -635,31 +314,6 @@ Reads a file into memory and returns the number of bytes/sec.
 
 === Version history ===
 ====8.0.1.1 _07/09/2011_====
- * First public version
-
-----
-
-== !ScheduledTask ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor returns the number of minutes since the last run of the specified task.
-
-{{{
--c=192.168.1.1 -t="defrag drive c:"
-
--c=   The ip-address or hostname of the computer running the task.
--t=   The name of the task.
--x=   Optional exitcode of the task to monitor.
--u=   Optional Domain\Username.
--p=   Optional Password or PassHash *
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.2.1 _29/05/2011_====
- * Bugfix for Vista systems and up.
-====8.0.1.1 _22/03/2011_====
  * First public version
 
 ----
@@ -708,125 +362,6 @@ This sensor returns a warning state if a sensor state has changed into one of th
 
 === Version history ===
 ====8.0.1.1 _06/03/2011_====
- * First public version
-
-----
-
-== SSLCertExpiration ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor returns the number of days left before your SSL certificate expires
-
-{{{
--u=https://prtg.paessler.com [-ssl3]
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.2.1 _26/11/2010_====
- * New: added optional switch -ssl3 to force a ssl3 connection.
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !TraceRoute ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor performs a trace route to the target and returns the number of hops.
-With the optional -w and -e switches the sensor can go into a warning or error state if the route has changed,
-since the last run of the sensor, regardless of the number of hops.
-
-The sensorID parameter has to be an unique value as it is used to store the last trace result.
-As of PRTG V7.3.2 the %sensorid placeholder is available, so -id=%sensorid will do the trick.
-
-{{{
--id=sensorID -t=target [-w] [-e]
-
--id=sensorID       The sensorID or other unique identifier.
--t=target          The IP address or hostname of the machine to trace the route to.
--w                 Optional switch to set the sensor in a warning state if the route has changed.
--e                 Optional switch to set the sensor in an error state if the route has changed.
-}}}
-
- back to [#Latest_versions: top]
-
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== !UserLoggedin ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor gets the number of users that are loggedin on a computer directly or via a RDP session.
-
-You can optionally provide a comma seperated list of users to check if a specific user is loggedin or *not* loggedin.
-
-
-{{{
--c=computer -u=username -p=password|passhash [-f=filter][-fx] [-fi]
-
--c=computer        The ip-address or hostname of the computer to monitor.
--u=username        The name of the user account that has access to the computer via WMI service.
--p=password        The password or passhash(*) of the user account that has access to the computer via WMI service.
--f=filter          Optional filter to not or only count the users specified (comma seperated list).
--fx                Optional switch, users in the filter are not counted (default).
--fi                Optional switch, only users in the filter are counted.
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== WinOSVersion ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-This sensor gets the Windows OS version of the specified computer.
-{{{
--u=domain\username -p=password|passhash -c=192.168.1.1
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.1.1 _22/09/2010_====
- * Compiled for PRTG 8.1
-
-----
-
-== XMLValue ==
-http://ptf-prtgaddons.googlecode.com/files/Deprecated.png
-=== Summary ===
-Gets a xml file from a server and returns the value or number of occurrences of a xml node. More [http://www.paessler.com/knowledgebase/en/topic/11603-can-i-consume-restful-xml-http-apis-with-prtg-i-e-use-their-results-as-sensor-values details]
-{{{
--u=url -n=nodename [-t=xx] [-c] [-c] [-cc] [-cs] [-rm=,] [-cm="My custom message"]
-
--u=   The url that returns the xml document.
--n=   The name of the xml node to check.
--t=   Optional the number of seconds to wait for a responce from the server (default = 15 sec).
--c    Optional switch to count the number of occurrences of the xml node.
--cc   Optional switch to count the number of childnodes of the xml node.
--cs   Optional switch to count the number of sibbelings of the xml node.
--rc=  Optional the characters to remove from the xml value (i.e. to remove a thousands seperator from the result use -rc=,)
--cm=  Optional a custom message to be displayed (i.e. -cm="There are %1 tickets in our ticketing system." where %1 will be replaced with the xml value).
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====8.0.3.1 _26/11/2010_====
- * New: added optional switch -ssl3 to force a ssl3 connection.
-====8.0.2.1 _08/11/2010_====
- * Bugfix: The custom message did not work when counting xml nodes using the -c, -cc or -cs switch
-====8.0.1.1 _08/11/2010_====
  * First public version
 
 ----

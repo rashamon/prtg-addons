@@ -17,4 +17,4 @@ http://ptf-prtgaddons.googlecode.com/files/Gadget.png
 
 Clicking the server name part of the gadget opens your default Network Monitor webpage. Clicking the Alarms/Warnings/Paused text can popup the !TrayNotifier sensor window.
 
-The NotifierGadgetXP can be downloaded from [PTF_Tools_VersionHistory this] page.
+The NotifierGadgetXP can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

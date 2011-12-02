@@ -25,4 +25,4 @@ You can now use PTF.Tweet as a Custom Notification with the following parameters
 
 One of the rules for a registered application is that the username password combination must not be stored in any way. PTF.Tweet stores the username and access tokens received from your account during registration in the PTF.Tweet.ini file in the folder from where you launch PTF.Tweet. These access tokens can only be used in combination with PTF.Tweet and your account. If you change your Twitter password, you will have to register PTF.Tweet again with the -r parameter. It is possible to register more than one account.
 
-The Custom Notification can be downloaded from [PTF_Custom_Notifications this] page.
+The Custom Notification can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Notifications this] page.

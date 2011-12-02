@@ -15,4 +15,4 @@ The !TrayNotifier is installed in the system tray, presenting the PRTG icon. Whe
 http://ptf-prtgaddons.googlecode.com/files/Notifier.png
 
 
-For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].
+For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory download].

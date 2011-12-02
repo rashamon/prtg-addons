@@ -16,4 +16,4 @@ Select the .csv files to use, or select some sensors from your PRTG server. Next
 
 http://ptf-prtgaddons.googlecode.com/files/CSVImportThumbs.png
 
-PTF CSVImport can be downloaded from [PTF_Tools_VersionHistory this] page.
+PTF CSVImport can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

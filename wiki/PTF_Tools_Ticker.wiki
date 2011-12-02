@@ -21,4 +21,4 @@ There are also setting that effect the behavior and appearance of the ticker lik
 The ticker supports up to 5 monitors on your system. If the primary monitor is selected, the ticker behaves as an application bar reserving desktop space that cannot be used by full screen application or desktop icons. 
 In this case running full screen applications are automatically resized and desktop icons are moved. When closing the ticker this is of cause restored to the previous state.
 
-For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].
+For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki\PTF_Tools_VersionHistory download].

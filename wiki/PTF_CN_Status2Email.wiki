@@ -32,4 +32,4 @@ Example email:
 
 http://ptf-prtgaddons.googlecode.com/files/status2email.png
 
-The Custom Notification can be downloaded from [PTF_Custom_Notifications this] page.
+The Custom Notification can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Notifications this] page.

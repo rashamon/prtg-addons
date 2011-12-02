@@ -22,4 +22,4 @@ Can now also be entered as
 
 http://ptf-prtgaddons.googlecode.com/files/PassHashTool.png
 
-For more details, see the pdf that is included in the [PTF_Custom_Sensors download].
+For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors download].

@@ -24,4 +24,4 @@ http://ptf-prtgaddons.googlecode.com/files/Distribute_Sensors.png
  * Connect to your Probes by it's UNC path or by using the Distribute Sensors web service that is included in the download.
  
 
-For more details, see the pdf that is included in the [PTF_Tools_VersionHistory download].
+For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory download].

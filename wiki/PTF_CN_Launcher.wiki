@@ -78,4 +78,4 @@ http://ptf-prtgaddons.googlecode.com/files/DB9Pinout2.jpg
 
 http://ptf-prtgaddons.googlecode.com/files/Opto.jpg
 
-Please see the documentation that is included in the [PTF_Custom_Notifications download] for more details.
+Please see the documentation that is included in the [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Notifications download] for more details.

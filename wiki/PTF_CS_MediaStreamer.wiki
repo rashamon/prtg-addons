@@ -33,4 +33,4 @@ mediastream -c=localhost -pl=1 -ix=3
 
 The sensor will return: "bitRate 128000"
 
-The Custom Sensor can be downloaded from [PTF_Custom_Sensors this] page.
+The Custom Sensor can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors this] page.

@@ -17,7 +17,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
-||[#Translate_version_history Translation Tool]||1.0.5.1||06/06/2010||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
+||[#Translate_version_history Translation Tool]||1.0.6.2||04/12/2011||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||9.0.1.3||10/10/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
@@ -169,6 +169,11 @@ PTF Translate is a tool used to create new language files for PRTG Network Monit
 
  back to [#Latest_versions: top]
 
+====1.0.6.2 _04/12/2011_====
+ * Changed: Moved translator engine from Google Translate to Microsoft Bing Translator as Google no longer supports free (non payed for) translations with its API. (you need to register for a free Microsoft Translator account to get the translator engine working).
+ * New: Option to email language files.
+ * New: Option to check for variables being correctly implemented in the translated strings.
+ * New: Option while merging, to automatically translate new strings that have been translated before.
 ====1.0.5.1 _06/06/2010_====
  * Changed: Compiled the executable with Visual Studio 2010.
  * Changed: Modified the search for updates.

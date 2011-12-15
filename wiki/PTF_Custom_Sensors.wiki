@@ -16,6 +16,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.4.1||03/05/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
+||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||9.0.1.1||14/12/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
@@ -156,6 +157,31 @@ How does this sensor differ from [http://www.paessler.com/blog/2010/04/15/prtg-7
 
 === Version history ===
 ====8.0.2.1 _19/04/2011_====
+ * First public version
+
+----
+
+== !EventlogReader ==
+
+=== Summary ===
+This Custom Sensor gets the value of the most recent event log entry for the given source.
+
+Enter the machinename, eventlog and source in the Parameters section of the Sensor Settings:
+
+{{{
+-c=   The ip-address or hostname of the computer hosting the eventlog.
+-e=   The name of the eventlog.
+-s=   The name of the eventlog source.
+-u=   Optional, Domain\Username of a user account that can access the (remote) eventlog.
+-p=   Optional, Password or PassHash * of a user account that can access the (remote) eventlog.
+-m=   Optional, the maximum time in minutes a result is allowed to be old.
+      default = 1 day (1440 minutes)
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====9.0.1.1 _14/12/2011_====
  * First public version
 
 ----

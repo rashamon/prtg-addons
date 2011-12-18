@@ -30,7 +30,7 @@ So, when "The description for Event ID ... cannot be found" it is likely that ei
 
 For example when the event source is Microsoft Windows Backup on a server 2008 and your Probe runs on Windows XP there will be no reference to the event message file (dll) on the XP machine.
 
-Place the EventlogReader.msg file in the "Custom Sensor\EXE" folder of your PRTG installation, together with the EventlogReader.exe sensor. You can now add your own "unknown" messages to the .msg file and even translate existing messages if you like.
+Place the !EventlogReader.msg file in the "Custom Sensor\EXE" folder of your PRTG installation, together with the !EventlogReader.exe sensor. You can now add your own "unknown" messages to the .msg file and even translate existing messages if you like.
 
 
 The sensor can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors this] page.

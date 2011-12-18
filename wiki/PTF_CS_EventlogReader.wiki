@@ -1,0 +1,36 @@
+#summary PTF eventlogReader Sensor: Gets the value of the most recent event log entry for the given source.
+#sidebar PTF_Sidebar
+= Why do I need the !EventlogReader.msg file =
+
+The download of the !EventlogReader sensor includes a .msg file. Why do I need this file?
+
+Using the !EvenlogReader sensor, you might get a message "The description for Event ID xx cannot be found"
+
+== A few words about event log entries ==
+
+A key feature of event logging in Windows is the fact that an application, at least when using the event log framework in the way it was intended to be used, will never actually directly write the actual message to the event log - instead it will log only the event source and event id, along with some properties such as category and insertion strings.
+
+For example, if an event log message reads:
+{{{
+The service Print Spooler (Spooler) changed its status from RUNNING to STOPPED.
+}}}
+what is actually written in the event log is:
+{{{
+"EventSource", 101000, "RUNNING", "STOPPED"
+}}}
+====== (Note: the example above is for illustration purposes only) ======
+
+The actual string from the event message is nowhere to be found, because the string is embedded in what is called the "Event Message File". The event message file contains a list of all events that an application could potentially log to the event log containing placeholders like %1 and %2 that are substituted by the insertion strings.
+
+Event message files are usually DLL files, registered to OS when the application was installed, or included in the OS.
+
+So, when "The description for Event ID ... cannot be found" it is likely that either:
+    * The registered message file does not exist or cannot be accessed on the Probe system.
+    * The specified event id is not included in the message file. 
+
+For example when the event source is Microsoft Windows Backup on a server 2008 and your Probe runs on Windows XP there will be no reference to the event message file (dll) on the XP machine.
+
+Place the EventlogReader.msg file in the "Custom Sensor\EXE" folder of your PRTG installation, together with the EventlogReader.exe sensor. You can now add your own "unknown" messages to the .msg file and even translate existing messages if you like.
+
+
+The sensor can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors this] page.

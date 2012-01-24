@@ -13,7 +13,6 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 ||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||1.0.3.1||17/04/2011||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
-||[#NotifierDistribution_version_history NotifierDistribution]||8.0.1.1||26/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierDistribution.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
@@ -119,16 +118,6 @@ With this tool you can list MSMQ's, !PrintQueues and Scheduled Tasks on a given 
  * Changed: small changes in the user interface.
 ====1.0.1.1 _16/02/2011_====
  * First public version
-
-----
-
-==!NotifierDistribution version history==
-=== Summary ===
-With this tool you can modify your PRTG Server download page to let your users download the !TrayNotifier, !NotifierGadget and NotifierGadgetXP from the download page of your own PRTG Server. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierDistribution details]
-
- back to [#Latest_versions: top]
-====8.0.1.1 _26/08/2010_====
- * Changed the look of the modified download page to match PRTG V8
 
 ----
 

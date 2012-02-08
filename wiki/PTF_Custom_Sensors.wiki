@@ -25,6 +25,8 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ReadFile ReadFile]||Reads a file into memory and returns the number of bytes/sec.||8.0.1.1||07/09/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.ReadFile.zip here]||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
 ||[#SensorStatus SensorStatus]||Returns a warning state if a sensor state has changed into one of the given statuses.||8.0.1.1||06/03/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorStatus.zip here]||
+||[#USBDevices USBDevices]||Returns the number of connected USB storage devices.||8.0.1.1||06/03/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.USBDevices.zip here]||
+
 
 `*` This is the minimum PRTG version that is required for this sensor
 
@@ -396,6 +398,28 @@ This sensor returns a warning state if a sensor state has changed into one of th
 
 === Version history ===
 ====8.0.1.1 _06/03/2011_====
+ * First public version
+
+----
+
+
+== !USBDevices ==
+=== Summary ===
+This sensor returns the number of connected USB storage devices.
+Using limits you can get notified when a users plugges in a USB storage device.
+
+{{{
+-c=computer [-u=username] [-p=password|passhash]
+
+-c=        The ip-address or hostname of the computer to get the number of connected USB storage devices from.
+-u=        Optional the name of the user account that has access to the computer via WMI service.
+-p=        Optional the password or passhash(*) of the user account that has access to the computer via WMI service.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====9.0.1.1 _08/02/2012_====
  * First public version
 
 ----

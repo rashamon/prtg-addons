@@ -403,7 +403,7 @@ This sensor returns a warning state if a sensor state has changed into one of th
 ----
 
 
-== !USBDevices ==
+== USBDevices ==
 === Summary ===
 This sensor returns the number of connected USB storage devices.
 Using limits you can get notified when a users plugges in a USB storage device.

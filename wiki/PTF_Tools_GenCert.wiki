@@ -1,4 +1,4 @@
-#summary PTF Tools: PTF GenCert helps you to generate in install a certificate for the Azure sensor.
+#summary PTF Tools: PTF GenCert helps you to generate and install a valid certificate for the Azure sensor.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/GenCertLogo.png

@@ -11,6 +11,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#ChromeAppGen_version_history ChromeAppGen]||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
 ||[#CSVImport_version_history CSVImport]||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
+||[#GenCert_version_history GenCert]||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
 ||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||1.0.3.1||17/04/2011||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
@@ -79,6 +80,16 @@ PTF Distribute Sensors is a tool used to distribute (updates of) custom sensors 
  * Changed: Although data is send encrypted between GUI and web service, the encryption was always the same. In theory, encrypted credentials could be reused. With this version, the encryption changes in each session, preventing encrypted credentials to be reused.
 
 ====1.0.1.1 _07/12/2009_====
+ * First public version.
+
+----
+
+==!GenCert version history==
+=== Summary ===
+PTF !GenCert helps you to generate and install a valid certificate for the Azure sensor. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_GenCert details]
+
+ back to [#Latest_versions: top]
+====9.0.1.1 _21/01/2012_====
  * First public version.
 
 ----

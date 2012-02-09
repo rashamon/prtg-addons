@@ -11,6 +11,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
+||[#Azure Azure]||Gets the XML result from a Service Management Resource of an Azure account.||9.0.5||08/02/2012||8.2||[http://prtg-addons.googlecode.com/files/Azure.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
@@ -53,18 +54,57 @@ This tool can be used in combination with PTF sensors that require a users passw
 
 ----
 
+== Azure ==
+=== Summary ===
+This sensor Gets the XML result from a Service Management Resource of an Azure account.
+
+{{{
+-u=https://management.core.windows.net/<subscriptionId> -cn=certificatename -n=nodename [-t=xx] [-un=username] [-pw=password] [-ssl3] [-c] [-cc] [-cs] [-rm=,] [-cm="My custom message"]
+
+-u=    The url that returns the xml document.
+-cn=   The name of the certificate to use.
+-n=    The name of the xml node to check.
+-t=    Optional the number of seconds to wait for a responce from the server (default = 15 sec).
+-un=   Optional username to authenticate the http connection.
+-pw=   Optional password to authenticate the http connection.
+-ssl3  Optional switch to force a ssl3 connection.
+-c     Optional switch to count the number of occurrences of the xml node.
+-cc    Optional switch to count the number of childnodes of the xml node.
+-cs    Optional switch to count the number of sibbelings of the xml node.
+-rc=   Optional the characters to remove from the xml value (i.e. to remove a thousands seperator from the result use -rc=,)
+-cm=   Optional a custom message to be displayed (i.e. -cm="There are %1 tickets in our ticketing system." where %1 will be replaced with the xml value).
+-ps=   Optional proxyserver to use connecting to the internet.
+-pu=   Optional doamin\user to connect to your proxyserver.
+-pp=   Optional password or passhash * to connect to your proxyserver.
+}}}
+
+Click [http://msdn.microsoft.com/en-us/library/windowsazure/ee460786.aspx here] for an explanation of the URL's that can be used addressing the Azure Service Management Resources:
+
+*Note:* The certificate is the only means of authentication, if the wrong (type off) certificate is used or it is not correctly installed in the right store (there are some checks performed by the sensor of cause) the Azure server returns a “403 unauthorized”. The GenCert tool can help you generating and installing a certificate.
+
+
+ back to [#Latest_versions: top]
+
+
+=== Version history ===
+====9.0.5.1 _08/02/2012_====
+ * First public version
+
+----
+
 == CheckPTFVersion ==
 === Summary ===
 This sensor compares your local PTF custom sensors with the last available versions.
 
 This sensor requires no parameters!
 
+
  back to [#Latest_versions: top]
 
 
 === Version history ===
 ====8.0.3.1 _12/02/2011_====
- * New: added support for EXEXML sensors.
+ * New: added support for EXE/XML sensors.
 ====8.0.2.1 _17/10/2010_====
  * Bugfix: The sensor did not report an update of the !MediaStream sensor as that one is published as !MediaStreamer.
 ====8.0.1.1 _04/10/2010_====

@@ -1,0 +1,19 @@
+#summary PTF Tools: PTF GenCert helps you to generate in install a certificate for the Azure sensor.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/GenCertLogo.png
+
+= Introduction =
+
+The Azure sensor requires a certificate. This certificate is used for authentication and needs to be installed in the Local Machine certificate store of your PRTG server/probe and also needs to be uploaded to your Azure account.
+
+= Details =
+
+Normally certificates are installed in the user’s personal store so every user has his own set of certificates. As the PRTG server service runs on the local system account, it cannot access certificates that are installed on the account of another user. Certificates installed in the Local Machine store are available for all users, including the local system account.
+
+
+http://ptf-prtgaddons.googlecode.com/files/GenCert.png
+
+For more information see the .pdf that is included in the donwload.
+
+The !GenCert tool can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

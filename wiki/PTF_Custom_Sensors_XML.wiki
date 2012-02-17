@@ -10,6 +10,7 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *PRTG* `*` || *Download* ||
 ||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.3.1||21/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
+||[#MediaStreamer MediaSteamer]||Monitor media streams.||8.0.1.1||17/02/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.3.1||28/12/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.2.1||02/10/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
@@ -53,6 +54,43 @@ This sensor monitors various IIS statistics.
  * New: added parameters -u= and -p= to provide credentials for accessing the computer running IIS
 ====8.0.1.1 _19/05/2011_====
  * First public version
+
+----
+
+
+== !MediaStreamer ==
+=== Summary ===
+This Custom Sensor returns a monitored value of a mediastream.
+
+The download consists in two .exe files. *!MediaStreamer.exe* is an application that constantly monitors your streams and *!MediaStream.exe* is the Custom Sensor that queries 
+the !MediaStreamer and reports the result to your PRTG Server. More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer details]
+
+=== Prerequisites ===
+*!MediaStreamer*
+ * .NET Framework 3.5
+ * Microsoft Media Player
+ * Adobe Flash Player
+ * VLC Player
+
+*!MediaStream*
+ * .NET Framework 2.0
+
+For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the name of the player and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
+{{{
+-c=computer -n=playername -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
+
+-c=    IP-Address or DNS name of the computer running PTF.MediaStreamer.
+-n=    The name of the player to query.
+-u=    Optional, Domain\Username of a user that can access the c drive of the computer running PTF.MediaStreamer.
+-p=    Optional, Password or passhash of a user that can access the c drive of the computer running PTF.MediaStreamer.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _17/02/2012_====
+ * Changed: Completely rewritten user interface.
+ * Changed: XML version of the sensor
 
 ----
 

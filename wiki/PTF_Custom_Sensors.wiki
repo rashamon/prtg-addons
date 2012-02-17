@@ -20,7 +20,6 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||9.0.1.1||14/12/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
-||[#MediaStreamer MediaSteamer]||Monitor media streams.||1.0.5.1||23/11/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PSx64 PSx64]||Executes a Powershell script in 64 bit mode.||9.0.1.1||10/02/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.PSx64.zip here]||
@@ -293,61 +292,6 @@ Enter the credentials (username and password), filename and searchstring in the 
 
 ----
 
-== !MediaStreamer ==
-=== Summary ===
-This Custom Sensor returns a monitored value of a mediastream.
-
-The download consists in two .exe files. *!MediaStreamer.exe* is an application that constantly monitors your streams and *!MediaStream.exe* is the Custom Sensor that queries 
-the !MediaStreamer and reports the result to your PRTG Server. More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer details]
-
-=== Prerequisites ===
-*!MediaStreamer*
- * .NET Framework 3.5
- * Microsoft Media Player
- * Adobe Flash Player
-
-*!MediaStream*
- * .NET Framework 2.0
-
-For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the number of the player, the index number of the property to return the value for and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
-{{{
--c=computer -pl=playernumber/playername -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
-
--c=    IP-Address or DNS name of the computer running PTF.MediaStreamer.
--pl=   The number of the player to query.
--ix=   The index of the players property to return the value for.
--tw=   Optional, the number of seconds to wait for a responce from the MediaStreamer (default = 30)
--u=    Optional, Domain\Username of a user that can access the c drive of the computer running PTF.MediaStreamer.
--p=    Optional, Password or passhash of a user that can access the c drive of the computer running PTF.MediaStreamer.
-}}}
-
- back to [#Latest_versions: top]
-
-=== Version history ===
-====1.0.5.1 _23/11/2010_====
- * Changed: Renewed user interface.
- * Changed: Players are more responsive.
- * Changed: Improved user interface responsiveness when players are playing.
- * Changed: The -pl= parameter can now also hold the player name instead off the player number
- * New: Option to import and export players to/from a csv file. This can be used for safe keeping (backup) or cloning to other probes.
- * New: Option to automatically restart the application once a day. 
- * ====Thanks to Laurie Collins for testing and her constructive feedback.====
-====1.0.4.1 _05/11/2010_====
- * Changed: The streams are not playing continuously anymore but only by request of the sensor, reducing the CPU load.
-====1.0.3.1 _17/10/2010_====
- * Bugfix: After starting the !MediaStreamer the application could produce an error that the application has stopped responding.
- * Bugfix: Improved error handling.
- * New: Sreams are automatically restarted if the frame rate property does not respond anymore (This is checked with a build in 15 sec watchdog).
- * New: If a player cannot respond to a request it returns an error “Check player”. 
- * New:	Included the “CPU load %” in the lower right-hand corner of the main form.
- * New: Every sensor request is now handled in a separate thread on the !MediaStreamer.
- * New:	Status “ready” now resets the player.
-====1.0.2.1 _21/09/2010_====
- * New: Added an option to not show the Flash video image, reducing cpu load.
-====1.0.1.1 _17/09/2010_====
- * First public version
-
-----
 
 == !NetworkFileCount ==
 === Summary ===

@@ -15,8 +15,6 @@ Please use this sidebar to navigate to the various applications and sensors.
 ==Prerequisites==
 All applications and sensors target the .NET Framework 2.0 or 3.5 and some require IIS to be installed. Please see the documentation included in the download or the explanation on the  applications webpage for more details.
 
-==More Information==
-Please see the [http://code.google.com/p/prtg-addons/wiki/NotifierDocumentation Documentation] for details and screenshots.
 
 ==Latest versions==
 An overview of the latest versions of all *PTF Tools* can be found [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory here].

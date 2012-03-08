@@ -26,6 +26,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ReadFile ReadFile]||Reads a file into memory and returns the number of bytes/sec.||8.0.1.1||07/09/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.ReadFile.zip here]||
 ||[#SensorCount SensorCount]||Counts your PRTG sensors with a specified state.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.SensorCount.zip here]||
 ||[#SensorStatus SensorStatus]||Returns a warning state if a sensor state has changed into one of the given statuses.||8.0.1.1||06/03/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorStatus.zip here]||
+||[#ServiceStatus ServiceStatus]||Retrieves the status of a Windows service.||9.0.1.1||07/03/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.ServiceStatus.zip here]||
 ||[#USBDevices USBDevices]||Returns the number of connected USB storage devices.||9.0.1.1||08/02/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.USBDevices.zip here]||
 
 
@@ -405,6 +406,29 @@ This sensor returns a warning state if a sensor state has changed into one of th
 
 ----
 
+== !ServiceStatus ==
+=== Summary ===
+Retrieves the status of a Windows service, where 1=Stopped, 2=StartPending, 3=StopPending, 4=Running, 5=ContinuePending, 6=PausedPending, 7=Paused
+
+{{{
+-s=servicename [-m=machinename] [-u=username] [-p=password|passhash] [-w=warningstatusses] [-e=errorstatusses]
+
+-s=   Name of the service to check.
+-m=   Optional, name or ip of the machine where the service is installed. Default = localhost.
+-u=   Optional Domain\Username of a user account that can access the service status.
+-p=   Optional Password or passhash * of a user account that can access the service status.
+-w=   Optional, comma seperated list of service statusses that should return a warning.
+-e=   Optional, comma seperated list of service statusses that should return an error.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====9.0.1.1 _07/03/2012_====
+ * First public version
+
+
+----
 
 == USBDevices ==
 === Summary ===

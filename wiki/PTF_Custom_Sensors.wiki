@@ -408,7 +408,11 @@ This sensor returns a warning state if a sensor state has changed into one of th
 
 == !ServiceStatus ==
 === Summary ===
-Retrieves the status of a Windows service, where 1=Stopped, 2=StartPending, 3=StopPending, 4=Running, 5=ContinuePending, 6=PausedPending, 7=Paused
+Retrieves the status of a Windows service, where
+
+{{{
+1=Stopped, 2=StartPending, 3=StopPending, 4=Running, 5=ContinuePending, 6=PausedPending, 7=Paused
+}}}
 
 {{{
 -s=servicename [-m=machinename] [-u=username] [-p=password|passhash] [-w=warningstatusses] [-e=errorstatusses]

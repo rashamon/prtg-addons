@@ -421,8 +421,8 @@ Retrieves the status of a Windows service and returns a value, where
 -m=   Optional, name or ip of the machine where the service is installed. Default = localhost.
 -u=   Optional Domain\Username of a user account that can access the service status.
 -p=   Optional Password or passhash * of a user account that can access the service status.
--w=   Optional, comma seperated list of service statusses that should return a warning.
--e=   Optional, comma seperated list of service statusses that should return an error.
+-w=   Optional, comma seperated list of service statusses that will set your sensor in a warning state.
+-e=   Optional, comma seperated list of service statusses that will set your sensor in an error state.
 }}}
 
  back to [#Latest_versions: top]

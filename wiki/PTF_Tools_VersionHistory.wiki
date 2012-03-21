@@ -13,7 +13,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 ||[#GenCert_version_history GenCert]||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
 ||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
-||[#ListQueues_version_history ListQueues]||1.0.3.1||17/04/2011||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
+||[#ListQueues_version_history ListQueues]||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
@@ -120,6 +120,8 @@ TW20 8RZ;Main office
 With this tool you can list MSMQ's, !PrintQueues and Scheduled Tasks on a given Windows computer. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_ListQueues details]
 
  back to [#Latest_versions: top]
+====1.0.4.1 _20/03/2011_====
+ * New: added option to list Eventlog entries
 ====1.0.3.1 _17/04/2011_====
  * New: added support for !TaskScheduler V2 (Vista and above)
  * Bugfix: "Show password as plain text" option did not work.

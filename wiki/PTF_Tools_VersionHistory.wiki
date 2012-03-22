@@ -117,7 +117,7 @@ TW20 8RZ;Main office
 
 ==!ListQueues version history==
 === Summary ===
-With this tool you can list MSMQ's, !PrintQueues and Scheduled Tasks on a given Windows computer. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_ListQueues details]
+With this tool you can list MSMQ's, !PrintQueues, Scheduled Tasks and EventLogs on a given Windows computer. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_ListQueues details]
 
  back to [#Latest_versions: top]
 ====1.0.4.1 _20/03/2011_====

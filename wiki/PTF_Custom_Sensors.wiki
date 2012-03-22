@@ -17,7 +17,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.4.1||03/05/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
-||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||9.0.1.1||14/12/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
+||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||9.0.3.4||21/03/2012||7.1||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
@@ -219,6 +219,9 @@ Enter the machinename, eventlog and source in the Parameters section of the Sens
 -p=   Optional, Password or PassHash * of a user account that can access the (remote) eventlog.
 -m=   Optional, the maximum time in minutes a result is allowed to be old.
       default = 1 day (1440 minutes)
+-t=   Optional, The EntryTypes to report on.
+      Error=1, Warning=2, Information=4, SuccessAudit=8, FailureAdit=16 (default = 31)
+      To report on Error AND Warning use -t=3
 }}}
 
 The download also includes the !EventlogReader.msg file.
@@ -227,6 +230,10 @@ See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader Why d
  back to [#Latest_versions: top]
 
 === Version history ===
+
+====9.0.3.4 _21/03/2012_====
+ * New: Added parameter -t= to only report on given EntryTypes.
+
 ====9.0.2.1 _17/12/2011_====
  * Bugfix: Targeting the localhost resulted into an error.
  * Changed: Both the long (Microsoft-Windows-Backup) and short (Backup) source names can now be used.

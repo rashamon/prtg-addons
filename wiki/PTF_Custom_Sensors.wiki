@@ -327,6 +327,27 @@ Enter the credentials (username and password), folder (and optional search filte
 
 ----
 
+== PingWarning ==
+=== Summary ===
+Pings a device and goes into a warning state if no reply is received.
+
+{{{
+ip-address|hostname [-w=timeout] [-l=size] [-i=TTL]
+
+ 
+-w=   timeout in miliseconds to wait for a reply, default = 500
+-l=   send buffer size, default = 32
+-i=   Time To Live, default = 64   
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====8.0.1.1 _22/09/2010_====
+ * First public version
+----
+
+
 == PSx64 ==
 === Summary ===
 Executes a Powershell script in 64 bit mode

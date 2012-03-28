@@ -327,7 +327,7 @@ Enter the credentials (username and password), folder (and optional search filte
 
 ----
 
-== PingWarning ==
+== !PingWarning ==
 === Summary ===
 Pings a device and goes into a warning state if no reply is received.
 

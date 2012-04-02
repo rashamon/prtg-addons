@@ -12,7 +12,7 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 ||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.3.1||21/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||8.0.8.1||14/03/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
-||[#SensorAverageXML SensorAverageXML]||Returns the xx hour average of every channel for a given sensor.||8.0.3.1||28/12/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
+||[#SensorAverageXML SensorAverageXML]||Returns the xx minute average of every channel for a given sensor.||8.0.4.1||01/04/2012||8.2||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||8.0.2.1||02/10/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
 ||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
 ||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.2.1||18/07/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
@@ -134,24 +134,25 @@ This sensor monitors resources used by a process.
 
 == SensorAverageXML ==
 === Summary ===
-This sensor returns the xx hour average of every channel for a given sensor.
+This sensor returns the xx minute average of every channel for a given sensor.
 
 {{{
--u=username -p=password|passhash -s=sensorID [-h=hours]
+-pu=username -pp=password|passhash -ps=server -s=sensorID [-h=hours]
  
--u=   The username of an account on your PRTG server.
--p=   The password of an account on your PRTG server.
--s=   The SensorID of the sensor to return the average values for.
--m=   Optional, number of minutes to calculate the average on (default = 60).
-
-(-h=   Optional, number of hours to calculate the average on (default = 1).)
-The -h parameter is depricated, please use the -m parameter.
+-pu=   The username of an account on your PRTG server.
+-pp=   The password of an account on your PRTG server.
+-ps=   The URL to your PRTG server
+-s=    The SensorID of the sensor to return the average values for.
+-m=    Optional, number of minutes to calculate the average on (default = 60).
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
-====8.0.3.1 _28/12/2011_====
+====8.0.4.1 _01/04/2012_====
+ * Changed: Environment variables no longer need to be set.
+ * Changed: Various parameters have been changed/renamed.
+ ====8.0.3.1 _28/12/2011_====
  * Changed: Added the -m parameter. The -h parameter is depricated.
 ====8.0.2.1 _18/07/2011_====
  * Recompiled with new error handling routines

@@ -144,6 +144,7 @@ This sensor returns the xx minute average of every channel for a given sensor.
 -ps=   The URL to your PRTG server
 -s=    The SensorID of the sensor to return the average values for.
 -m=    Optional, number of minutes to calculate the average on (default = 60).
+-ssl3  Optional switch to force a ssl3 connection.
 }}}
 
  back to [#Latest_versions: top]
@@ -152,6 +153,7 @@ This sensor returns the xx minute average of every channel for a given sensor.
 ====8.0.4.1 _01/04/2012_====
  * Changed: Environment variables no longer need to be set.
  * Changed: Various parameters have been changed/renamed.
+ * New: added switch -ssl3 to force a ssl3 connection to your PRTG server.
  ====8.0.3.1 _28/12/2011_====
  * Changed: Added the -m parameter. The -h parameter is depricated.
 ====8.0.2.1 _18/07/2011_====

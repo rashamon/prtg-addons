@@ -12,7 +12,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#CSVImport_version_history CSVImport]||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 ||[#GenCert_version_history GenCert]||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
-||[#GoogleMap_version_history GoogleMap]||8.0.3.1||11/05/2011||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
+||[#GoogleMap_version_history GoogleMap]||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
@@ -100,6 +100,8 @@ PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [ht
 
  back to [#Latest_versions: top]
 
+====9.0.4.1 _07/04/2012_====
+ * Changed: New html pages for PRTG 9.2
 ====8.0.3.1 _11/05/2011_====
  * Bugfix: the legend did not automatically refresh.
 ====8.0.2.1 _22/04/2011_====

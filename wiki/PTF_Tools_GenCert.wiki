@@ -14,6 +14,6 @@ Normally certificates are installed in the user’s personal store so every user
 
 http://ptf-prtgaddons.googlecode.com/files/GenCert.png
 
-For more information see the .pdf that is included in the donwload.
+For more information see the .pdf that is included in the download.
 
 The !GenCert tool can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

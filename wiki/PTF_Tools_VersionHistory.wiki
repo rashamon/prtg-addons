@@ -87,8 +87,8 @@ PTF Distribute Sensors is a tool used to distribute (updates of) custom sensors 
 
 ==GAMetrics version history==
 === Summary ===
-PTF GAMetrics lets you select your Google analytics ID's and metrics
-
+PTF GAMetrics lets you select your Google analytics ID's and metrics. [http://kb.paessler.com/knowledgebase/en/topic/35363-where-do-i-find-my-google-analytics-profile-id#reply-108603 details]
+ 
  back to [#Latest_versions: top]
 ====1.0.1.1 _03/05/2012_====
  * First public version.

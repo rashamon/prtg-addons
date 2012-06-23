@@ -17,6 +17,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#ListQueues_version_history ListQueues]||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#PRObject_version_history PRObject]||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
 ||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||9.0.2.1||13/12/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
@@ -166,10 +167,23 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
  * Compiled the NotifierGadgetXP for PRTG V8
 
 ----
+
+==PRObject version history==
+=== Summary ===
+Command line tool that can pause, resume or checknow any sensor, device, group, probe, notification,... of your PRTG installation
+[http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Ticker details]
+
+ back to [#Latest_versions: top]
+
+====12.2.1.1 _23/06/2012_====
+ * First public version
+
+----
+
 ==Ticker version history==
 === Summary ===
 The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
-[http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Ticker details]
+[http://kb.paessler.com/knowledgebase/en/topic/37743-start-or-pause-sensor-from-command-line details]
 
  back to [#Latest_versions: top]
 

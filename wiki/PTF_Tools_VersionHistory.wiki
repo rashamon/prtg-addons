@@ -18,7 +18,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#PRObject_version_history PRObject]||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
-||[#Ticker_version_history Ticker]||1.0.3.1||08/11/2011||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
+||[#Ticker_version_history Ticker]||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||9.0.2.1||13/12/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
@@ -187,6 +187,8 @@ The Ticker runs on a Windows Workstation and shows a scrolling text with alarms 
 
  back to [#Latest_versions: top]
 
+====12.3.1.1 _09/07/2012_====
+ * Bugfix: The application did not work with PRTG version 12
 ====1.0.3.1 _08/11/2011_====
  * First public version
 

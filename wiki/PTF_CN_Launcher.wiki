@@ -33,7 +33,7 @@ PTF Launcher is “session aware”, if two or more RDP sessions on the same ser
 
 In the parameter section of the Custom Notification you have to provide details about the application that has to be started.
 
-Basic parameters:
+*Basic parameters:*
 
 {{{
 -s=	Application to start
@@ -41,7 +41,7 @@ Basic parameters:
 -k=	Application to kill
 }}}
 
-Advanced Parameters
+*Advanced Parameters*
 
 {{{
 -c=	If Launcher.exe runs on a computer different from your PRTG Server, the IP-Address or DNS name of the computer where Launcher.exe runs.
@@ -52,18 +52,18 @@ Advanced Parameters
 
 A passhash can be generated with the [PTF_CS_PassHashTool PassHash Tool].
 
-For example:
+== A few examples ==
+To open a new command window with ipconfig:
 {{{
 -s=cmd -a=/K ipconfig /ALL
 }}}
-Will open a new command window with ipconfig
 
+To kill the existing command window and ping the sensors parent device in a new command window:
 {{{
 -k=cmd -s=cmd -a=/K ping %host
 }}}
-Will kill the existing command window and ping the sensors host in a new command window
 
-Activating a comport on the target machine:
+To activate a comport on the target machine:
 {{{
 -io=4,7,1 will activate the relay connected to pin 7 on comport 4.
 -io=4,7,0 will deactivate the relay connected to pin 7 on comport 4.

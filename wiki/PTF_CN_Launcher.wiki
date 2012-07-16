@@ -61,7 +61,7 @@ Will open a new command window with ipconfig
 {{{
 -k=cmd -s=cmd -a=/K ping %host
 }}}
-Will kill the existing command window and ping the sensors host in an a new command window
+Will kill the existing command window and ping the sensors host in a new command window
 
 Activating a comport on the target machine:
 {{{

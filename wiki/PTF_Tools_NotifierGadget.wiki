@@ -11,8 +11,6 @@ The !NotifierGadget is installed in the Vista or Win7 sidebar, providing you wit
 
 The !NotifierGadget is installed in the Vista/Win7 sidebar, providing you with a constant view of the current number of alarms, warnings and paused sensors. Depending on the number of alarms, warnings and paused sensors, the color changes from red to orange or blue. If there are no alarms, the prtg gradient is shown in the background.
 
-The !NotifierGadget can be used with native PRTG or by using the !NotifierProxy.
-
 http://ptf-prtgaddons.googlecode.com/files/Gadget.png
 
 Clicking the server name part of the gadget opens your default Network Monitor webpage. Clicking the Alarms/Warnings/Paused text can popup the !TrayNotifier sensor window.

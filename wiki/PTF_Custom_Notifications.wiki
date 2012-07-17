@@ -37,6 +37,8 @@ PTF !Status2Email is a Custom Notification that sends down and warning sensors b
  back to [#Latest_versions: top]
 
 === Version history === 
+====12.3.1.1 _16/07/2012_
+ * New: Optional parameter -id= to only report on sensors of this device/group/probe. Default is all sensors.
 ====8.0.3.1 _01/09/2011_====
  * Bugfix: Sending an email always failed, as it tried to connect to a fixed email server.
 ====8.0.2.1 _29/08/2011_====

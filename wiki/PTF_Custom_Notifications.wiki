@@ -6,7 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
 ||[#Launcher Launcher]||1.0.5.1||12/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
-||[#Status2Email Status2Email]||8.0.3.1||01/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
+||[#Status2Email Status2Email]||12.3.1.1||16/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
 ||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
 

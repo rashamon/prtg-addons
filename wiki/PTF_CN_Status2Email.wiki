@@ -20,6 +20,8 @@ PTF.!Status2Email requires the following parameters:
 -ms=   IP or domainname of your mailserver.
 -fr=   The FROM address of the email to send.
 -to=   The TO address to send the email to.
+-id=   Optional, the devideID to report on (default = 0).
+       Only report sensors of this device/group/probe. Default is all sensors.
 -ss=   Optional parameter for sensor statuses that need to be reported
        supported values are d(own), w(arning), p(aused) and u(nusual)
        e.g. -ss=dwpu (default = dw)

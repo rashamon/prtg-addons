@@ -15,7 +15,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||8.1||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||8.0.1.1||22/09/2010||7.1||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
-||[#CSVExport CSVExport]||Exports sensor data to a csv file.||8.0.4.1||03/05/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#CSVExport CSVExport]||Exports sensor data to a csv file.||12.3.2.2||22/07/2012||7.1||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||7.1||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||12.2.1.1||27/06/2012||7.1||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||8.2||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
@@ -159,6 +159,9 @@ More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport details]
  back to [#Latest_versions: top]
 
 === Version history ===
+====13.3.2.2 _22/07/2012_====
+ * New: added optional parameter -to= Connection timeout to your PRTG server in seconds (default = 10 sec).
+ * New: added optional parameter -fc= A comma seperated list of column names to be used as export filter. (e.g. -fc="datetime,value").
 ====8.0.4.1 _04/05/2011_====
  * Bugfix: -av= parameter was not working as expected.
  * Bugfix: in some situations the separator used in the last line of a CSV file could differ from the other lines.

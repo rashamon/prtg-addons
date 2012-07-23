@@ -159,7 +159,7 @@ More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport details]
  back to [#Latest_versions: top]
 
 === Version history ===
-====13.3.2.2 _22/07/2012_====
+====12.3.2.2 _22/07/2012_====
  * New: added optional parameter -to= Connection timeout to your PRTG server in seconds (default = 10 sec).
  * New: added optional parameter -fc= A comma seperated list of column names to be used as export filter. (e.g. -fc="datetime,value").
 ====8.0.4.1 _04/05/2011_====

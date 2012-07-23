@@ -171,7 +171,7 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
 ==PRObject version history==
 === Summary ===
 Command line tool that can pause, resume or checknow any sensor, device, group, probe, notification,... of your PRTG installation
-[http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Ticker details]
+[http://kb.paessler.com/knowledgebase/en/topic/37743-start-or-pause-sensor-from-command-line details]
 
  back to [#Latest_versions: top]
 
@@ -183,7 +183,7 @@ Command line tool that can pause, resume or checknow any sensor, device, group, 
 ==Ticker version history==
 === Summary ===
 The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
-[http://kb.paessler.com/knowledgebase/en/topic/37743-start-or-pause-sensor-from-command-line details]
+[http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Ticker details]
 
  back to [#Latest_versions: top]
 

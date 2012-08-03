@@ -62,7 +62,7 @@ This sensor monitors various IIS statistics.
 === Summary ===
 This Custom Sensor returns a monitored value of a mediastream.
 
-The download consists in two .exe files. *!MediaStreamer.exe* is an application that constantly monitors your streams and *!MediaStream.exe* is the Custom Sensor that queries 
+The download consists in two .exe files. *!MediaStreamer x.x.x setup .exe* is the installer for an application that constantly monitors your streams and *!MediaStreamXML.exe* is the Custom Sensor that queries 
 the !MediaStreamer and reports the result to your PRTG Server. More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer details]
 
 === Prerequisites ===
@@ -77,7 +77,7 @@ the !MediaStreamer and reports the result to your PRTG Server. More [http://code
 
 For the Custom Sensor enter the ip or dns name of the computer running PTF.!MediaStreamer, the name of the player and optional credentials (username and password) to access the c$ of the computer running PTF.!MediaStreamer:
 {{{
--c=computer -n=playername -ix=property index [-tw=xx] [-u=username] [-p=password|passhash]
+-c=computer -n=playername [-u=username] [-p=password|passhash]
 
 -c=    IP-Address or DNS name of the computer running PTF.MediaStreamer.
 -n=    The name of the player to query.

@@ -42,7 +42,7 @@ MediaStreamXML.exe is the PRTG sensor that reads the results from the “C:\PRTG
 
 ==Adding the sensor==
 
-Copy the !MediaStreamXML.exe file to the “\Custom Sensors\EXEXML” folder of your PRTG installation. Next, connect to your PRTG server using the web interface and choose to add a new sensor to the device of your choice.
+Copy the MediaStreamXML.exe file to the “\Custom Sensors\EXEXML” folder of your PRTG installation. Next, connect to your PRTG server using the web interface and choose to add a new sensor to the device of your choice.
 Choose the EXE/Script Advance sensor and click “add this”
 
 http://ptf-prtgaddons.googlecode.com/files/Streamer_AddingSensor.png

@@ -7,7 +7,7 @@ With PTF.!MediaStreamer you can have your PRTG Server monitor media streams.
 
 There are two separate applications in the download:
  * *!MediaStreamer x.x.x setup.exe* is a setup file for the !MediaStreamer application that constantly monitors your streams. 
- * *!MediaStream.exe* is the PRTG sensor that reports the results to your PRTG Server.
+ * *MediaStreamXML.exe* is the PRTG sensor that reports the results to your PRTG Server.
 
 ==Prerequisites==
 
@@ -38,7 +38,7 @@ http://ptf-prtgaddons.googlecode.com/files/Streamer_Timed.png
 
 ==PTF MediaStreamXML==
 
-The !MediaStreamXML.exe is the PRTG sensor that reads the results from the “C:\PRTG Tools Family\PTF.!MediaStream” folder of the machine that runs the !MediaStreamer.
+MediaStreamXML.exe is the PRTG sensor that reads the results from the “C:\PRTG Tools Family\PTF.!MediaStream” folder of the machine that runs the !MediaStreamer.
 
 ==Adding the sensor==
 

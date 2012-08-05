@@ -20,7 +20,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#PRObject_version_history PRObject]||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
 ||[#Ticker_version_history Ticker]||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
-||[#TrayNotifier_version_history TrayNotifier]||9.0.2.1||13/12/2011||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
+||[#TrayNotifier_version_history TrayNotifier]||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5
@@ -219,8 +219,13 @@ PTF Translate is a tool used to create new language files for PRTG Network Monit
 The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_TrayNotifier details]
 
  back to [#Latest_versions: top]
+====12.3.4.4 _05/08/2012_====
+ * New: Option to set the fontsize in the alarms window
+ * New: Option to (only) retrieve alarms/warnings/...
+ * Changed: a maximum of 2000 records are now retreive from PRTG (was 500)
+ * Various small bug fixes and improvements.
 ====9.0.2.1 _13/12/2010_====
- * New : Option to not popup the tray balloon when a new alarm occurs
+ * New: Option to not popup the tray balloon when a new alarm occurs
  * Bugfix: HTML decoder did not decode the apostrophe (‘) correctly and showed &apos; instead
 ====9.0.1.3 _10/10/2010_====
  * Changed: Implemented PRTG9 icons and features.

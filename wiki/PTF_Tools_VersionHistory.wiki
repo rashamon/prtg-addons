@@ -220,9 +220,9 @@ The !TrayNotifier is installed in the system tray, presenting the PRTG icon. Whe
 
  back to [#Latest_versions: top]
 ====12.3.4.4 _05/08/2012_====
- * New: Option to set the fontsize in the alarms window
- * New: Option to (only) retrieve alarms/warnings/...
- * Changed: a maximum of 2000 records are now retreive from PRTG (was 500)
+ * New: Option to set the fontsize in the alarms window.
+ * New: Option to exclude ACKed/warnings/paused sensors.
+ * Changed: a maximum of 2000 records are now retreived from PRTG (used to be 500).
  * Various small bug fixes and improvements.
 ====9.0.2.1 _13/12/2010_====
  * New: Option to not popup the tray balloon when a new alarm occurs

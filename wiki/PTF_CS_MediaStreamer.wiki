@@ -30,7 +30,7 @@ http://ptf-prtgaddons.googlecode.com/files/Streamer1_new.png
 
 ==Timed Checks==
 
-The !MediaStreamer autonomic ally checks the streams using the various time settings and stores the results in the “C:\PRTG Tools Family\PTF.!MediaStream” folder of the machine that runs the !MediaStreamer.
+The !MediaStreamer autonomically checks the streams using the various time settings and stores the results in the “C:\PRTG Tools Family\PTF.!MediaStream” folder of the machine that runs the !MediaStreamer.
 The settings window gives you the option to schedule your checks based on days of the week and a from/until time. You can also determine how many checks can be performed simultaneously, preventing system overload and saving bandwidth.
 
 http://ptf-prtgaddons.googlecode.com/files/Streamer_Timed.png
@@ -66,7 +66,7 @@ http://ptf-prtgaddons.googlecode.com/files/Streamer_SensorChannels.png
 
 ==Parameters==
 
-These are the parameters that can me used in the “Sensor Settings” Parameters section
+These are the parameters that can be used in the “Sensor Settings” Parameters section
 
 http://ptf-prtgaddons.googlecode.com/files/Streamer_SensorParameters.png
 

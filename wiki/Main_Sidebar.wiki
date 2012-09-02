@@ -1,6 +1,6 @@
 #summary Main Sidebar. Do NOT DELETE !!!
 #labels Deprecated
-[http://code.google.com/p/prtg-addons http://gf-ptf.googlecode.com/files/welcome_city.png]
+[http://code.google.com/p/prtg-addons http://cdn.paessler.com/media/scales/one_third/common/files/artwork_press/preview_paessler_logo.png]
 
  ----
 

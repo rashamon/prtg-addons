@@ -7,20 +7,20 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 
 ====Latest versions:====
-|| *Application* || *Version* || *Date* || *Download* ||
-||[#ChromeAppGen_version_history ChromeAppGen]||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
-||[#CSVImport_version_history CSVImport]||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
-||[#Distribute_Sensors_version_history Distribute Sensors]||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
-||[#GAMetrics_version_history GAMetrics]||1.0.1.1||03/05/2012||[http://prtg-addons.googlecode.com/files/PTF.GAMetrics.zip here]||
-||[#GenCert_version_history GenCert]||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
-||[#GoogleMap_version_history GoogleMap]||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
-||[#ListQueues_version_history ListQueues]||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
-||[#NotifierGadget_version_history NotifierGadget]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
-||[#NotifierGadgetXP_version_history NotifierGadgetXP]||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
-||[#PRObject_version_history PRObject]||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
-||[#Ticker_version_history Ticker]||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
-||[#Translate_version_history Translation Tool]||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
-||[#TrayNotifier_version_history TrayNotifier]||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
+|| *Application* || *Description* || *Version* || *Date* || *Download* ||
+||[#ChromeAppGen_version_history ChromeAppGen]||Generates a Chrome App to login to your PRTG Server||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
+||[#CSVImport_version_history CSVImport]||Generate graphs from your sensor data||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
+||[#Distribute_Sensors_version_history Distribute Sensors]||Distribute Sensors to your probes||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
+||[#GAMetrics_version_history GAMetrics]||Lets you select your Google analytics ID's and metrics||1.0.1.1||03/05/2012||[http://prtg-addons.googlecode.com/files/PTF.GAMetrics.zip here]||
+||[#GenCert_version_history GenCert]||Manage certificates for the Azure sensor||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
+||[#GoogleMap_version_history GoogleMap]||Place PRTG's Google Map and/or Legend on your NOC||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
+||[#ListQueues_version_history ListQueues]||List MSMQ's, Printqueues, Tasks and Eventogs on a given machine||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
+||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
+||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#PRObject_version_history PRObject]||Command line tool to pause, resume or checknow any object||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
+||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
+||[#Translate_version_history Translation Tool]||Create new language files for PRTG Network Monitor as well as for the TrayNotifier||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
+||[#TrayNotifier_version_history TrayNotifier]||Windows TrayNotifier||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
 All Tools listed target the .Net Framework 3.5

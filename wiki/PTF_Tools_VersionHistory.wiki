@@ -24,7 +24,8 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#TrayNotifier_version_history TrayNotifier]||Windows !TrayNotifier||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
-All Tools listed target the .Net Framework 3.5
+All Tools  listed target the _.Net 3.5 Framework_. (unless stated otherwise)
+
 
 ====1.0.1.1 _07/12/2009_====
  * First public version.
@@ -182,6 +183,7 @@ Command line tool that can pause, resume or checknow any sensor, device, group, 
 ----
 
 ==!SyslogListener version history==
+!SyslogListener targets the _.Net 4.0 Framework_
 === Summary ===
 The !SyslogListener listens for syslog events and forwards them to the evenlog, writes them to a csv file or sends an email.
 Using various filter options, you can get alerted when a specific event occurs.

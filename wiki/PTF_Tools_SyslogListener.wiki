@@ -1,0 +1,12 @@
+#summary PTF Tools: SyslogListener listens for syslog events and forwards them in various ways.
+#sidebar PTF_Sidebar
+
+http://ptf-prtgaddons.googlecode.com/files/syslog_logo.png
+
+= Introduction =
+
+
+
+= Details =
+
+http://ptf-prtgaddons.googlecode.com/files/syslog_settings.png

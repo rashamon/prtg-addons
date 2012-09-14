@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/syslog_logo.png
 
 = Introduction =
 
-PTF !SyslogListener is a tool that listens for syslog messages and forwards them to the event log, writes them to a .csv file or notifies you by sending an email.
+PTF !SyslogListener is a tool that listens for syslog messages and forwards them to the event log, writes them to a .csv file or notifies you by sending an email. PTF !SyslogListener targets the _.Net 4.0 Framework_
 
 = Details =
 

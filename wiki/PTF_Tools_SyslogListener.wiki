@@ -36,3 +36,5 @@ Enabling this option allows you to enter a file path and select when a new file 
 
 ==Send email==
 Enabling this option you will notified instantly when a messages arrives that matches the filter criteria. Enter the DNS name or IP of your mail server and optional user credentials. In the “To” field you can enter multiple recipients separated by a “;”
+
+The !SyslogListener tool can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.

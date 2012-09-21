@@ -21,7 +21,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
-||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||8.0.1.1||22/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
+||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||12.3.1.1||21/09/2012||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PortState PortState]||Returns the number of seconds a TCP or UDP port is not responding.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.PortState.zip here]||
 ||[#PSx64 PSx64]||Executes a Powershell script in 64 bit mode.||9.0.1.1||10/02/2012||[http://prtg-addons.googlecode.com/files/PTF.PSx64.zip here]||
 ||[#ReadFile ReadFile]||Reads a file into memory and returns the number of bytes/sec.||8.0.1.1||07/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ReadFile.zip here]||
@@ -349,6 +349,8 @@ ip-address|hostname [-w=timeout] [-l=size] [-i=TTL]
  back to [#Latest_versions: top]
 
 === Version history ===
+====12.3.1.1 _21/09/2012_====
+ * Recompiled for changed error handling in PRTG 12.3.3
 ====8.0.1.1 _22/09/2010_====
  * First public version
 

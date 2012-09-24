@@ -18,7 +18,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#PRObject_version_history PRObject]||Command line tool to pause, resume or checknow any object||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
-||[#SyslogListener_version_history SyslogListener]||Listens for syslog events and forwards them in various ways||12.3.3.5||12/09/2012||[http://prtg-addons.googlecode.com/files/PTF.SyslogListener.zip here]||
+||[#SyslogListener_version_history SyslogListener]||Listens for syslog events and forwards them in various ways||12.3.3.5||12/09/2012||[http://prtg-addons.googlecode.com/files/PTF.SyslogListenerService.zip here]||
 ||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||Create new language files for PRTG Network Monitor as well as for the !TrayNotifier||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||Windows !TrayNotifier||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
@@ -190,7 +190,9 @@ Using various filter options, you can get alerted when a specific event occurs. 
 
  back to [#Latest_versions: top]
 
-====12.3.3.5 _12/09/2012_====
+====12.3.5.5 _23/09/2012_====
+ * Changed the tool from a desktop application to a Windows Service.
+====12.3.5.5 _12/09/2012_====
  * First public version
 ----
 

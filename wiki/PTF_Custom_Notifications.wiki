@@ -37,7 +37,7 @@ PTF RSSFeed is an application that alows you to receive alarms in a RSSFeed.
 
 === Version history ===
 ====12.4.1.1 _15/11/2012_====
-First public version
+ * First public version
 
 ----
 

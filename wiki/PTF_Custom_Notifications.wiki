@@ -6,6 +6,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ====Latest versions:====
 || *Notification* || *Version* || *Date* || *Download* ||
 ||[#Launcher Launcher]||1.0.5.1||12/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
+||[#RSSFeed RSSFeed]||12.4.1.1||15/11/2012||[http://prtg-addons.googlecode.com/files/PTF.RSSFeed.zip here]||
 ||[#Status2Email Status2Email]||12.3.1.1||16/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
 ||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
 
@@ -30,6 +31,17 @@ PTF launcher is a Custom Notification that can launch external applications. Mor
 
 ----
 
+== RSSFeed ==
+=== Summary ===
+PTF RSSFeed is an application that alows you to receive alarms in a RSSFeed.
+
+=== Version history ===
+====12.4.1.1 _15/11/2012_====
+First public version
+
+----
+
+
 == !Status2Email ==
 === Summary ===
 PTF !Status2Email is a Custom Notification that sends down and warning sensors by email. More [http://code.google.com/p/prtg-addons/wiki/PTF_CN_Status2Email details]
@@ -48,6 +60,7 @@ See also [http://kb.paessler.com/knowledgebase/en/topic/39053-how-can-i-get-an-h
 
 ====8.0.1.1 _25/08/2011_====
  * First public version
+
 
 ----
 

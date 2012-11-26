@@ -5,7 +5,7 @@ http://ptf-prtgaddons.googlecode.com/files/NotifierGadgetXP.png
 
 = Introduction =
 
-The NotifierGadgetXP can be installed on a Windows XP or Vista system not running the sidebar. the NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors. 
+The NotifierGadgetXP can be used on WinXP and even on Win8, as Win8 does not support the sidebar anymore. Te NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors. 
 
 = Details =
 

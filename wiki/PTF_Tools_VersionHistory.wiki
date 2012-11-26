@@ -16,7 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 ||[#GoogleMap_version_history GoogleMap]||Place PRTG's Google Map and/or Legend on your NOC||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||List MSMQ's, Printqueues, Tasks and Eventogs on a given machine||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
-||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
+||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP & Win8||12.4.1.2||25/11/2012||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#PRObject_version_history PRObject]||Command line tool to pause, resume or checknow any object||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
 ||[#SyslogListener_version_history SyslogListener]||Listens for syslog events and forwards them in various ways||12.3.3.5||12/09/2012||[http://prtg-addons.googlecode.com/files/PTF.SyslogListenerService.zip here]||
 ||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
@@ -165,6 +165,9 @@ The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGad
 The NotifierGadgetXP can be installed on a Windows XP system or Vista system not running the sidebar. The NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadgetXP details]
 
  back to [#Latest_versions: top]
+====12.4.1.2 _25/11/2012_====
+ * HTTPS connections now use SSL3
+ * Moved the settings file to the launch folder, allowing for multiple instances to run simultaneously
 ====8.0.1 _29/08/2010_====
  * Compiled the NotifierGadgetXP for PRTG V8
 

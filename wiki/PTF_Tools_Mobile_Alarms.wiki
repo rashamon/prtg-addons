@@ -4,12 +4,15 @@
 http://ptf-prtgaddons.googlecode.com/files/MobileAlarms_logo.png
 
 = Introduction =
-!MobileAlarms alows you to show alarms and warnings on your mobile device, without exposing your PRGG server to the internet.
+!MobileAlarms alows you to show alarms and warnings on your mobile device, *without exposing your PRTG server to the internet*.
 
 = Details =
-The application runs on IIS and targets the .NET Frmework 2.0
+The application runs on IIS and targets the .NET Framework 2.0
+
 With !MobileAlarms you will always have an overview of current alarms and warnings in your pocket. Nothing fancy, no details screen, no options to pause a sensor, ony a refresh button, thats it!! 
 
 http://ptf-prtgaddons.googlecode.com/files/MobileAlarms.png
+
+(This tool will be available soon)
 
 For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory download].

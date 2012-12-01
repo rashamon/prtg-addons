@@ -1,4 +1,4 @@
-#summary PTF Tools: MobileAlarms alows you to show alarms and warnings on your mobile device, without exposing your PRGG server to the internet.
+#summary PTF Tools: MobileAlarms alows you to show alarms and warnings on your mobile device, without exposing your PRTG server to the internet.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/MobileAlarms_logo.png

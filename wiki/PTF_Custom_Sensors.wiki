@@ -2,7 +2,7 @@
 #labels Featured
 #sidebar PTF_Sidebar
 
-http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate.png]
 
 On this page you will find an overview of *Standard* sensors.
 

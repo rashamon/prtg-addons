@@ -19,7 +19,7 @@ With !MobileAlarms there is no need to expose your PRTG Server to the internet.
 
 http://ptf-prtgaddons.googlecode.com/files/ConnectionDiagram.png
 
-Your mobile device connects to the company firewall, that forwards the request to the internal ISS server running the !MobileDevice web application. The web.config file on the ISS server contains the necessary information to connect to your PRTG Server. This way the !MobileDevice web application acts as a "man in the middle" preventing direct internet access to your PRTG Server.
+Your mobile device connects to the company firewall, that needs to forward the request to the internal ISS server running the !MobileAlarms web application. The web.config file of the application contains the necessary information to connect to your PRTG Server. This way the !MobileAlarms web application acts as a "man in the middle" preventing direct internet access to your PRTG Server
 
 (This tool will be available soon)
 

@@ -177,7 +177,7 @@ With this tool you can list MSMQ's, !PrintQueues, Scheduled Tasks and EventLogs 
 ----
 ==!MobileAlarms version history==
 === Summary ===
-!MobileAlarms is an asp.net web application that allows you to view errors and warnings on your mobile device, without exposing your PRTG interface to the internet [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadget details]
+!MobileAlarms is an asp.net web application that allows you to view errors and warnings on your mobile device, without exposing your PRTG interface to the internet [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Mobile_Alarms details]
  
  back to [#Latest_versions: top]
 ====12.4.1.1 _04/12/2012_====
@@ -186,7 +186,8 @@ With this tool you can list MSMQ's, !PrintQueues, Scheduled Tasks and EventLogs 
 
 ==!NotifierGadget version history==
 === Summary ===
-The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGadget provides you with a constant view of the current number of alarms, warnings and paused sensors [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Mobile_Alarms details]
+The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGadget provides you with a constant view of the current number of alarms, warnings and paused sensors [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadget details]
+
 
  back to [#Latest_versions: top]
 ====8.0.1 _29/08/2010_====

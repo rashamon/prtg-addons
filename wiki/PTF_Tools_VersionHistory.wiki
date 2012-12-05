@@ -8,6 +8,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 
 ====Latest versions:====
 || *Application* || *Description* || *Version* || *Date* || *Download* ||
+||[#AutoTelnet_version_history AutoTelnet]||Establishes a Telnet connection and is able to auto answer to prompted input||12.4.1.1||04/12/2012||[http://prtg-addons.googlecode.com/files/PTF.AutoTelnet.zip here]||
 ||[#ChromeAppGen_version_history ChromeAppGen]||Generates a Chrome App to login to your PRTG Server||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
 ||[#CSVImport_version_history CSVImport]||Generate graphs from your sensor data||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||Distribute Sensors to your probes||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
@@ -30,6 +31,30 @@ All Tools  listed target the _.Net 3.5 Framework_. (unless stated otherwise)
 ====1.0.1.1 _07/12/2009_====
  * First public version.
 
+
+----
+
+==!AutoTelnet version history==
+=== Summary ===
+!AutoTelnet establishes a Telnet connection and is able to auto answer to prompted input.
+
+ back to [#Latest_versions: top]
+
+Parameters:
+{{{
+-h=   The host name or ip-address to connect to.
+-p=   Optional the port number to use (default = 23)
+-v=   Optional a comma separated list of variables that are automatically inserted during the session
+      ie -v="user name=apc,password=apc"
+}}}
+
+In the example above, when prompted for "user name" the answer "apc" is automatically inserted.
+Also when prompted for "password" the answer "apc" is automatically inserted.
+Variable names are case insensitive, so "Password=apc" gives the same result as "password=apc"
+the value itself (apc) is of cause case sensitive.
+
+====12.4.1.1 _04/12/2012_====
+ * First public version.
 
 ----
 

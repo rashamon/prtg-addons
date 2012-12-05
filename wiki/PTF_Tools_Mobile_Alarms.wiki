@@ -13,7 +13,7 @@ With !MobileAlarms you will always have an overview of current alarms and warnin
 
 http://ptf-prtgaddons.googlecode.com/files/MobileAlarms.png
 
-= No need to expose your PRTG Sever =
+= No need to expose your PRTG Server =
 
 With !MobileAlarms there is no need to expose your PRTG Server to the internet.
 

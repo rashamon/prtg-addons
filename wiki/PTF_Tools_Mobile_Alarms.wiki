@@ -7,7 +7,7 @@ http://ptf-prtgaddons.googlecode.com/files/MobileAlarms_logo.png
 !MobileAlarms alows you to show alarms and warnings on your mobile device, *without exposing your PRTG server to the internet*.
 
 = Details =
-MobileAlarms is a aps.net web application that runs on IIS and targets the .NET Framework 2.0
+!MobileAlarms is an asp.net web application that runs on IIS and targets the .NET Framework 2.0
 
 With !MobileAlarms you will always have an overview of current alarms and warnings in your pocket. Nothing fancy, no details screen, no options to pause a sensor, ony a refresh button, thats it!! 
 

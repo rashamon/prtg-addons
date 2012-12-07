@@ -29,10 +29,6 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 All Tools  listed target the _.Net 3.5 Framework_. (unless stated otherwise)
 
 
-====1.0.1.1 _07/12/2009_====
- * First public version.
-
-
 ----
 
 ==!AutoTelnet version history==

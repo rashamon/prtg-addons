@@ -180,10 +180,9 @@ Parses the multi channel results of a MS SQL query to PRTG.
 -sp=   Name of the Stored Procedure to execute.
 -s=    Optional, IP or DNS name of the SQL server.
        If ommitted the hostname of the parent device is used
--u=    Optional, UserName of the SQL account.
-       If ommitted the credentials entered at the parent device are used.
--p=    Optional, Password or PassHash * of the SQL account.
-       If ommitted the credentials entered at the parent device are used
+-u=    UserName to connect to your SQL server.
+-p=    Password or PassHash * to connect to your SQL server.
+-sa    Optional switch to use SQL Authentication.      
 }}} 
 
 The Stored Procedure has to return *columns with a fixed name*:

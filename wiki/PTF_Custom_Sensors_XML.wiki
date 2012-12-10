@@ -174,7 +174,7 @@ This sensor returns the xx minute average of every channel for a given sensor.
 Parses the multi channel results of a MS SQL query to PRTG.
 
 {{{
--d=database -sp=StoredProcedure [-s=SQLserver] [-u=username] [-p=password|passhash]
+-d=database -sp=StoredProcedure -s=SQLserver -u=username -p=password|passhash [-sa]
 
 -d=    Database name on the SQL server.
 -sp=   Name of the Stored Procedure to execute.

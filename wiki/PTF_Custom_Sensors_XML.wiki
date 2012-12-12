@@ -210,8 +210,7 @@ END
 
 === Version history ===
 ====12.4.1.1 _11/12/2012_====
-* Updated documentation
-
+ * Updated documentation
 ====8.0.2.1 _02/10/2011_====
  * Changed: dropped the "environment placeholders" support, all parameters need to be supplied through the command line now.
  * New: option to use SQL authentication. (by default Windows Authentication is used now)

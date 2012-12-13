@@ -206,6 +206,8 @@ BEGIN
 END
 }}}
 
+See also [http://kb.paessler.com/knowledgebase/en/topic/44713-why-does-my-wmi-microsoft-sql-server-2005-sensor-not-work-anymore#reply-140383 this] KB article.
+
  back to [#Latest_versions: top]
 
 === Version history ===

@@ -23,7 +23,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 ||[#SyslogListener_version_history SyslogListener]||Listens for syslog events and forwards them in various ways||12.3.3.5||12/09/2012||[http://prtg-addons.googlecode.com/files/PTF.SyslogListenerService.zip here]||
 ||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||Create new language files for PRTG Network Monitor as well as for the !TrayNotifier||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
-||[#TrayNotifier_version_history TrayNotifier]||Windows !TrayNotifier||12.3.4.4||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
+||[#TrayNotifier_version_history TrayNotifier]||Windows !TrayNotifier||12.4.1.6||16/12/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
 
 === General ===
 All Tools  listed target the _.Net 3.5 Framework_. (unless stated otherwise)
@@ -270,6 +270,9 @@ PTF Translate is a tool used to create new language files for PRTG Network Monit
 The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_TrayNotifier details]
 
  back to [#Latest_versions: top]
+====12.4.1.6 _16/12/2012_====
+ * New: Option to have the icons of new alarms flashing.
+ * New: Option to set the text color of alarms, warnings etc
 ====12.3.4.4 _05/08/2012_====
  * New: Option to set the fontsize in the alarms window.
  * New: Option to exclude ACKed/warnings/paused sensors.

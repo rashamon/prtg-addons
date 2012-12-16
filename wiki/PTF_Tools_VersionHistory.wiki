@@ -271,7 +271,7 @@ The !TrayNotifier is installed in the system tray, presenting the PRTG icon. Whe
 
  back to [#Latest_versions: top]
 ====12.4.1.6 _16/12/2012_====
- * New: Option to have the icons of new alarms flashing.
+ * New: Option to have the icons of new alarms flash.
  * New: Option to set the text color of alarms, warnings etc
 ====12.3.4.4 _05/08/2012_====
  * New: Option to set the fontsize in the alarms window.

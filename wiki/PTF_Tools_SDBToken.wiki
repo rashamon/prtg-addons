@@ -19,6 +19,11 @@ For example:
 -t=1g0ilwy1232dx8jlqik1123jdjzsjm
 }}}
 
+The Skydrive and Google Drive sensors also need the sensor's ObjectID to be entered e.g.:
+{{{
+-id=1234 -t=dfny6903rkvetr2edj4354ffsg6
+}}}
+
 Tokens are unique for every sensor type and account that needs to be monitored.
 
 After adding the sensor(s) and providing them with the apropiate token, the result can look like this

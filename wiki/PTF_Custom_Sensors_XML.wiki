@@ -49,6 +49,25 @@ This sensor returns the usage counters of a Dropbox account. More [http://code.g
 
 ----
 
+==GDUsageXML==
+This sensor returns the usage counters of a Google Drive account. More [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SDBToken details]
+
+{{{
+-t=token -id=SensorID
+}}}
+
+{{{
+-t=   The Google Drive access token to be used.
+-id=  The SensorID.
+}}}
+
+ back to [#Latest_versions: top]
+
+====12.4.1.1 _23/12/2012_====
+ * First public version
+
+----
+
 == IISStatisticsXML ==
 === Summary ===
 This sensor monitors various IIS statistics.
@@ -151,9 +170,26 @@ This sensor monitors resources used by a process.
 ====8.0.1.1 _17/01/2011_====
  * First public version
 
-
 ----
 
+==SDUsageXML==
+This sensor returns the usage counters of a Skydrive account. More [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SDBToken details]
+
+{{{
+-t=token -id=SensorID
+}}}
+
+{{{
+-t=   The Skydrive access token to be used.
+-id=  The SensorID.
+}}}
+
+ back to [#Latest_versions: top]
+
+====12.4.1.1 _23/12/2012_====
+ * First public version
+
+----
 
 == SensorAverageXML ==
 === Summary ===

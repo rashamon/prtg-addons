@@ -5,11 +5,11 @@ http://ptf-prtgaddons.googlecode.com/files/SDBTokenlogo.png
 
 = Introduction =
 
-The Skydrive, Dropbox and Google Drive sensors require a security token to be able to collect usage data from your account.
+The Skydrive, Dropbox and Google Drive sensors require an access token to be able to collect usage data from your account.
 
 = Details =
 
-The Skydrive, Dropbox and Google Drive sensors require a security token to be able to collect usage data from your account. This tool provides you with the steps to take to obtain this security token.
+The Skydrive, Dropbox and Google Drive sensors require an access token to be able to collect usage data from your account. This tool provides you with the steps to take to obtain this access token.
 
 http://ptf-prtgaddons.googlecode.com/files/SDBToken.png
 

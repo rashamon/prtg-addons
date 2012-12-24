@@ -20,6 +20,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 ||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP & Win8||12.4.1.2||25/11/2012||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#PRObject_version_history PRObject]||Command line tool to pause, resume or checknow any object||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
+||[#SDBToken_version_history SDBToken]||Generate access tokens for the Dropbox, Skydrive and Google Drive sensors||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.SDBToken.zip here]||
 ||[#SyslogListener_version_history SyslogListener]||Listens for syslog events and forwards them in various ways||12.3.3.5||12/09/2012||[http://prtg-addons.googlecode.com/files/PTF.SyslogListenerService.zip here]||
 ||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||Create new language files for PRTG Network Monitor as well as for the !TrayNotifier||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
@@ -212,6 +213,17 @@ Command line tool that can pause, resume or checknow any sensor, device, group, 
  back to [#Latest_versions: top]
 
 ====12.2.1.1 _23/06/2012_====
+ * First public version
+
+----
+
+==!SDBToken_version_history==
+=== Summary ===
+The SDBToken tool generate access tokens for the Dropbox, Skydrive and Google Drive sensors. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SDBToken details]
+
+ back to [#Latest_versions: top]
+
+====12.4.1.1 _23/12/2012_====
  * First public version
 
 ----

@@ -1,7 +1,7 @@
 #summary PTF Tools: SDBToken generates a token to be used with the Skydrive, Dropbox and Google Drive sensors.
 #sidebar PTF_Sidebar
 
-http://ptf-prtgaddons.googlecode.com/files/SDBTokenLogo.png
+http://ptf-prtgaddons.googlecode.com/files/SDBTokenlogo.png
 
 = Introduction =
 
@@ -14,11 +14,14 @@ The Skydrive, Dropbox and Google Drive sensors require a security token to be ab
 http://ptf-prtgaddons.googlecode.com/files/SDBToken.png
 
 The obtained token needs to be entered in the sensors parameter section.
+For example:
 {{{
 -t=1g0ilwy1232dx8jlqik1123jdjzsjm
 }}}
 
-Tokens are uniqueue for every sensor type and account that needs to be monitorred.
+Tokens are unique for every sensor type and account that needs to be monitored.
+
+After adding the sensor(s) and providing them with the apropiate token, the result can look like this
 
 http://ptf-prtgaddons.googlecode.com/files/SDBSensors.png
 

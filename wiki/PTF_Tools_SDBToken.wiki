@@ -26,6 +26,6 @@ After adding the sensor(s) and providing them with the apropiate token, the resu
 http://ptf-prtgaddons.googlecode.com/files/SDBSensors.png
 
 
-The Skydrive, Dropbox and Google Drive sensors can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory this] page.
+The Skydrive, Dropbox and Google Drive sensors can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors_XML this] page.
 
 The tool can be downloaded [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory here]

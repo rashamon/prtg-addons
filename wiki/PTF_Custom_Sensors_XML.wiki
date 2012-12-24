@@ -32,7 +32,7 @@ Note: XML sensors can only be used as of PRTG version 8.2
 ----
 
 ==DBUsageXML==
-This sensor returns the usage counters of a Dropbox account. More [details]
+This sensor returns the usage counters of a Dropbox account. More [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SDBToken details]
 
 {{{
 -t=token

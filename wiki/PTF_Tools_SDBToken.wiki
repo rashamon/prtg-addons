@@ -30,6 +30,8 @@ After adding the sensor(s) and providing them with the apropiate token, the resu
 
 http://ptf-prtgaddons.googlecode.com/files/SDBSensors.png
 
+See also [http://kb.paessler.com/knowledgebase/en/topic/45233-how-can-i-monitor-my-dropbox-skydrive-or-google-drive-account this] Knowledge Base acticle
+
 
 The Skydrive, Dropbox and Google Drive sensors can be downloaded from [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors_XML this] page.
 

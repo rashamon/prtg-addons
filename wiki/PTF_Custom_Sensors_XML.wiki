@@ -9,12 +9,12 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||
-||[#DBUsageXML DBUsageXML]||Returns the usage counters of a Dropbox account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.DBUsage.zip here]||
-||[#GDUsageXML GDUsageXML]||Returns the usage counters of a Google Drive account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.GDUsage.zip here]||
+||[#DBUsageXML DBUsageXML]||Returns the usage counters of a Dropbox account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.DBUsageXML.zip here]||
+||[#GDUsageXML GDUsageXML]||Returns the usage counters of a Google Drive account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.GDUsageXML.zip here]||
 ||[#IISStatisticsXML IISStatisticsXML]||Monitors various IIS statistics.||8.0.3.1||21/07/2011||[http://prtg-addons.googlecode.com/files/PTF.IISStatisticsXML.zip here]||
 ||[#MediaStreamer MediaSteamer]||Monitor media streams.||8.0.9.1||05/08/2012||[http://prtg-addons.googlecode.com/files/PTF.MediaStreamer.zip here]||
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
-||[#SDUsageXML SDUsageXML]||Returns the usage counters of a Skydrive account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.SDUsage.zip here]||
+||[#SDUsageXML SDUsageXML]||Returns the usage counters of a Skydrive account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.SDUsageXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx minute average of every channel for a given sensor.||8.0.4.1||01/04/2012||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||12.4.1.1||11/12/2012||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
 ||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||

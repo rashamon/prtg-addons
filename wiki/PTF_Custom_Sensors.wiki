@@ -18,7 +18,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||12.3.2.2||22/07/2012||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||12.2.1.1||27/06/2012||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
-||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||8.0.1.1||19/06/2011||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
+||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||13.1.1.2||16/01/2013||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
@@ -262,6 +262,8 @@ This sensor requires no parameters.
  back to [#Latest_versions: top]
 
 === Version history ===
+====13.1.1.2 16/01/2013====
+ * Fixed error message: "We have removed the .asp version of this script from our website"
 ====8.0.1.1 _19/06/2011_====
  * First public version
 

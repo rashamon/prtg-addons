@@ -16,7 +16,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 ||[#GenCert_version_history GenCert]||Manage certificates for the Azure sensor||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
 ||[#GoogleMap_version_history GoogleMap]||Place PRTG's Google Map and/or Legend on your NOC||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||List MSMQ's, Printqueues, Tasks and Eventogs on a given machine||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
-||[#MobileAlarms_version_history MobileAlarms]||View errors and warnings on your mobile device||12.4.1.1||04/12/2012||[http://prtg-addons.googlecode.com/files/PTF.MobileAlarms.zip here]||
+||[#MobileAlarms_version_history MobileAlarms]||View errors and warnings on your mobile device||13.1.1.2||27/01/2013||[http://prtg-addons.googlecode.com/files/PTF.MobileAlarms.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
 ||[#NotifierGadgetXP_version_history NotifierGadgetXP]||Notifier Gadget Style for Windows XP & Win8||12.4.1.2||25/11/2012||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadgetXP.zip here]||
 ||[#PRObject_version_history PRObject]||Command line tool to pause, resume or checknow any object||12.2.1.1||23/06/2012||[http://prtg-addons.googlecode.com/files/PTF.PRObject.zip here]||
@@ -177,6 +177,10 @@ With this tool you can list MSMQ's, !PrintQueues, Scheduled Tasks and EventLogs 
 !MobileAlarms is an asp.net web application that allows you to view errors and warnings on your mobile device, without exposing your PRTG interface to the internet [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Mobile_Alarms details]
  
  back to [#Latest_versions: top]
+====13.1.1.2 _27/01/2013_====
+ * Bugfix: Connecting to a PRTG server using HTTPS, SSL2 was used instead of SSL3.
+ * Bugfix: Using special characters in your PRTG username and password did not work.
+ * New: It is now possible to customize the appearance for your own device, making the UI look like a full screen app.
 ====12.4.1.1 _04/12/2012_====
  * First public version
 ----

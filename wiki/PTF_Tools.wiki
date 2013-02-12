@@ -1,7 +1,7 @@
 #summary The "PRTG Tools family" offers clients for Windows and Windows CE
 #sidebar PTF_Sidebar
 
-http://gf-ptf.googlecode.com/files/PTF_logo.png
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
 
 = Introduction =
 

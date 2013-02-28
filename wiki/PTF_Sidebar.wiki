@@ -24,5 +24,5 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
  * [http://code.google.com/p/prtg-addons/issues/list Report an issue]
  * [mailto:prtgtoolsfamily%40gmail%2Ecom?SUBJECT=PRTG%20Tools%20Family Send an email]
 
-http://ptf-prtgaddons.googlecode.com/files/Facebook_48x48.png
+[http://www.facebook.com/PRTGToolsFamily http://ptf-prtgaddons.googlecode.com/files/Facebook_48x48.png]
  

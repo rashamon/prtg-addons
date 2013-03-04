@@ -16,6 +16,7 @@ The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/P
 ||[#ProcessResourceXML ProcessResourceXML]||Monitors resources used by a process.||8.0.2.1||18/07/2011||[http://prtg-addons.googlecode.com/files/PTF.ProcessResourceXML.zip here]||
 ||[#SDUsageXML SDUsageXML]||Returns the usage counters of a Skydrive account.||12.4.1.1||23/12/2012||[http://prtg-addons.googlecode.com/files/PTF.SDUsageXML.zip here]||
 ||[#SensorAverageXML SensorAverageXML]||Returns the xx minute average of every channel for a given sensor.||8.0.4.1||01/04/2012||[http://prtg-addons.googlecode.com/files/PTF.SensorAverageXML.zip here]||
+||[#SensorCountXML SensorCountXML]||Returns the number of sensors per state.||13.1.1.1||03/03/2013||[http://prtg-addons.googlecode.com/files/PTF.SensorCountXML.zip here]||
 ||[#SQLspXML SQLspXML]||Parses the multi channel results of a MS SQL query to PRTG.||13.1.1.3||10/02/2013||[http://prtg-addons.googlecode.com/files/PTF.SQLspXML.zip here]||
 ||[#StatisticalPingXML StatisticalPingXML]||Pings a comma separated list of hosts for statistical reasons.||8.0.1.1||19/05/2011||[http://prtg-addons.googlecode.com/files/PTF.StatisticalPingXML.zip here]||
 ||[#StockValueXML StockValueXML]||Monitors stock values as reported by http://finance.yahoo.com.||8.0.2.1||18/07/2011||[http://prtg-addons.googlecode.com/files/PTF.StockValueXML.zip here]||
@@ -220,6 +221,25 @@ This sensor returns the xx minute average of every channel for a given sensor.
 ====8.0.1.1 _21/01/2011_====
  * First public version
 
+
+----
+
+== SensorCountXML ==
+=== Summary ===
+Returns the number of sensors per state.
+
+{{{
+-s=ip-address|hostname] -u=username -p=password|passhash [-r=rootID]
+ 
+-s=    The IP and optional portnumber of your PRTG Server.
+-u=    Username.
+-p=    Password or PassHash *.
+-r=    Optional, the rootID of the probe or group you want to count from (default = 0).
+}}}
+
+=== Version history ===
+====13.1.1.1 _03/03/2013_====
+ * First public version
 
 ----
 

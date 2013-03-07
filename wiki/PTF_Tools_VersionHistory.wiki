@@ -25,6 +25,8 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 ||[#Ticker_version_history Ticker]||Scrolling ticker with alarms and warnings||12.3.1.1||09/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Ticker.zip here]||
 ||[#Translate_version_history Translation Tool]||Create new language files for PRTG Network Monitor as well as for the !TrayNotifier||2.0.1.1||12/04/2012||[http://prtg-addons.googlecode.com/files/PTF.Translate.zip here]||
 ||[#TrayNotifier_version_history TrayNotifier]||Windows !TrayNotifier||12.4.1.6||16/12/2012||[http://prtg-addons.googlecode.com/files/PTF.TrayNotifier.zip here]||
+||[#XMLRestQB_version_history XMLRestQB]||XMLRestQB helps you building queries for the XML/Rest sensor||13.1.1.1||06/03/2013||[http://prtg-addons.googlecode.com/files/PTF.XMLRestQB.zip here]||
+
 
 === General ===
 All Tools  listed target the _.Net 3.5 Framework_. (unless stated otherwise)
@@ -306,5 +308,17 @@ The !TrayNotifier is installed in the system tray, presenting the PRTG icon. Whe
  * New: Option to force a SSL3 connection to your PRTG Server
 ====8.0.1.1 _31/08/2010_====
  * Compiled the !TrayNotifier for PRTG V8
+
+----
+
+==XMLRestQB version history==
+=== Summary ===
+
+Using the XML/Rest sensor it can be time consuming finding all the right settings for your specific need. This tool will help you to find your optimal settings in 4 easy steps. [https://code.google.com/p/prtg-addons/wiki/PTF_Tools_XMLRestQB details]
+
+ back to [#Latest_versions: top]
+
+====13.1.1.1 _06/03/2013_====
+ * First public version
 
 ----

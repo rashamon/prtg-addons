@@ -17,7 +17,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
 ||[#CSVExport CSVExport]||Exports sensor data to a csv file.||12.3.2.2||22/07/2012||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
-||[#Ducksboard Ducksboard]||Pushes the result of another sensor to your Ducksboard.||13.1.1.1||29/01/2013||[http://prtg-addons.googlecode.com/files/PTF.Ducksboard.zip here]||
+||[#Ducksboard Ducksboard]||Pushes the result of another sensor to your Ducksboard.||13.1.3.3||13/03/2013||[http://prtg-addons.googlecode.com/files/PTF.Ducksboard.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||12.2.1.1||27/06/2012||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||13.1.1.2||16/01/2013||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
@@ -213,14 +213,20 @@ Enter the parameters below in the Parameters section of the Sensor Settings:
 -u=    PRTG Username.
 -p=    PRTG Password or PassHash *.
 -id=   The ObjectID of the sensor to publish on Ducksboard.
--ch=   Optional, the channel name of the sensor to publish on Ducksboard.
+-ch=   Optional, a comma separated list of channel names of the sensor to publish on Ducksboard.
 -key=  The Ducksboard API key for authentificaton.
--sl=   The Ducksboard widget slot name.
+-sl=   A comma separated list of Ducksboard widget slot names.
+-s     Optional switch to publish the sensor status in combination with a 'custom status' widget.
 }}}
 
  back to [#Latest_versions: top]
 
 === Version history ===
+====13.1.3.3 _13/03/2013_====
+ * Changed: The –ch= parameter can now hold a comma separated list of channel names i.e. –ch=freespace,totalspace If channel names contain a white space it needs to be entered as –ch=”free space,total space”
+ * Changed: The corresponding widget slot names are also provided as a comma separated list i.e. –sl=1234,5678 where 1234 is the freespace widget and 5678 is the totalspace widget.
+ * New: Using the –s switch in combination with  a ‘custom status’ widget it will send the status of the source sensor (down, warning, up) to the widget.
+
 ====13.1.1.1 _29/01/2013_====
  * First public version
 

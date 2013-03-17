@@ -23,6 +23,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#ExternalIP ExternalIP]||Gets the ISP-assigned IP address of the Probe.||13.1.1.2||16/01/2013||[http://prtg-addons.googlecode.com/files/PTF.ExternalIP.zip here]||
 ||[#HTTPContent HTTPContent]||Checks for HTTP content changes.||8.0.1.1||17/08/2011||[http://prtg-addons.googlecode.com/files/PTF.HTTPContent.zip here]||
 ||[#NetworkFileCount NetworkFileCount]||Returns the number of files on a \\Server\Share||8.0.2.1||14/10/2010||[http://prtg-addons.googlecode.com/files/PTF.NetworkFileCount.zip here]||
+||[#PingMacAddress PingMacAddress]||Pings a MAC address.||13.1.1.1||17/03/2013||[http://prtg-addons.googlecode.com/files/PTF.PingMacAddress.zip here]||
 ||[#PingWarning PingWarning]||Pings a device and goes into a warning state if no reply is received.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.PingWarning.zip here]||
 ||[#PortState PortState]||Returns the number of seconds a TCP or UDP port is not responding.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.PortState.zip here]||
 ||[#PSx64 PSx64]||Executes a Powershell script in 64 bit mode.||9.0.1.1||10/02/2012||[http://prtg-addons.googlecode.com/files/PTF.PSx64.zip here]||
@@ -391,6 +392,26 @@ Enter the credentials (username and password), folder (and optional search filte
 === Version history ===
 ====8.0.1.1 _22/09/2010_====
  * Compiled for PRTG 8.1
+
+----
+
+== !PingMacAddress ==
+=== Summary ===
+Pings a MAC address and returns the time it took for the request to complete in milliseconds
+
+{{{
+-m=MAC -s=DHCPStart -e=DHCPEnd
+
+-m=   The MAC address to ping.
+-s=   The start address of the DHCP range.
+-i=   The end address of the DHCP range.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====13.1.1.1 _17/03/2013_====
+ * First public version
 
 ----
 

@@ -397,7 +397,8 @@ Enter the credentials (username and password), folder (and optional search filte
 
 == !PingMacAddress ==
 === Summary ===
-Pings a MAC address and returns the time it took for the request to complete in milliseconds
+Pings a MAC address and returns the time it took for the request to complete in milliseconds.
+See also [http://kb.paessler.com/knowledgebase/en/topic/49153-how-can-i-ping-a-mac-address this] KB article.
 
 {{{
 -m=MAC -s=DHCPStart -e=DHCPEnd

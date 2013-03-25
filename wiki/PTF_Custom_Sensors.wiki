@@ -16,7 +16,7 @@ The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wi
 ||[#CheckTimeSNMP CheckTimeSNMP]||Compares the time of the device with the local probe using SNMP.||13.1.2.2||02/03/2013||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
-||[#CSVExport CSVExport]||Exports sensor data to a csv file.||12.3.2.2||22/07/2012||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#CSVExport CSVExport]||Exports sensor data to a csv file.||13.1.2.10||24/03/2013||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#Ducksboard Ducksboard]||Pushes the result of another sensor to your Ducksboard.||13.1.3.3||13/03/2013||[http://prtg-addons.googlecode.com/files/PTF.Ducksboard.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||12.2.1.1||27/06/2012||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
@@ -187,6 +187,10 @@ More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport details]
  back to [#Latest_versions: top]
 
 === Version history ===
+====13.1.2.10 _24/03/2013_====
+ * Changed: dropped the -ssl3 parameter, SSL3 is now automatically used on HTTPS connections.
+ * Bugfix: a combination of parameters could case an "index out of bounce" error.
+ * New: when querying more than 5 sensors in one run, a calculated delay is enforced to prevent PRTG's overload protection from kicking in.
 ====12.3.2.2 _22/07/2012_====
  * New: added optional parameter -to= Connection timeout to your PRTG server in seconds (default = 10 sec).
  * New: added optional parameter -fc= A comma seperated list of column names to be used as export filter. (e.g. -fc="datetime,value").

@@ -19,12 +19,14 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
  * [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Notifications Custom Notifications]
 
 
-== Feedback ==
+== Contact ==
+[http://www.facebook.com/PRTGToolsFamily http://ptf-prtgaddons.googlecode.com/files/facebook_32x32.png] Facebook
 
- * [http://code.google.com/p/prtg-addons/issues/list Report an issue]
- * [mailto:prtgtoolsfamily%40gmail%2Ecom?SUBJECT=PRTG%20Tools%20Family Send an email]
+[https://twitter.com/prtgtoolsfamily http://ptf-prtgaddons.googlecode.com/files/twitter_32x32.png] Twitter
 
-== Facebook ==
+[http://www.prtgtoolsfamily.com http://ptf-prtgaddons.googlecode.com/files/internet_32x32.png] www
 
-[http://www.facebook.com/PRTGToolsFamily http://ptf-prtgaddons.googlecode.com/files/Facebook_48x48.png] PTF on facebook
+[mailto:info%40prtgtoolsfamily%2Ecom?SUBJECT=PRTG%20Tools%20Family http://ptf-prtgaddons.googlecode.com/files/mail_32x32.png] Email
+
+
  

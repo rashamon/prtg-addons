@@ -191,7 +191,7 @@ With this tool you can list MSMQ's, !PrintQueues, Scheduled Tasks and EventLogs 
 
 ==!NotifierGadget version history==
 === Summary ===
-The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGadget provides you with a constant view of the current number of alarms, warnings and paused sensors [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadget details]
+The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGadget provides you with a constant view of the current number of alarms, warnings and paused sensors [http://www.prtgtoolsfamily.com/us/gadget.html details]
 
 
  back to [#Latest_versions: top]
@@ -202,7 +202,7 @@ The !NotifierGadget can be installed on a Vista or Win7 system. The !NotifierGad
 
 ==NotifierGadgetXP version history==
 === Summary ===
-The NotifierGadgetXP can be installed on a Windows XP system or Vista system not running the sidebar. The NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadgetXP details]
+The NotifierGadgetXP can be installed on a Windows XP system or Vista system not running the sidebar. The NotifierGadgetXP provides you with a constant view of the current number of alarms, warnings and paused sensors [http://www.prtgtoolsfamily.com/us/gadget.html details]
 
  back to [#Latest_versions: top]
 ====12.4.1.2 _25/11/2012_====
@@ -254,7 +254,7 @@ Using various filter options, you can get alerted when a specific event occurs. 
 ==Ticker version history==
 === Summary ===
 The Ticker runs on a Windows Workstation and shows a scrolling text with alarms and warnings.
-[http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Ticker details]
+[http://www.prtgtoolsfamily.com/us/ticker.html details]
 
  back to [#Latest_versions: top]
 
@@ -287,7 +287,7 @@ PTF Translate is a tool used to create new language files for PRTG Network Monit
 
 ==!TrayNotifier version history==
 === Summary ===
-The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_TrayNotifier details]
+The !TrayNotifier is installed in the system tray, presenting the PRTG icon. When an alarm condition occurs, the icon becomes a flashing red dot. Right-clicking the icon, pops up a menu with various actions. [http://www.prtgtoolsfamily.com/us/traynotifier.html details]
 
  back to [#Latest_versions: top]
 ====12.4.1.6 _16/12/2012_====
@@ -316,7 +316,7 @@ The !TrayNotifier is installed in the system tray, presenting the PRTG icon. Whe
 ==XMLRestQB version history==
 === Summary ===
 
-Using the XML/Rest sensor it can be time consuming finding all the right settings for your specific need. This tool will help you to find your optimal settings in 4 easy steps. [https://code.google.com/p/prtg-addons/wiki/PTF_Tools_XMLRestQB details]
+Using the XML/Rest sensor it can be time consuming finding all the right settings for your specific need. This tool will help you to find your optimal settings in 4 easy steps. [http://www.prtgtoolsfamily.com/us/xmlrestqb.html details]
 
  back to [#Latest_versions: top]
 

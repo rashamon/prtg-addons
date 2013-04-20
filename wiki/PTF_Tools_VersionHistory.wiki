@@ -212,6 +212,18 @@ The NotifierGadgetXP can be installed on a Windows XP system or Vista system not
 
 ----
 
+== !PassHashTool ==
+=== Summary ===
+This tool can be used in combination with PTF sensors that require a users password to be entered in the sensors settings section. The !PassHash can be used instead off the given password. [http://code.google.com/p/prtg-addons/wiki/PTF_CS_PassHashTool details]
+
+ back to [#Latest_versions: top]
+
+=== Version history === 
+====1.0.1.2 _21/09/2010_====
+ * First public version
+
+----
+
 ==PRObject version history==
 === Summary ===
 Command line tool that can pause, resume or checknow any sensor, device, group, probe, notification,... of your PRTG installation

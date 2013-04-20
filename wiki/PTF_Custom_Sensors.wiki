@@ -6,7 +6,6 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 
 
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||
-||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
 ||[#Azure Azure]||Gets the XML result from a Service Management Resource of an Azure account.||9.0.5||08/02/2012||[http://prtg-addons.googlecode.com/files/Azure.zip here]||
 ||[#CheckPTFVersion CheckPTFVersion]||Compares your local PTF custom sensors with the last available versions.||8.0.3.1||12/02/2011||[http://prtg-addons.googlecode.com/files/PTF.CheckPTFVersion.zip here]||
 ||[#CheckTimeSNMP CheckTimeSNMP]||Compares the time of the device with the local probe using SNMP.||13.1.2.2||02/03/2013||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||

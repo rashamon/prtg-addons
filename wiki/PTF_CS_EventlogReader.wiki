@@ -32,5 +32,4 @@ For example when the event source is Microsoft Windows Backup on a server 2008 a
 
 Placing the !EventlogReader.msg file in the "Custom Sensor\EXE" folder of your PRTG installation the sensor will read the "unknown" messages from this file. You can also add your own "unknown" messages to the !EventlogReader.msg file and even translate existing messages if you like.
 
-
 The sensor can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors this] page.

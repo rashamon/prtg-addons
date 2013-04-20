@@ -41,18 +41,6 @@ Copy the .exe file to the "\Custom Sensors\EXE" folder of your PRTG Network Moni
 
 ----
 
-== !PassHashTool ==
-=== Summary ===
-This tool can be used in combination with PTF sensors that require a users password to be entered in the sensors settings section. The !PassHash can be used instead off the given password. [http://code.google.com/p/prtg-addons/wiki/PTF_CS_PassHashTool details]
-
- back to [#Latest_versions: top]
-
-=== Version history === 
-====1.0.1.2 _21/09/2010_====
- * First public version
-
-----
-
 == Azure ==
 === Summary ===
 This sensor Gets the XML result from a Service Management Resource of an Azure account.

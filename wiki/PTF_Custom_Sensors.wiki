@@ -4,11 +4,7 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
 
-On this page you will find an overview of *Standard* sensors.
 
-The *Advanced XML* sensors can be found [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors_XML here.]
-
-====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||
 ||[#PassHashTool PassHashTool]||Scramble your password for PTF sensors.||1.0.1.2||21/09/2010||[http://prtg-addons.googlecode.com/files/PTF.PassHash%20Tool.zip here]||
 ||[#Azure Azure]||Gets the XML result from a Service Management Resource of an Azure account.||9.0.5||08/02/2012||[http://prtg-addons.googlecode.com/files/Azure.zip here]||

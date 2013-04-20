@@ -1,4 +1,4 @@
-#summary PTF Custom Notifications: Overview of PTF Custom Notifications.
+#summary Overview of PTF Custom Notifications
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]

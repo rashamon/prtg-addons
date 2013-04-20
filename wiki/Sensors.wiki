@@ -5,7 +5,6 @@
 
 PRTG can be extended writing Custom Sensors (executables, WMI scripts, powershell scripts, etc.) On this page you can find Custom Sensors for *PRTG version 8 or later*.
 
-
 Currently available sensors from:
 
  * PRTG Tools Family

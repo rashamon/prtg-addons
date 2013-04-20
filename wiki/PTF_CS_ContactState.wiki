@@ -29,5 +29,4 @@ http://ptf-prtgaddons.googlecode.com/files/ContactState.jpg
 
 The example above is of cause for illustration purposes only, as companies like APC provide a much more elegant way of environment monitoring. Your own fantasy will be the limit of what you can do with this principle. Maybe you will end up monitoring your coffee machine !!
 
-
 The sensor can be downloaded from [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors this] page.

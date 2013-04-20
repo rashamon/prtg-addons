@@ -27,14 +27,12 @@ The PTF !MediaStreamer runs on a Windows workstation and does the actual monitor
 
 http://ptf-prtgaddons.googlecode.com/files/Streamer1_new.png
 
-
 ==Timed Checks==
 
 The !MediaStreamer autonomically checks the streams using the various time settings and stores the results in the “C:\PRTG Tools Family\PTF.!MediaStream” folder of the machine that runs the !MediaStreamer.
 The settings window gives you the option to schedule your checks based on days of the week and a from/until time. You can also determine how many checks can be performed simultaneously, preventing system overload and saving bandwidth.
 
 http://ptf-prtgaddons.googlecode.com/files/Streamer_Timed.png
-
 
 ==PTF MediaStreamXML==
 

@@ -10,7 +10,7 @@ Adding PTF CSVExport as a custom sensor to your PRTG Server can do the same thin
 == Command line Tool ==
 http://ptf-prtgaddons.googlecode.com/files/CSVExportcmd.png
 
-= Sensor =
+== Sensor ==
 http://ptf-prtgaddons.googlecode.com/files/CSVExportsensor.png
 
 For more details, see the pdf that is included in the [http://code.google.com/p/prtg-addons/wiki\PTF_Custom_Sensors download].

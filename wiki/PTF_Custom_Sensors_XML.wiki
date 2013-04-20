@@ -1,11 +1,7 @@
-#summary PTF Custom Sensors XML: Overview of PTF Custom XML Sensors.
+#summary Overview of PTF XML Custom Sensors.
 #sidebar PTF_Sidebar
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/Advanced_Sensor.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
-
-On this page you will find an overview of *Advanced XML* sensors. 
-
-The *Standard* sensors can be found [http://code.google.com/p/prtg-addons/wiki/PTF_Custom_Sensors here.]
 
 ====Latest versions:====
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||

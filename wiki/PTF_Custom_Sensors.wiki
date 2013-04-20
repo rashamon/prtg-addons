@@ -1,4 +1,4 @@
-#summary PTF Custom Sensors: Overview of PTF Custom Sensors.
+#summary Overview of PTF Standard Custom Sensors.
 #labels Featured
 #sidebar PTF_Sidebar
 

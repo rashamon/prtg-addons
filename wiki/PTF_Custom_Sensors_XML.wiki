@@ -99,7 +99,7 @@ This Custom Sensor returns a monitored value of a mediastream.
 The download consists in two .exe files. *!MediaStreamer x.x.x setup .exe* is the installer for an application that constantly monitors your streams and *MediaStreamXML.exe* is the Custom Sensor that queries 
 the !MediaStreamer and reports the result to your PRTG Server.
 
-More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer details]
+More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_MediaStreamer?show=content details]
 
 === Prerequisites ===
 *!MediaStreamer*

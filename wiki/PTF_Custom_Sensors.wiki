@@ -275,7 +275,7 @@ Enter the machinename, eventlog and source in the Parameters section of the Sens
 }}}
 
 The download also includes the !EventlogReader.msg file.
-See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader Why do I need the EventlogReader.msg file]
+See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader?show=content Why do I need the EventlogReader.msg file]
 
  back to [#Latest_versions: top]
 
@@ -290,7 +290,7 @@ See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader Why d
 ====9.0.2.1 _17/12/2011_====
  * Bugfix: Targeting the localhost resulted into an error.
  * Changed: Both the long (Microsoft-Windows-Backup) and short (Backup) source names can now be used.
- * New: Added support for non existing message DLL's on the Probe system. See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader Why do I need the EventlogReader.msg file]
+ * New: Added support for non existing message DLL's on the Probe system. See also: [http://code.google.com/p/prtg-addons/wiki/PTF_CS_EventlogReader?show=content Why do I need the EventlogReader.msg file]
 
 ====9.0.1.1 _14/12/2011_====
  * First public version

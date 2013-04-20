@@ -1,7 +1,6 @@
-#summary PTF Tools: Version history for the "PRTG Tools family".
+#summary Overview of PTF Tools
 #labels Featured
 #sidebar PTF_Sidebar
-
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
 

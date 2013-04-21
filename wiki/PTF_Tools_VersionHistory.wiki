@@ -134,7 +134,7 @@ PTF !GenCert helps you to generate and install a valid certificate for the Azure
 
 ==!GoogleMap version history==
 === Summary ===
-PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_GoogleMap details]
+PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC.
 
  back to [#Latest_versions: top]
 

@@ -7,12 +7,10 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 
 || *Application* || *Description* || *Version* || *Date* || *Download* ||
 ||[#AutoTelnet_version_history AutoTelnet]||Establishes a Telnet connection and is able to auto answer to prompted input||12.4.1.1||04/12/2012||[http://prtg-addons.googlecode.com/files/PTF.AutoTelnet.zip here]||
-||[#ChromeAppGen_version_history ChromeAppGen]||Generates a Chrome App to login to your PRTG Server||9.0.1.2||19/09/2011||[http://prtg-addons.googlecode.com/files/PTF.ChromeAppGen.zip here]||
 ||[#CSVImport_version_history CSVImport]||Generate graphs from your sensor data||9.0.1.1||02/10/2011||[http://prtg-addons.googlecode.com/files/PTF.CSVImport.zip here]||
 ||[#Distribute_Sensors_version_history Distribute Sensors]||Distribute Sensors to your probes||1.0.3.1||14/02/2011||[http://prtg-addons.googlecode.com/files/PTF.DistributeSensors.zip here]||
 ||[#GAMetrics_version_history GAMetrics]||Lets you select your Google analytics ID's and metrics||1.0.1.1||03/05/2012||[http://prtg-addons.googlecode.com/files/PTF.GAMetrics.zip here]||
 ||[#GenCert_version_history GenCert]||Manage certificates for the Azure sensor||9.0.1.1||21/01/2012||[http://prtg-addons.googlecode.com/files/PTF.GenCert.zip here]||
-||[#GoogleMap_version_history GoogleMap]||Place PRTG's Google Map and/or Legend on your NOC||9.0.4.1||07/04/2012||[http://prtg-addons.googlecode.com/files/PTF.GoogleMap.zip here]||
 ||[#ListQueues_version_history ListQueues]||List MSMQ's, Printqueues, Tasks and Eventogs on a given machine||1.0.4.1||20/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ListQueues.zip here]||
 ||[#MobileAlarms_version_history MobileAlarms]||View errors and warnings on your mobile device||13.2.1.3||10/04/2013||[http://prtg-addons.googlecode.com/files/PTF.MobileAlarms.zip here]||
 ||[#NotifierGadget_version_history NotifierGadget]||Notifier Gadget for Vista and Win7||8.0.1||29/08/2010||[http://prtg-addons.googlecode.com/files/PTF.NotifierGadget.zip here]||
@@ -53,16 +51,6 @@ Variable names are case insensitive, so "Password=apc" gives the same result as 
 the value itself (apc) is of cause case sensitive.
 
 ====12.4.1.1 _04/12/2012_====
- * First public version.
-
-----
-
-==!ChromeAppGen version history==
-=== Summary ===
-!ChromeAppGen generates a Chrome App to login to your PRTG Server. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_ChromeAppGen details]
- 
- back to [#Latest_versions: top]
-====9.0.1.2 _19/09/2011_====
  * First public version.
 
 ----
@@ -131,29 +119,6 @@ PTF !GenCert helps you to generate and install a valid certificate for the Azure
  * First public version.
 
 ----
-
-==!GoogleMap version history==
-=== Summary ===
-PTF !GoogleMap is a tool to show the PRTG Google Map and Legend on your NOC.
-
- back to [#Latest_versions: top]
-
-====9.0.4.1 _07/04/2012_====
- * Changed: New html pages for PRTG 9.2
-====8.0.3.1 _11/05/2011_====
- * Bugfix: the legend did not automatically refresh.
-====8.0.2.1 _22/04/2011_====
- * New: added a section to the .ini file to have texts in the legends translated.
-{{{
-[translations]
-Manchester;MAN
-TW20 8RZ;Main office
-}}}
-====8.0.1.1 _10/04/2011_====
- * First public version.
-
-----
-
 
 ==!ListQueues version history==
 === Summary ===

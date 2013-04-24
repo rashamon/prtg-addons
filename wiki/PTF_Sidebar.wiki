@@ -6,11 +6,6 @@ http://ptf-prtgaddons.googlecode.com/files/PTF.png
 
 ==[Tools Home]==
 
- * [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadget NotifierGadget]
- * [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_NotifierGadgetXP NotifierGadgetXP]
- * [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_TrayNotifier TrayNotifier]
-
-
 ==Downloads==
 
  * [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_VersionHistory Tools]

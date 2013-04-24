@@ -243,7 +243,7 @@ The Ticker runs on a Windows Workstation and shows a scrolling text with alarms 
 
 ==Translate version history==
 === Summary ===
-PTF Translate is a tool used to create new language files for PRTG Network Monitor as well as for the !TrayNotifier. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_Translate details]
+PTF Translate is a tool used to create new language files for PRTG Network Monitor as well as for the !TrayNotifier. [http://www.prtgtoolsfamily.com/us/translate.html details]
 
  back to [#Latest_versions: top]
 

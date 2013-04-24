@@ -216,7 +216,7 @@ The SDBToken tool generate access tokens for the Dropbox, Skydrive and Google Dr
 !SyslogListener targets the _.Net 4.0 Framework_
 === Summary ===
 The !SyslogListener listens for syslog events and forwards them to the evenlog, writes them to a csv file or sends an email.
-Using various filter options, you can get alerted when a specific event occurs. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SyslogListener details]
+Using various filter options, you can get alerted when a specific event occurs. [http://www.prtgtoolsfamily.com/us/sysloglistener.html details]
 
  back to [#Latest_versions: top]
 

@@ -43,7 +43,7 @@ PTF RSSFeed is an application that alows you to receive alarms in a RSSFeed.
 
 == !Status2Email ==
 === Summary ===
-PTF !Status2Email is a Custom Notification that sends down and warning sensors by email. More [http://code.google.com/p/prtg-addons/wiki/PTF_CN_Status2Email details]
+PTF !Status2Email is a Custom Notification that sends down and warning sensors by email. More [http://www.prtgtoolsfamily.com/us/status2email.html details]
 
 See also [http://kb.paessler.com/knowledgebase/en/topic/39053-how-can-i-get-an-hourly-sensor-status-report-email-from-prtg this] KB article.
 

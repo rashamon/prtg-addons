@@ -112,7 +112,7 @@ PTF GAMetrics lets you select your Google analytics ID's and metrics. [http://kb
 
 ==!GenCert version history==
 === Summary ===
-PTF !GenCert helps you to generate and install a valid certificate for the Azure sensor. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_GenCert details]
+PTF !GenCert helps you to generate and install a valid certificate for the Azure sensor. [http://www.prtgtoolsfamily.com/us/gencert.html details]
 
  back to [#Latest_versions: top]
 ====9.0.1.1 _21/01/2012_====

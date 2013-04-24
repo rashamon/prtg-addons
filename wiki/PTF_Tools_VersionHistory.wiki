@@ -203,7 +203,7 @@ Command line tool that can pause, resume or checknow any sensor, device, group, 
 
 ==SDBToken_version_history==
 === Summary ===
-The SDBToken tool generate access tokens for the Dropbox, Skydrive and Google Drive sensors. [http://code.google.com/p/prtg-addons/wiki/PTF_Tools_SDBToken details]
+The SDBToken tool generate access tokens for the Dropbox, Skydrive and Google Drive sensors. [http://www.prtgtoolsfamily.com/us/sdbtoken.html details]
 
  back to [#Latest_versions: top]
 

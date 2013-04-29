@@ -171,7 +171,7 @@ More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport?show=content de
 
 === Version history ===
 ====13.2.1.11 _28/04/2013_====
- * Bugfix: the amount of seconds to wait preventing PRTG's overload protection from kicking in, was not calculated correctly.
+ * Bugfix: the amount of seconds to wait, preventing PRTG's overload protection from kicking in, was not calculated correctly.
 ====13.1.2.10 _24/03/2013_====
  * Changed: dropped the -ssl3 parameter, SSL3 is now automatically used on HTTPS connections.
  * Bugfix: a combination of parameters could case an "index out of bounce" error.

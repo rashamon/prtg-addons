@@ -11,7 +11,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#CheckTimeSNMP CheckTimeSNMP]||Compares the time of the device with the local probe using SNMP.||13.1.2.2||02/03/2013||[http://prtg-addons.googlecode.com/files/PTF.CheckTimeSNMP.zip here]||
 ||[#CompareTime CompareTime]||Compares the UTC time of the specified computer with the local UTC time.||8.0.1.1||15/02/2011||[http://prtg-addons.googlecode.com/files/PTF.CompareTime.zip here]||
 ||[#ContactState ContactState]||Returns the state of a dry contact connected to a serial port.||12.3.1.1||20/09/2012||[http://prtg-addons.googlecode.com/files/PTF.ContactState.zip here]||
-||[#CSVExport CSVExport]||Exports sensor data to a csv file.||13.1.2.10||24/03/2013||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
+||[#CSVExport CSVExport]||Exports sensor data to a csv file.||13.2.1.11||28/04/2013||[http://prtg-addons.googlecode.com/files/PTF.CSVExport.zip here]||
 ||[#Ducksboard Ducksboard]||Pushes the result of another sensor to your Ducksboard.||13.1.3.3||13/03/2013||[http://prtg-addons.googlecode.com/files/PTF.Ducksboard.zip here]||
 ||[#EmailRoundTrip EmailRoundTripPop]||Alternative email roundtrip sensor.||8.0.2.1||19/04/2011||[http://prtg-addons.googlecode.com/files/PTF.EmailRoundTripPop.zip here]||
 ||[#EventlogReader EventlogReader]||Gets the value of the most recent event log entry for the given source.||12.2.1.1||27/06/2012||[http://prtg-addons.googlecode.com/files/PTF.EventlogReader.zip here]||
@@ -170,6 +170,8 @@ More [http://code.google.com/p/prtg-addons/wiki/PTF_CS_CSVExport?show=content de
  back to [#Latest_versions: top]
 
 === Version history ===
+====13.2.1.11 _28/04/2013_====
+ * BugFix: the amount of seconds to wait preventing PRTG's overload protection from kicking in, was not calculated correctly.
 ====13.1.2.10 _24/03/2013_====
  * Changed: dropped the -ssl3 parameter, SSL3 is now automatically used on HTTPS connections.
  * Bugfix: a combination of parameters could case an "index out of bounce" error.

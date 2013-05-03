@@ -4,7 +4,7 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
 
-==[#Latest versions]==
+==[#Latest_versions:]==
 
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||
 ||[#Azure Azure]||Gets the XML result from a Service Management Resource of an Azure account.||9.0.5||08/02/2012||[http://prtg-addons.googlecode.com/files/Azure.zip here]||

@@ -622,7 +622,7 @@ Using limits you can get notified when a user plugges in a USB storage device.
 -p=        Optional the password or passhash(*) of the user account that has access to the computer via WMI service.
 }}}
 
- back to [#Latest_versions: top]
+ back to [#summary: top]
 
 === Version history ===
 ====9.0.1.1 _08/02/2012_====

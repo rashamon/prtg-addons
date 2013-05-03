@@ -4,6 +4,7 @@
 
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.googlecode.com/files/wordle.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
 
+==Latest versions==
 
 || *Sensor* || *Description* || *Version* || *Date* || *Download* ||
 ||[#Azure Azure]||Gets the XML result from a Service Management Resource of an Azure account.||9.0.5||08/02/2012||[http://prtg-addons.googlecode.com/files/Azure.zip here]||
@@ -622,7 +623,7 @@ Using limits you can get notified when a user plugges in a USB storage device.
 -p=        Optional the password or passhash(*) of the user account that has access to the computer via WMI service.
 }}}
 
- back to [#summary: top]
+ back to [#Latest_versions: top]
 
 === Version history ===
 ====9.0.1.1 _08/02/2012_====

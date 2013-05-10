@@ -631,7 +631,7 @@ Using limits you can get notified when a user plugges in a USB storage device.
 
 ----
 
-== WinCertExpiration ==
+== !WinCertExpiration ==
 === Summary ===
 This sensor returns the number of days before your certificate expires.
 

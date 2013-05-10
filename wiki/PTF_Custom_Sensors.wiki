@@ -30,7 +30,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png  http://ptf-prtgaddons.g
 ||[#ServiceStatus ServiceStatus]||Retrieves the status of a Windows service.||9.0.1.1||07/03/2012||[http://prtg-addons.googlecode.com/files/PTF.ServiceStatus.zip here]||
 ||[#TLDomainExpiration TLDomainExpiration]||Returns the number of days before a .com, .net, .org, .info, .us or .biz domain registration expires.||13.1.1.4||24/02/2013||[http://prtg-addons.googlecode.com/files/PTF.TLDomainExpiration.zip here]||
 ||[#USBDevices USBDevices]||Returns the number of connected USB storage devices.||9.0.1.1||08/02/2012||[http://prtg-addons.googlecode.com/files/PTF.USBDevices.zip here]||
-
+||[#WinCertExpiration WinCertExpiration]||Returns the number of days before your certificate expires.||13.2.1.1||09/05/2013||[http://prtg-addons.googlecode.com/files/PTF.WinCertExpiration.zip here]||
 
 == Overview ==
 http://ptf-prtgaddons.googlecode.com/files/Sensors1.png
@@ -627,6 +627,31 @@ Using limits you can get notified when a user plugges in a USB storage device.
 
 === Version history ===
 ====9.0.1.1 _08/02/2012_====
+ * First public version
+
+----
+
+== WinCertExpiration ==
+=== Summary ===
+This sensor returns the number of days before your certificate expires.
+
+{{{
+-h=host|IP -t=thumbprint [-l=location] [-s=store] [-u=username] [-p=password]
+
+-h=   The hostname or ip-address the certificate is installed on.
+-t=   The thumbprint of the certificate to check.
+-l=   Optional the certificate store location (CurrentUser or LocalMachine).
+      default=CurrentUser.
+-s=   Optional the certificate store name (see the README.TXT file).
+      default=Root.
+-u=   Optional Domain\Username of a user account allowed to check te certificate.
+-p=   Optional Password or passhash * of a user account allowed to check te certificate.
+}}}
+
+ back to [#Latest_versions: top]
+
+=== Version history ===
+====13.2.1.1 _09/05/2013_====
  * First public version
 
 ----

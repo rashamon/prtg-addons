@@ -634,6 +634,7 @@ Using limits you can get notified when a user plugges in a USB storage device.
 == !WinCertExpiration ==
 === Summary ===
 This sensor returns the number of days before your certificate expires.
+!WinCertExpiration targets the .NET Framework 4.0
 
 {{{
 -h=host|IP -t=thumbprint [-s=store] [-u=username] [-p=password]

@@ -636,12 +636,10 @@ Using limits you can get notified when a user plugges in a USB storage device.
 This sensor returns the number of days before your certificate expires.
 
 {{{
--h=host|IP -t=thumbprint [-l=location] [-s=store] [-u=username] [-p=password]
+-h=host|IP -t=thumbprint [-s=store] [-u=username] [-p=password]
 
 -h=   The hostname or ip-address the certificate is installed on.
 -t=   The thumbprint of the certificate to check.
--l=   Optional the certificate store location (CurrentUser or LocalMachine).
-      default=CurrentUser.
 -s=   Optional the certificate store name (see the README.TXT file).
       default=Root.
 -u=   Optional Domain\Username of a user account allowed to check te certificate.

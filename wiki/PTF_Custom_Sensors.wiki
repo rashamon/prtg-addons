@@ -69,7 +69,7 @@ This sensor Gets the XML result from a Service Management Resource of an Azure a
 
 Click [http://msdn.microsoft.com/en-us/library/windowsazure/ee460786.aspx here] for an explanation of the URL's that can be used addressing the Azure Service Management Resources:
 
-*Note:* The certificate is the only means of authentication, if the wrong (type off) certificate is used or it is not correctly installed in the right store (there are some checks performed by the sensor of cause) the Azure server returns a “403 unauthorized”. The [http://www.prtgtoolsfamily.com.page=gencert GenCert tool] can help you generating and installing a valid certificate.
+*Note:* The certificate is the only means of authentication, if the wrong (type off) certificate is used or it is not correctly installed in the right store (there are some checks performed by the sensor of cause) the Azure server returns a “403 unauthorized”. The [http://www.prtgtoolsfamily.com?page=gencert GenCert tool] can help you generating and installing a valid certificate.
 
 
  back to [#Latest_versions: top]

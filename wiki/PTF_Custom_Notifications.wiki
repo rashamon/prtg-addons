@@ -1,62 +1,8 @@
-#summary Overview of PTF Custom Notifications
-#sidebar PTF_Sidebar
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
+  ==Where did the Custom Sensors go?==
 
-http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q3245R67RWV6U http://ptf-prtgaddons.googlecode.com/files/donate2.png]
+Due to a change in Google's policy, it is no longer possible to host the  sensor downloads on Google Code.
 
-|| *Notification* || *Version* || *Date* || *Download* ||
-||[#Launcher Launcher]||1.0.5.1||12/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
-||[#RSSFeed RSSFeed]||12.4.1.1||15/11/2012||[http://prtg-addons.googlecode.com/files/PTF.RSSFeed.zip here]||
-||[#Status2Email Status2Email]||12.3.1.1||16/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
+====All Custom Sensors are now hosted on http://www/prtgtoolsfamily.com====
 
-
-
-== General ==
-All Custom Notifications listed target the _.Net Framework 2.0_.
-
-----
-
-== Launcher ==
-=== Summary ===
-PTF launcher is a Custom Notification that can launch external applications. More [http://www.prtgtoolsfamily.com/us/launcher.html details]
-
- back to [#Latest_versions: top]
-
-=== Version history === 
-====1.0.5.1 _12/09/2011_====
- * Changed: Compiled for both x64 and x86 (see also [http://kb.paessler.com/knowledgebase/en/topic/24733-ptf-launcher-and-dnscmd KB 24733])
-====1.0.4.1 _12/09/2010_====
- * Bugfix: Error "-io parameter not wellformatted" is now fixed.
- * Changed: Moved the message folder from "c:\PTF.Launch" to "c:\PRTG Tools Family\PTF.Launch".
-
-----
-
-== RSSFeed ==
-=== Summary ===
-PTF RSSFeed is an application that alows you to receive alarms in a RSSFeed.
-
-=== Version history ===
-====12.4.1.1 _15/11/2012_====
- * First public version
-
-----
-
-
-== !Status2Email ==
-=== Summary ===
-PTF !Status2Email is a Custom Notification that sends down and warning sensors by email. More [http://www.prtgtoolsfamily.com/us/status2email.html details]
-
-See also [http://kb.paessler.com/knowledgebase/en/topic/39053-how-can-i-get-an-hourly-sensor-status-report-email-from-prtg this] KB article.
-
- back to [#Latest_versions: top]
-
-=== Version history === 
-====12.3.1.1 _16/07/2012_====
- * New: Optional parameter -id= to only report on sensors of this device/group/probe. Default is all sensors.
-====8.0.3.1 _01/09/2011_====
- * Bugfix: Sending an email always failed, as it tried to connect to a fixed email server.
-====8.0.2.1 _29/08/2011_====
- * New: Optional parameter -ss= for sensor statusses that need to be reported. Supported values are d(own), w(arning), p(aused) and u(nusual) e.g. -ss=dwpu (default = dw)
-
-====8.0.1.1 _25/08/2011_====
- * First public version
-
+====Updates and new releases are posted on Facebook and Twitter, so make sure to [http://www.prtgtoolsfamily.com?page=contact follow] us!====

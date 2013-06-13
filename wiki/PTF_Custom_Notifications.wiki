@@ -7,7 +7,7 @@ http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png [https://www.paypal.com/
 ||[#Launcher Launcher]||1.0.5.1||12/09/2011||[http://prtg-addons.googlecode.com/files/PTF.Launcher.zip here]||
 ||[#RSSFeed RSSFeed]||12.4.1.1||15/11/2012||[http://prtg-addons.googlecode.com/files/PTF.RSSFeed.zip here]||
 ||[#Status2Email Status2Email]||12.3.1.1||16/07/2012||[http://prtg-addons.googlecode.com/files/PTF.Status2Email.zip here]||
-||[#Tweet Tweet]||2.0.1.1||18/09/2010||[http://prtg-addons.googlecode.com/files/PTF.Tweet.zip here]||
+
 
 
 == General ==
@@ -60,15 +60,3 @@ See also [http://kb.paessler.com/knowledgebase/en/topic/39053-how-can-i-get-an-h
 ====8.0.1.1 _25/08/2011_====
  * First public version
 
-
-----
-
-== Tweet ==
-=== Summary ===
-This Custom Notification is the successor of PTF.Twitter and can be used to send notifications from PRTG to Twitter. More [http://www.prtgtoolsfamily.com/us/twitter.html details]
-
-=== Version history ===
-====2.0.2.1 _29/09/2010_====
- * Bugfix: The Tweet.exe when run by PRTG could not find it's own .ini file as PRTG does not run the .exe from its own directory.
-====2.0.1.1 _18/09/2010_====
- * Changed: Logon procedure to Twitter has changed, you first have to register PTF.Tweet with your Twitter account using the -r parameter.

@@ -2,7 +2,7 @@
 http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
   ==Where did the Tools go?==
 
-Due to a change in Google's [http://google-opensource.blogspot.nl/2013/05/a-change-to-google-code-download-service.html policy], it is no longer possible to host the  Tools downloads on Google Code.
+Due to a change in [http://google-opensource.blogspot.nl/2013/05/a-change-to-google-code-download-service.html Google's policy], it is no longer possible to host the  Tools downloads on Google Code.
 
 ====All Tools are now hosted on http://www/prtgtoolsfamily.com====
 

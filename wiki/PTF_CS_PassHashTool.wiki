@@ -1,0 +1,8 @@
+http://ptf-prtgaddons.googlecode.com/files/PTF_logo.png
+  ==Where did the !PassHashTool go?==
+
+Due to a change in [http://google-opensource.blogspot.nl/2013/05/a-change-to-google-code-download-service.html Google's policy], it is no longer possible to host the downloads on Google Code.
+
+====The !PassHashTool is now hosted on [http://www.prtgtoolsfamily.com?page=passhashtool www.prtgtoolsfamily.com] ====
+
+====Updates and new releases are posted on Facebook and Twitter, so make sure to [http://www.prtgtoolsfamily.com?page=contact follow] us!====
